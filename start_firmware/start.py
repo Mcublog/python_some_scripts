@@ -1,4 +1,4 @@
-import os
+﻿import os
 import shutil
 import subprocess
 import sys
@@ -24,6 +24,7 @@ def file_not_found(name: str):
 
    
 def usage():
+    clear()
     print()
     print('=================Help================')
     print()
