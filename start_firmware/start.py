@@ -1,4 +1,4 @@
-﻿import os
+import os
 import shutil
 import subprocess
 import sys
@@ -24,7 +24,6 @@ def file_not_found(name: str):
 
    
 def usage():
-    clear()
     print()
     print('=================Help================')
     print()
@@ -70,9 +69,12 @@ def main():
         file_not_found(func_orig_name)
         return usage()
 
-    # Rename, start cmd and clear
+    # Rename files, start cmd, prog firmware and clear
     os.rename(work_dir + '\\' + func_orig_name, work_dir + '\\' + func_name)
-    subprocess.call(['mk_bin_for_full_func - 4000.cmd'])
+    subprocess.call(['mk_img_func.cmd'])
+    img_path = '"Files\\Sensor_base.bin"'
+    args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + img_path]
+    subprocess.call([args])    
     clear()
 
     print()

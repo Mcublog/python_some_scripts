@@ -36,7 +36,8 @@ def main():
         print('Board version '+ ver + ' file update')
 
     if prog:
-        args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + r'"'+ os.getcwd() + '\\' + ver + '\\' + func_opto_name + r'"']
+        file_path = '"'+ os.getcwd() + '\\' + ver + '\\' + func_opto_name + '"'
+        args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + file_path]
         subprocess.call([args])
         try:
             subprocess.call(args)
