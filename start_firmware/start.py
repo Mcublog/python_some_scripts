@@ -45,6 +45,12 @@ def main():
         return usage()
     base_path = sys.argv[1]
     func_path = sys.argv[2]
+    if sys.argv[3]:
+        base_name = sys.argv[3]
+        print('Base name: ' + base_name)
+    if sys.argv[4]:
+        func_orig_name = sys.argv[4]
+        print('Base name: ' + func_orig_name)
     print()
     print('Processing.......')
     print('Base path: ' + base_path)
