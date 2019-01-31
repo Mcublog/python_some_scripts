@@ -2,10 +2,7 @@ import os
 import shutil
 import sys
 import subprocess
-
-func_opto_path = 'C:\Project\Atmel\hb_firmware_func_opto\SAM4'
-func_opto_name = 'Sensor (SAM4SD16C).bin'
-board_list = ['4', '4L']
+import getopt
 
 
 def clear(version):
@@ -13,19 +10,39 @@ def clear(version):
         shutil.rmtree(version)
 
 
-def main():
+def main():  
+    # Defaults
+    func_opto_path = 'C:\Project\Atmel\hb_firmware_func_opto\SAM4'
+    func_opto_name = 'Sensor (SAM4SD16C).bin'
+    board_list = ['4', '4L']    
     ver = ''
-    if len(sys.argv) != 1:
-        ver = sys.argv[1]
-
     prog = False
     copy = False
-    if 'p' in sys.argv:
-        prog = True
-    if 'c' in sys.argv:
-        copy = True
+    
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], 'p:n:b:uf', ["path=", "name=", "board="])
+    except getopt.GetoptError as err:
+        usage() # print help information and exit:
+        print(err)  # will print something like "option -a not recognized"
+        sys.exit(2)
+    
+    for o, a in opts:
+        if o == "-f":
+            prog = True
+        elif o == "-u":
+            copy = True
+        elif o in ("-p", "--path"):
+            func_opto_path = a
+        elif o in ("-n", "--name"):
+            func_opto_name = a 
+        elif o in ("-b", "--board"):
+            ver = a
+        else:
+            return print("Undefined param" + o)
+
     if ver not in board_list:
-        return print('Version unknown: '+ ver)
+        print('Version unknown: '+ ver)
+        return usage()
 
     print('Version board: '+ ver)
     
@@ -46,6 +63,16 @@ def main():
             print('Bossa error')
 
     os.system("pause")
+
+def usage():
+    print("""Usage: %s [-h] [-p path] [-n name] [-b board] [-f] [-u]
+    -h          This help
+    -p          Path to opto firmware file (C:\Project\Atmel\hb_firmware_func_opto\SAM4)
+    -n          Name of opto firmware (Sensor (SAM4SD16C).bin)
+    -b          Board version (4, 4L)
+    -f          Prog board with bossa
+    -u          Just copy files in work directory
+    """ % sys.argv[0])
 
 
 if __name__ == '__main__':
