@@ -1,1 +1,1 @@
-python %cd%\flash.py
+python %cd%\flash.py --port=COM%1
