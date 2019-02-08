@@ -13,9 +13,6 @@ def usage():
 
 
 def main():
-    # Defaults
-    port = 'COM4'
-    
     try:
         opts, args = getopt.getopt(sys.argv[1:], 'p:', ["port="])
     except getopt.GetoptError as err:
@@ -29,6 +26,10 @@ def main():
         else:
             return print("Undefined param" + o)
 
+    if not any(map(str.isdigit, port)):
+        # Default port
+        port = 'COM4'        
+        
     bossa_path: str = 'C:\\Program Files\\BOSSA\\bossac.exe'
     func_path: str = '"' + os.getcwd() + '\\SAM4\\Sensor (SAM4SD16C).bin"'
     print(bossa_path)
