@@ -18,9 +18,10 @@ def main():
     ver = ''
     prog = False
     copy = False
+    port = ''
     
     try:
-        opts, args = getopt.getopt(sys.argv[1:], 'p:n:b:uf', ["path=", "name=", "board="])
+        opts, args = getopt.getopt(sys.argv[1:], 'p:n:b:uf', ["path=", "name=", "board=", "port="])
     except getopt.GetoptError as err:
         usage() # print help information and exit:
         print(err)  # will print something like "option -a not recognized"
@@ -37,8 +38,14 @@ def main():
             func_opto_name = a 
         elif o in ("-b", "--board"):
             ver = a
+        elif o in ("--port"):
+            port = a
         else:
             return print("Undefined param" + o)
+
+    if not any(map(str.isdigit, port)):
+        # Default port
+        port = 'COM4'
 
     if ver not in board_list:
         print('Version unknown: '+ ver)
@@ -54,7 +61,7 @@ def main():
 
     if prog:
         file_path = '"'+ os.getcwd() + '\\' + ver + '\\' + func_opto_name + '"'
-        args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + file_path]
+        args = ["bossa\\bossac.exe -e -w -v -b -p " + port +' ' + file_path]
         subprocess.call([args])
         try:
             subprocess.call(args)
@@ -64,14 +71,16 @@ def main():
 
     os.system("pause")
 
+
 def usage():
-    print("""Usage: %s [-h] [-p path] [-n name] [-b board] [-f] [-u]
+    print("""Usage: %s [-h] [-p path] [-n name] [-b board] [-f] [-u] [--port]
     -h          This help
     -p          Path to opto firmware file (C:\Project\Atmel\hb_firmware_func_opto\SAM4)
     -n          Name of opto firmware (Sensor (SAM4SD16C).bin)
     -b          Board version (4, 4L)
     -f          Prog board with bossa
     -u          Just copy files in work directory
+    --port      Bossa port
     """ % sys.argv[0])
 
 
