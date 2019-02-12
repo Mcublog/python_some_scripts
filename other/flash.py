@@ -20,12 +20,14 @@ def main():
         print(err)  # will print something like "option -a not recognized"
         sys.exit(2)
 
+    port: str = ''
     for o, a in opts:
         if o in ("-p", "--port"):
             port = a
         else:
             return print("Undefined param" + o)
 
+    # Find digit in port name
     if not any(map(str.isdigit, port)):
         # Default port
         port = 'COM4'        
