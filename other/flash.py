@@ -30,7 +30,7 @@ def main():
     # Find digit in port name
     if not any(map(str.isdigit, port)):
         # Default port
-        port = 'COM4'        
+        port = 'COM4'
         
     bossa_path: str = 'C:\\Program Files\\BOSSA\\bossac.exe'
     func_path: str = '"' + os.getcwd() + '\\SAM4\\Sensor (SAM4SD16C).bin"'
@@ -39,6 +39,7 @@ def main():
     args = [bossa_path + ' -e -w -b -p '+ port + ' ' + func_path]
     for i in range(2):
         subprocess.call([args])
+
 
 if __name__ == '__main__':
     main()

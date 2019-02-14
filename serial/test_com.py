@@ -4,7 +4,7 @@ import time
 
 ser = serial.Serial()
 ser.baudrate = 250000
-ser.port = 'COM14'
+ser.port = 'COM18'
 ser.open()
 print('Port: ' + ser.port + ' open')
 
@@ -26,9 +26,11 @@ for i in range(5):  # Waiting 500 ms maximum
     time.sleep(.1)  # Waiting 100 ms
 
 if ser.in_waiting == 0:
-    print('No data received')
+    print('no data received')
+    ser.close()
+    raise SystemExit(0)
 
-s : str =''
+s : str ='data received: '
 while ser.in_waiting:
     s += ser.read().decode('utf-8')
 
