@@ -36,9 +36,9 @@ def main():
     func_path: str = '"' + os.getcwd() + '\\SAM4\\Sensor (SAM4SD16C).bin"'
     print(bossa_path)
     print(func_path)
-    args = [bossa_path + ' -e -w -b -p '+ port + ' ' + func_path]
-    for i in range(2):
-        subprocess.call([args])
+    args = [bossa_path + ' -e -w -v -b -p '+ port + ' ' + func_path]
+    subprocess.call([args])
+    
 
 
 if __name__ == '__main__':
