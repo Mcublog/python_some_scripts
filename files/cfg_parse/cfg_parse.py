@@ -1,5 +1,4 @@
 import os, sys, shutil
-import getopt
 
 
 verbose = 0
@@ -12,7 +11,7 @@ def clear(version):
 
 
 def form_carray(num, reg_list, comment):
-    cfg = 'uint32_t cfg' + str(num) + '[] = ['
+    cfg = '    {'
     if verbose:
         print('===========CFG===========')
     # j list ["reg name", "reg value"]
@@ -21,7 +20,7 @@ def form_carray(num, reg_list, comment):
             print(str(i) + ': ' + reg[0] + ': ' + str(int(reg[1], 16)))
         cfg += ' ' + str(int(reg[1], 16)) + ','
         if (i == (len(reg_list) - 1)):
-            cfg = cfg[:-1] + ' ] //' + comment +'\n'
+            cfg = cfg[:-1] + ' }, //' + comment +'\n'
     if verbose:
         print('===========CFG===========\n')
         print(cfg)
@@ -29,31 +28,42 @@ def form_carray(num, reg_list, comment):
 
 
 def main():
-    out_file_name = 'afe_cfg_list.c'
+    out_file_name = 'hw_afe_cfg_list'
     out_dir = 'cfg_out'
     
     in_dir = 'cfg_in'
-    
+
     # Clear output dir
     clear(out_dir)
     
     print('file list: ' + str(os.listdir(in_dir)))
     file_list = os.listdir(in_dir)
+    cfg_len = str(len(file_list)) # cfg[x][]
     
+    # Create .h
+    f = open(out_dir + '//' + out_file_name + '.h', 'w')
+    f.write('#ifndef AFE_CFG_LIST_H_\n')
+    f.write('#define AFE_CFG_LIST_H_\n\n')
+    f.write('#include <stdint.h>\n\n')
+    f.write('#define AFE_CFG_NUM (' + cfg_len + ')\n\n')
+    
+    # Create array
+    f = open(out_dir + '//' + out_file_name + '.h', 'a')
+    f.write('static const uint32_t cfg[' + cfg_len + '][49] = \n{\n')
+    cfg = ''
     for (i, file) in enumerate(file_list):
-        f = open(in_dir + '//' + file, 'r')
+        fi = open(in_dir + '//' + file, 'r')
         reg_list = []
-        for line in f:
+        for line in fi:
             reg_list.append(line.split('\t'))
-    
-        cfg = form_carray(i, reg_list, file)
-        f.close()
-    
-        # Open output file
-        f = open(out_dir + '//' + out_file_name, 'a')
-        f.write(cfg)
-        f.close()
-    print('Convert complete: ' + out_dir + '/' + out_file_name)
+        cfg += form_carray(i, reg_list, file)
+        fi.close()
+    f.write(cfg)
+    f.write('};\n\n')
+    f.write('#endif /* AFE_CFG_LIST_H_ */\n') 
+    f.close()
+
+    print('Convert complete: ' + out_dir + '/' + out_file_name + '.h')
 
 if __name__ == '__main__':
     main()
