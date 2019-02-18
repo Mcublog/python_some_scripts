@@ -17,19 +17,18 @@ cmd_list = {
 
 
 
-cmd = 'sensor_state'
+cmd = 'long_cmd'
 
-print('send data: ' + cmd_list[cmd])
-ser.write(cmd_list[cmd].encode())
-
-# chunk: int = int(round(len(cmd)/6))
-# print('chunk num: ' + str(chunk))
-
+#print('send data: ' + cmd_list[cmd])
+##ser.write(cmd_list[cmd].encode())
+#
+#chunk: int = int(round(len(cmd_list[cmd])/6))
+#print('chunk num: ' + str(chunk))
 #for i in range(chunk):
-#    c = cmd[i*6:(i*6)+6]
+#    c = cmd_list[cmd][i*6:(i*6)+6]
 #    print('send data: ' + c)
 #    ser.write(c.encode())
-    # time.sleep(.04)
+#    time.sleep(.04)
 
 for i in range(5):  # Waiting 500 ms maximum
     if ser.in_waiting:
