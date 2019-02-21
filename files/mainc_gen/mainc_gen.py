@@ -43,9 +43,9 @@ def main():
     # Start inner section
     add_section(f, "HW init", tab = 1)
     add_section(f, "Creating semaphores", tab = 1)
+    add_section(f, "Creating queues", tab = 1)
     add_section(f, "Creating tasks", tab = 1)
     add_section(f, "Semaphores init", tab = 1)
-    add_section(f, "Queue list", tab = 1)
     # End inner section
     f.write('}\n')
     
