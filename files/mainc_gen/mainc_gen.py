@@ -123,6 +123,7 @@ def main():
     
     f.write('int main(void)\n')
     f.write('{\n')
+    
     # Start inner section of main()
     add_section(f, "HW init", tab = 1)
     add_section(f, "Creating semaphores", tab = 1, text = sem_create)
@@ -130,12 +131,16 @@ def main():
     add_section(f, "Creating tasks",      tab = 1, text = task_create)
     add_section(f, "Semaphores takes",    tab = 1, text = sem_take)
     
-    f.write((
-    '    osKernelStart();\n'
-    '    while (1)\n'
-    '    {\n'
-    '    }\n'
-    ))
+    # Adding kernel start and endless loop
+    f.write
+    (
+        (
+        '    osKernelStart();\n'
+        '    while (1)\n'
+        '    {\n'
+        '    }\n'
+        )
+    )
     # End inner section of main()
     f.write('}\n')
     
