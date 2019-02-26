@@ -4,6 +4,18 @@ from scipy.interpolate import spline
 import math, os, numpy
 
 
+def get_datetime_from_report(report, datetime):
+    timestamp = report.find('timestamp')
+    return(timestamp.find(datetime).text)
+    
+    
+def get_temp_from_report(report, dev):
+    hdc = report.find(dev)
+    temp = hdc.find('t').text
+    temp = temp.replace(',', '.')
+    return (float(temp))    
+
+
 # Set path to data file
 current_path = os.path.dirname(os.path.realpath(__file__))
 data_path = current_path + '\\data'
@@ -32,23 +44,16 @@ hdc_temp = [] # temperature from hdc1080
 lps_temp = [] # temperature from lps331
 
 for report in root:
-    # Get node timestamp for x_ticks
-    timestamp = report.find('timestamp')
-    time = timestamp.find('time').text
     x_val.append(int(report.get('id')))
-    x_tick.append(time) # Append time for current id
+    
+    # Get node timestamp for x_ticks
+    x_tick.append(get_datetime_from_report(report, 'time'))
     
     # Get temp from hdc1080 node
-    hdc = report.find('hdc1080')
-    temp = hdc.find('t').text
-    temp = temp.replace(',', '.')
-    hdc_temp.append(float(temp))
+    hdc_temp.append(get_temp_from_report(report, 'hdc1080'))
     
     # Get temp from lps331 node
-    hdc = report.find('lps331')
-    temp = hdc.find('t').text
-    temp = temp.replace(',', '.')
-    lps_temp.append(float(temp))
+    lps_temp.append(get_temp_from_report(report, 'lps331'))
 
 
 # Create plots
