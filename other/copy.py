@@ -19,9 +19,14 @@ path = {
 
 def find_demo(path):
     for file in os.scandir(path):
-        if '.exe' in file.name:
-            print('Find .exe: ' + file.name)
-            return file.name
+        print(file)
+        if '.exe' in file.name:    
+            if 'GUI' in file.name:
+                print('Find .exe: ' + file.name)
+                return file.name
+            elif 'guidemo' in file.name:
+                print('Find .exe: ' + file.name)
+                return file.name
 
 
 def main():
@@ -30,8 +35,7 @@ def main():
     except getopt.GetoptError as err:
         usage() # print help information and exit:
         print(err)  # will print something like "option -a not recognized"
-        sys.exit(2)
-            
+        sys.exit(2)            
     for o, a in opts:
         if o in ('-h'):
             usage()
