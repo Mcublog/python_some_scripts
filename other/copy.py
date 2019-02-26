@@ -1,7 +1,14 @@
 ﻿import os
 import shutil
-import sys
+import sys, getopt
 
+
+def usage():
+    print("""Usage: %s [-h] [-l local] [-r remote]
+    -h          This help, !!There can be only one .exe file in a GUI Demo directory.
+    -l          Local path to GUI Demo
+    -r          Remote path to GUI Demo
+    """ % sys.argv[0])
 
 # Default paths
 path = {
@@ -18,9 +25,25 @@ def find_demo(path):
 
 
 def main():
-    if len(sys.argv) > 2:
-        path['local'] = sys.argv[1]
-        path['remote'] = sys.argv[2]
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], 'hl:r:', ["local=", "remote="])
+    except getopt.GetoptError as err:
+        usage() # print help information and exit:
+        print(err)  # will print something like "option -a not recognized"
+        sys.exit(2)
+            
+    for o, a in opts:
+        if o in ('-h'):
+            usage()
+            return
+        elif o in ("-l", "--local"):
+            path['local'] = a
+            print(path['local'])
+        elif o in ('-r',"--remote"):
+            path['remote'] = a
+            print(path['remote'])
+        else:
+            return print("Undefined param" + o)
 
     demo_name: str = find_demo(os.getcwd())# Find src name
     if not demo_name:
@@ -39,10 +62,10 @@ def main():
     print('Remove: ' + remote)
     os.remove(path['remote'] + '\\' + remote)
 
-    print('Copy to: ' + path['remote'])
     shutil.copy(demo_name, path['remote'], follow_symlinks=True)
-    print('Rename: ' + demo_name + ' to ' + remote)
+    print('Copy to: ' + path['remote'])
     os.rename(path['remote'] + '\\' + demo_name, path['remote'] + '\\' + remote)
+    print('Rename: ' + demo_name + ' to ' + remote)
     print('Copy success')
 
 
