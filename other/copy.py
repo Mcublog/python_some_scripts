@@ -6,7 +6,7 @@ import sys
 # Default paths
 path = {
     'local': 'C:\Project\GuiDemoUart',
-    'remote': '\\\Healbeserver\программное обеспечение\GUI Demo\GUI Demo Opto'
+    'remote': '\\\Healbeserver\тестирование\GUI Demo\GUI Demo Opto'
     }
     
 
