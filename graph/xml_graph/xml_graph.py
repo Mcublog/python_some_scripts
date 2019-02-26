@@ -38,20 +38,15 @@ print('Tph report files in dir: ' + str(len(file_list)))
 tree = ET.parse(data_path + '\\' + dir_list[0] + '\\' + file_list[0])
 root = tree.getroot()
 
-x_val = [] # x value like 1, 2, 3 and etc
 x_tick = [] # x ticks like 10:42:30:513, 10:42:31:513 and etc
 hdc_temp = [] # temperature from hdc1080  
 lps_temp = [] # temperature from lps331
 
 for report in root:
-    x_val.append(int(report.get('id')))
-    
     # Get node timestamp for x_ticks
     x_tick.append(get_datetime_from_report(report, 'time'))
-    
     # Get temp from hdc1080 node
     hdc_temp.append(get_temp_from_report(report, 'hdc1080'))
-    
     # Get temp from lps331 node
     lps_temp.append(get_temp_from_report(report, 'lps331'))
 
@@ -61,11 +56,13 @@ fig, ax = plt.subplots()
 plt.title("Temperature graphic", fontsize = 14)
 plt.xlabel("Time", fontsize = 8)
 plt.ylabel("Temperature", fontsize = 12)
-ax.plot(x_val, hdc_temp, 'r-', label='hdc_temp')
-ax.plot(x_val, lps_temp, 'y-', label='lps331')
+# Generate a list from 0 to report number
+x = [++i for i in range(len(root))]
+ax.plot(x, hdc_temp, 'r-', label='hdc_temp')
+ax.plot(x, lps_temp, 'y-', label='lps331')
 
 # Create x_tick, grid and legend
-plt.xticks(x_val, x_tick, rotation = 90)
+plt.xticks(x, x_tick, rotation = 90)
 plt.grid(linestyle = 'dashed')
 legend = ax.legend(loc='best')
 
