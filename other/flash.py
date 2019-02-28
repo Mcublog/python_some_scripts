@@ -43,7 +43,10 @@ def main():
     print(bossa_path)
     print(func_path)
     args = [bossa_path + ' -e -w -b -p '+ port + ' ' + func_path]
-    for i in range(2):
+    repeat = 2
+    for i in range(repeat):
+        if (i == repeat - 1):
+            args.append(' -R')
         subprocess.call([args])
     
 
