@@ -45,11 +45,12 @@ def main():
     f.write('#ifndef AFE_CFG_LIST_H_\n')
     f.write('#define AFE_CFG_LIST_H_\n\n')
     f.write('#include <stdint.h>\n\n')
-    f.write('#define AFE_CFG_NUM (' + cfg_len + ')\n\n')
+    f.write('#define AFE_CFG_NUM (' + cfg_len + ')\n')
+    f.write('#define AFE_CFG_LEN (49)\n\n')
     
     # Create array
     f = open(out_dir + '//' + out_file_name + '.h', 'a')
-    f.write('static const uint32_t cfg[' + cfg_len + '][49] = \n{\n')
+    f.write('static const uint32_t cfg[AFE_CFG_NUM][AFE_CFG_LEN] = \n{\n')
     cfg = ''
     for (i, file) in enumerate(file_list):
         fi = open(in_dir + '//' + file, 'r')
