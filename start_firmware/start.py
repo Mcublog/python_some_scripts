@@ -80,7 +80,10 @@ def main():
     subprocess.call(['mk_img_func.cmd'])
     img_path = '"Files\\Sensor_base.bin"'
     args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + img_path]
-    subprocess.call([args])    
+    for i in range(2):
+        if (i == 1):
+            args.append(' -R')
+        subprocess.call([args])
     clear()
 
     print()
