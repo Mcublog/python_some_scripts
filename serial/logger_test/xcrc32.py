@@ -1,15 +1,13 @@
-﻿
-
-def xcrc32 (buf, len, init = 0xFFFFFFFF):
+﻿def xcrc32 (buf, len, init = 0xFFFFFFFF):
     crc = init;
     j = 0
     while len:
         # crc = (crc << 8) ^ crc32_table[((crc >> 24)) & 255]; 
         crc = ((crc << 8) & 0xFFFFFFFF) ^ crc32_table[((crc >> 24) ^ buf[j]) & 255];
-        print(crc)
+        # print(crc)
         j = j + 1
         len = len - 1
-    print(format(crc, '02X'))
+    print('CRC: 0x' + format(crc, '02x'))
     return crc
 
 
@@ -78,7 +76,3 @@ crc32_table = (
   0x9abc8bd5, 0x9e7d9662, 0x933eb0bb, 0x97ffad0c,
   0xafb010b1, 0xab710d06, 0xa6322bdf, 0xa2f33668,
   0xbcb4666d, 0xb8757bda, 0xb5365d03, 0xb1f740b4)
-  
-# buf = [1, 2, 3, 4, 5, 6]
-buf = b'hello'
-xcrc32 (buf, len(buf))
