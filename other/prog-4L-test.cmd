@@ -1,0 +1,1 @@
+python update.py --board=4L-test -f --port=COM4

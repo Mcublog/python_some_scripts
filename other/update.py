@@ -1,6 +1,4 @@
-import os
-import shutil
-import sys
+import os, shutil, sys
 import subprocess
 import getopt
 
@@ -14,7 +12,7 @@ def main():
     # Defaults
     func_opto_path = 'C:\Project\Atmel\hb_firmware_func_opto\SAM4'
     func_opto_name = 'Sensor (SAM4SD16C).bin'
-    board_list = ['4', '4L']    
+    board_list = ['4', '4L', '4L-test']    
     ver = ''
     prog = False
     copy = False
@@ -61,7 +59,7 @@ def main():
 
     if prog:
         file_path = '"'+ os.getcwd() + '\\' + ver + '\\' + func_opto_name + '"'
-        args = ["bossa\\bossac.exe -e -w -v -b -p " + port +' ' + file_path]
+        args = ["bossa\\bossac.exe -e -w -v -b -p " + port +' ' + file_path + ' -R']
         subprocess.call([args])
         try:
             subprocess.call(args)
