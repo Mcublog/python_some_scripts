@@ -42,8 +42,8 @@ def main():
     
     print(bossa_path)
     print(func_path)
-    args = [bossa_path + ' -e -w -v -b -p '+ port + ' ' + func_path]
-    repeat = 1
+    args = [bossa_path + ' -e -w -b -p '+ port + ' ' + func_path]
+    repeat = 2
     for i in range(repeat):
         if (i == repeat - 1):
             args.append(' -R')
