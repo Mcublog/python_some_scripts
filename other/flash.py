@@ -47,7 +47,8 @@ def main():
     for i in range(repeat):
         if (i == repeat - 1):
             args.append(' -R')
-        subprocess.call([args])
+        if subprocess.call([args]) != 0:
+            sys.exit(2)
     
 
 if __name__ == '__main__':
