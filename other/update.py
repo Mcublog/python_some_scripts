@@ -54,7 +54,11 @@ def main():
     if copy:
         clear(ver)
         os.mkdir(ver)
-        shutil.copy(func_opto_path + '\\' + func_opto_name, os.getcwd() + '\\' + ver, follow_symlinks=True)
+        try:
+            shutil.copy(func_opto_path + '\\' + func_opto_name, os.getcwd() + '\\' + ver, follow_symlinks=True)
+        except:
+            print('File not found: ' + func_opto_path + '\\' + func_opto_name)
+            sys.exit()
         print('Board version '+ ver + ' file update')
 
     if prog:
