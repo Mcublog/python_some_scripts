@@ -54,7 +54,7 @@ def main():
         if (i == repeat - 1):
             args.append(' -R')
         if subprocess.call([args]) != 0:
-            print("Flash firmware fail...")
+            print("Firmware flash fail...")
             sys.exit(2)
     
 
