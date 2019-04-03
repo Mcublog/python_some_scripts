@@ -83,7 +83,9 @@ def main():
     for i in range(2):
         if (i == 1):
             args.append(' -R')
-        subprocess.call([args])
+        if subprocess.call([args]) != 0:
+            print('Firmware flash fail...')
+            break
     clear()
 
     print()
