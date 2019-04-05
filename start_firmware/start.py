@@ -78,6 +78,8 @@ def main():
     # Rename files, start cmd, prog firmware and clear
     os.rename(work_dir + '\\' + func_orig_name, work_dir + '\\' + func_name)
     subprocess.call(['mk_img_func.cmd'])
+    print("firmware.img done...\n")
+    
     img_path = '"Files\\Sensor_base.bin"'
     args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + img_path]
     for i in range(2):
