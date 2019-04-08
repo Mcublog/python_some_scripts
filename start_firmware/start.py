@@ -12,6 +12,7 @@ func_orig_name: str = 'Sensor (SAM4SD16C).bin'
 func_name: str = 'Func.bin'
 work_dir: str = 'Files'
 
+com_port = 'COM4'
 
 def clear():
     if os.path.isdir(work_dir):
@@ -27,7 +28,7 @@ def usage():
     print()
     print('=================Help================')
     print()
-    print('start.py <path to base> <path to func>')
+    print('start.py <path to base> <path to func> <bossa com port>')
     print()
     print('for example:')
     print('start.py C:\Project\Atmel\hb_firmware_base\SAM4 C:\Project\Atmel\hb_firmware_func\SAM4')
@@ -35,6 +36,7 @@ def usage():
     print('Base file should be called: ' + base_name)
     print('Func file should be called: ' + func_orig_name)
     print()
+    print('Bossa COM Port: ' + com_port)
     print('=================Help================')
     print()
     os.system("pause")
@@ -51,10 +53,13 @@ def main():
     if sys.argv[4]:
         func_orig_name = sys.argv[4]
         print('Base name: ' + func_orig_name)
+    if sys.argv[5]:
+        com_port = sys.argv[5]
     print()
     print('Processing.......')
     print('Base path: ' + base_path)
     print('Func path: ' + func_path + '\r\n')
+    print('Bossa COM port: ' + com_port)
     
     # Clean and Make dir
     clear()
@@ -81,7 +86,7 @@ def main():
     print("firmware.img done...\n")
     
     img_path = '"Files\\Sensor_base.bin"'
-    args = ["bossa\\bossac.exe -e -w -v -b -p COM4 " + img_path]
+    args = ["bossa\\bossac.exe -e -w -v -b -p " + com_port + ' ' + img_path]
     for i in range(2):
         if (i == 1):
             args.append(' -R')
