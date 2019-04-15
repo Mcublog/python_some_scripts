@@ -13,6 +13,7 @@ def battery_loging():
         ser.open()
     except:
         print('Port not opened: ' + ser.port)
+        input("Press ENTER to quit")
         sys.exit(0)
 
     print('Port: ' + ser.port + ' is open')
@@ -33,14 +34,11 @@ def battery_loging():
             bytes += ser.read()
 
         for byte in bytes:
-            if byte == 0x00 or byte >= 128:
-                print(byte)
+            if byte == 0x00 or byte == 255:
+                print('Garbage byte detected: ' + str(byte))
+                bytes = b''
                 stop = 1
-                print('stop = ' + str(stop))
                 break
-            
-        if (stop):
-            break
         
         if (bytes):
             try:
@@ -68,10 +66,11 @@ def battery_loging():
         if div == 60:
             div = 0
             print('Still working: ' + str(str(datetime.datetime.now().ctime())))
+            
         if stop:
-            print('Stop at ' + + str(str(datetime.datetime.now().ctime())))
             break
-        time.sleep(1)
+        else:
+            time.sleep(1)
         
         if msvcrt.kbhit():
             char =msvcrt.getch()
@@ -82,6 +81,8 @@ def battery_loging():
 
     print('Port: ' + ser.port + ' close')
     ser.close()
+    print("Stop logging")
+    input("Press ENTER to quit")
 
 def main():
     battery_loging()
