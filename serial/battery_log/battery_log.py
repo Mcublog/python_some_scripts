@@ -3,7 +3,15 @@ import time, datetime
 import os, sys
 import msvcrt
 
-    
+
+def battery_get_charge(s):
+    # battery: [56 %, 3794 mV, limiter 52 %]
+    if 'battery: [' in s:
+        if '%' in s:
+            return s[(s.find('[') + 1) : (s.find('%') + 1)]
+    return ''
+
+
 def battery_loging():
     ser = serial.Serial()
     ser.baudrate = 250000
@@ -18,15 +26,15 @@ def battery_loging():
 
     print('Port: ' + ser.port + ' is open')
     print("Press 'q' to exit")
-    
-    
-    s : str =''
-    stop = 0
 
+    s =''
+    stop = 0
+    charge = ''
+    div = 0
+    
     log_name = 'battery '+ str(datetime.datetime.now().ctime()) +'.txt'
     log_name = log_name.replace(':', '_')
-
-    div = 0
+    
     print('Log will be saved to a file.: ' + log_name)
     while(1):
         bytes = b''
@@ -57,15 +65,21 @@ def battery_loging():
 
             if file_exist:
                 f = open(os.getcwd() + '\\' +log_name, 'a')
-    
+                
+            if battery_get_charge(s):
+                charge = battery_get_charge(s)
+                
             f.write(s)
             f.close()
             s = ''
-    
+
         div += 1
         if div == 60:
             div = 0
-            print('Still working: ' + str(str(datetime.datetime.now().ctime())))
+            if charge:
+                print('Current charge: ' + charge + ' at ' + str(str(datetime.datetime.now().ctime())))
+            else:
+                print('Still working: ' + str(str(datetime.datetime.now().ctime())))
             
         if stop:
             break
