@@ -1,8 +1,13 @@
 ﻿import serial
 import time, datetime
-import os, sys
+import os, sys, getopt
 import msvcrt
 
+def usage():
+    print("""Usage: %s [-h] [-p port]
+    -h          This help
+    -p          COM port number
+    """ % sys.argv[0])
 
 def battery_get_charge(s):
     # battery: [56 %, 3794 mV, limiter 52 %]
@@ -12,10 +17,10 @@ def battery_get_charge(s):
     return ''
 
 
-def battery_loging():
+def battery_logging(com_name = 'COM6'):
     ser = serial.Serial()
     ser.baudrate = 250000
-    ser.port = 'COM6'
+    ser.port = com_name
 
     try:
         ser.open()
@@ -99,7 +104,26 @@ def battery_loging():
     input("Press ENTER to quit")
 
 def main():
-    battery_loging()
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], 'hp:', ["port="])
+    except getopt.GetoptError as err:
+        usage() # print help information and exit:
+        sys.exit(2)
+
+    com_port =''
+    for o, a in opts:
+        if o in ('-h'):
+            usage()
+            return
+        elif o in ("-p", "--port"):
+            com_port = a
+            # print(path['local'])
+        else:
+            return print("Undefined param" + o)
+    if com_port:
+        battery_logging(com_port)
+    else:
+        battery_logging()
 
 if __name__ == '__main__':
     main()
