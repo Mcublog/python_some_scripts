@@ -73,13 +73,15 @@ def battery_logging(com_name = 'COM6'):
                 
             if battery_get_charge(s):
                 charge = battery_get_charge(s)
-                
+            f.write('---------------- ' + str(datetime.datetime.now().ctime()) + ' ---------------- ')
             f.write(s)
+            f.write('-----------------------------------------\r\n')
             f.close()
             s = ''
 
         div += 1
-        if div == 60:
+        # print a log every 10 minutes
+        if div == 60 * 10:
             div = 0
             if charge:
                 print('Current charge: ' + charge + ' at ' + str(str(datetime.datetime.now().ctime())))
