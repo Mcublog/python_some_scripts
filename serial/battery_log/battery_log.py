@@ -45,7 +45,7 @@ def battery_logging(com_name = 'COM6'):
         bytes = b''
         while ser.in_waiting:
             bytes += ser.read()
-
+            
         for byte in bytes:
             if byte == 0x00 or byte == 255:
                 print('Garbage byte detected: ' + str(byte))
@@ -58,6 +58,11 @@ def battery_logging(com_name = 'COM6'):
                 s += bytes.decode('utf-8', errors = 'strict')
             except:
                 print('not hex at ' + print('wait ' + str(datetime.datetime.now().ctime())))
+        
+        if "IMP METER:" in s:
+            s = ''
+        if "<<START MEASURING IMPEDANCE" in s:
+            s = ''
             
         # Save to file
         if s != '':
