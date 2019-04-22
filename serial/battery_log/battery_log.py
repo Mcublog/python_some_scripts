@@ -17,7 +17,7 @@ def battery_get_charge(s):
     return ''
 
 
-def battery_logging(com_name = 'COM6'):
+def battery_logging(com_name = 'COM20'):
     ser = serial.Serial()
     ser.baudrate = 250000
     ser.port = com_name
@@ -57,8 +57,8 @@ def battery_logging(com_name = 'COM6'):
             try:
                 s += bytes.decode('utf-8', errors = 'strict')
             except:
-                print('not hex at ' + print('wait ' + str(datetime.datetime.now().ctime())))
-        
+                # print('not hex at ' + str(datetime.datetime.now().ctime()))
+                s = ''
         if "IMP METER:" in s:
             s = ''
         if "<<START MEASURING IMPEDANCE" in s:
