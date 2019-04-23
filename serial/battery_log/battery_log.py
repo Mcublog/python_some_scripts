@@ -57,8 +57,9 @@ def battery_logging(com_name = 'COM20'):
             try:
                 s += bytes.decode('utf-8', errors = 'strict')
             except:
-                # print('not hex at ' + str(datetime.datetime.now().ctime()))
+                print('not hex at ' + str(datetime.datetime.now().ctime()))
                 s = ''
+                
         if "IMP METER:" in s:
             s = ''
         if "<<START MEASURING IMPEDANCE" in s:
@@ -99,7 +100,7 @@ def battery_logging(com_name = 'COM20'):
             time.sleep(1)
         
         if msvcrt.kbhit():
-            char =msvcrt.getch()
+            char = msvcrt.getch()
             # print(char)
             if char == b'q':
                 print("you pressed " + str(char) + "so now i will stop logging")
@@ -124,7 +125,6 @@ def main():
             return
         elif o in ("-p", "--port"):
             com_port = a
-            # print(path['local'])
         else:
             return print("Undefined param" + o)
     if com_port:
