@@ -60,9 +60,9 @@ def battery_logging(com_name = 'COM20'):
                 print('not hex at ' + str(datetime.datetime.now().ctime()))
                 s = ''
                 
-        if "IMP METER:" in s:
+        if s.find('IMP METER') != -1:
             s = ''
-        if "<<START MEASURING IMPEDANCE" in s:
+        if s.find('<<START MEASURING IMPEDANCE') != -1:
             s = ''
             
         # Save to file
@@ -90,9 +90,9 @@ def battery_logging(com_name = 'COM20'):
         if div == 60 * 10:
             div = 0
             if charge:
-                print('Current charge: ' + charge + ' at ' + str(str(datetime.datetime.now().ctime())))
+                print('\nCurrent charge: ' + charge + ' at ' + str(datetime.datetime.now().ctime()) + '\n')
             else:
-                print('Still working: ' + str(str(datetime.datetime.now().ctime())))
+                print('\nStill working: ' + str(datetime.datetime.now().ctime()) + '\n')
             
         if stop:
             break
