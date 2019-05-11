@@ -5,6 +5,7 @@ from xcrc32 import xcrc32
   
 buf = b'[\x23\x00\x00\x00]' # Form lenght
 buf += b'[GET_NAME][string][0]' # Form body
+
 # Added crc32 to buf
 crc = xcrc32 (buf, len(buf)) 
 buf+=b'['
@@ -13,8 +14,10 @@ buf+=b']\r\n'
 print(buf)
 
 ser = serial.Serial()
-ser.baudrate = 1500000
-ser.port = 'COM4'
+
+ser.baudrate = 115000
+ser.port = 'COM3'
+
 ser.open()
 print('Port: ' + ser.port + ' open')
 ser.write(buf)
