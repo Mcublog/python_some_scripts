@@ -1,10 +1,18 @@
-﻿import serial,time
+﻿import serial, time
+import time, datetime
+import re
 
 from xcrc32 import xcrc32
 
-  
-buf = b'[\x23\x00\x00\x00]' # Form lenght
-buf += b'[GET_NAME][string][0]' # Form body
+
+CMD_LENGHT_ADD = 14
+
+body = b'[GET_0][string][0]'
+body_len = len(body) + CMD_LENGHT_ADD
+
+# Form CMD
+buf = b'[' + body_len.to_bytes(4, byteorder='little') + b']' 
+buf += body
 
 # Added crc32 to buf
 crc = xcrc32 (buf, len(buf)) 
@@ -39,4 +47,26 @@ while ser.in_waiting:
     except:
         print('not hex')
 print(s)
+
+test_buf = s[:-8]
+print(test_buf)
+crc_cnt = xcrc32 (test_buf, len(test_buf))
+crc = s[-7:-3]
+crc = int.from_bytes(crc, byteorder='little')
+if (crc == crc_cnt):
+    print('Crc correct:' + hex(crc) + ':' + hex(crc_cnt))
+
+
+try:
+    s = s[6:]
+    s = s.decode('utf-8', errors = 'ignore')
+except:
+    print('not hex at ' + str(datetime.datetime.now().ctime()))
+    s = ''
+
+print('string:' + s)
+
+param = re.findall(r'[\[]\w*[\]]', s)
+print(param)
+
 ser.close()
