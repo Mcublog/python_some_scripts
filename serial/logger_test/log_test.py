@@ -7,7 +7,7 @@ from xcrc32 import xcrc32
 
 CMD_LENGHT_ADD = 14
 
-body = b'[GET_0][string][0]'
+body = b'[GET_NAME][string][0]'
 body_len = len(body) + CMD_LENGHT_ADD
 
 # Form CMD
@@ -46,7 +46,8 @@ while ser.in_waiting:
         s += ser.readline()
     except:
         print('not hex')
-print(s)
+        
+print('RX: ' + str(s))
 
 test_buf = s[:-8]
 print(test_buf)
