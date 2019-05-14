@@ -57,7 +57,7 @@ def battery_logging(com_name = 'COM20'):
             try:
                 s += bytes.decode('utf-8', errors = 'strict')
             except:
-                print('not hex at ' + str(datetime.datetime.now().ctime()))
+                # print('not hex at ' + str(datetime.datetime.now().ctime()))
                 s = ''
                 
         if s.find('IMP METER') != -1:

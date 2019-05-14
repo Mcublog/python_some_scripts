@@ -113,7 +113,7 @@ def main():
     f.write('#include "cmsis_os.h"\n\n')
     
     add_section(f, "Types and definition")
-    add_section(f, "Local variables and fucntion", text = func_declaration)
+    add_section(f, "Local variables and function", text = func_declaration)
     add_section(f, "Project options")
     add_section(f, "Task list",         text = task_example)
     add_section(f, "Semaphore list",    text = sem_example)

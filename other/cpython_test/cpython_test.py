@@ -20,10 +20,7 @@ for i in range(5):
     
 time = time_stamp_t()
 clib.test_function_struct(byref(time))
-t_ms = time.t_ms
 
-print(t_ms)
+print(time.time)
 
-
-
-print('End')
+print('\nEnd')
