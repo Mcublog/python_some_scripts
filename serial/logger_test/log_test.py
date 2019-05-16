@@ -26,7 +26,12 @@ ser = serial.Serial()
 ser.baudrate = 115000
 ser.port = 'COM3'
 
-ser.open()
+try:
+    ser.open()
+except:
+    print("Can't open port: " + ser.port)
+    raise SystemExit(0)
+    
 print('Port: ' + ser.port + ' open')
 ser.write(buf)
 
