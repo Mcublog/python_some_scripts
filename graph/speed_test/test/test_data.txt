@@ -1,0 +1,38 @@
+﻿Creating file: firmware.txt...   -   [OK]
+, size = 0 bytes
+Opening file: firmware.txt...   -   [OK]
+Total block num: 1024
+block num: 0
+start time: 197 ms
+stop time: 359 ms
+speed: 25283.95 B/s
+
+block num: 1
+start time: 365 ms
+stop time: 568 ms
+speed: 20177.34 B/s
+
+block num: 2
+start time: 574 ms
+stop time: 770 ms
+speed: 20897.96 B/s
+
+block num: 3
+start time: 775 ms
+stop time: 983 ms
+speed: 19692.31 B/s
+
+block num: 4
+start time: 988 ms
+stop time: 1183 ms
+speed: 21005.13 B/s
+
+block num: 5
+start time: 1189 ms
+stop time: 1396 ms
+speed: 19787.44 B/s
+
+block num: 6
+start time: 1189 ms
+stop time: 1396 ms
+speed: 20000 B/s
