@@ -1,0 +1,5126 @@
+﻿Creating file: firmware.txt...   -   [OK]
+, size = 0 bytes
+Opening file: firmware.txt...   -   [OK]
+Total block num: 1024
+block num: 0
+start time: 197 ms
+stop time: 359 ms
+speed: 25283.95 B/s
+
+block num: 1
+start time: 365 ms
+stop time: 568 ms
+speed: 20177.34 B/s
+
+block num: 2
+start time: 574 ms
+stop time: 770 ms
+speed: 20897.96 B/s
+
+block num: 3
+start time: 775 ms
+stop time: 983 ms
+speed: 19692.31 B/s
+
+block num: 4
+start time: 988 ms
+stop time: 1183 ms
+speed: 21005.13 B/s
+
+block num: 5
+start time: 1189 ms
+stop time: 1396 ms
+speed: 19787.44 B/s
+
+block num: 6
+start time: 1402 ms
+stop time: 1600 ms
+speed: 20686.87 B/s
+
+block num: 7
+start time: 1606 ms
+stop time: 1810 ms
+speed: 20078.43 B/s
+
+block num: 8
+start time: 1816 ms
+stop time: 2016 ms
+speed: 20480.00 B/s
+
+block num: 9
+start time: 2022 ms
+stop time: 2226 ms
+speed: 20078.43 B/s
+
+block num: 10
+start time: 2232 ms
+stop time: 2428 ms
+speed: 20897.96 B/s
+
+block num: 11
+start time: 2434 ms
+stop time: 2635 ms
+speed: 20378.11 B/s
+
+block num: 12
+start time: 2641 ms
+stop time: 2839 ms
+speed: 20686.87 B/s
+
+block num: 13
+start time: 2845 ms
+stop time: 3053 ms
+speed: 19692.31 B/s
+
+block num: 14
+start time: 3059 ms
+stop time: 3257 ms
+speed: 20686.87 B/s
+
+block num: 15
+start time: 3263 ms
+stop time: 3473 ms
+speed: 19504.76 B/s
+
+block num: 16
+start time: 3478 ms
+stop time: 3678 ms
+speed: 20480.00 B/s
+
+block num: 17
+start time: 3683 ms
+stop time: 3889 ms
+speed: 19883.50 B/s
+
+block num: 18
+start time: 3895 ms
+stop time: 4094 ms
+speed: 20582.91 B/s
+
+block num: 19
+start time: 4100 ms
+stop time: 4313 ms
+speed: 19230.05 B/s
+
+block num: 20
+start time: 4319 ms
+stop time: 4517 ms
+speed: 20686.87 B/s
+
+block num: 21
+start time: 4522 ms
+stop time: 4732 ms
+speed: 19504.76 B/s
+
+block num: 22
+start time: 4738 ms
+stop time: 4937 ms
+speed: 20582.91 B/s
+
+block num: 23
+start time: 4943 ms
+stop time: 5150 ms
+speed: 19787.44 B/s
+
+block num: 24
+start time: 5156 ms
+stop time: 5357 ms
+speed: 20378.11 B/s
+
+block num: 25
+start time: 5362 ms
+stop time: 5574 ms
+speed: 19320.75 B/s
+
+block num: 26
+start time: 5580 ms
+stop time: 5787 ms
+speed: 19787.44 B/s
+
+block num: 27
+start time: 5793 ms
+stop time: 6001 ms
+speed: 19692.31 B/s
+
+block num: 28
+start time: 6007 ms
+stop time: 6208 ms
+speed: 20378.11 B/s
+
+block num: 29
+start time: 6214 ms
+stop time: 6420 ms
+speed: 19883.50 B/s
+
+block num: 30
+start time: 6426 ms
+stop time: 6627 ms
+speed: 20378.11 B/s
+
+block num: 31
+start time: 6633 ms
+stop time: 6845 ms
+speed: 19320.75 B/s
+
+block num: 32
+start time: 6850 ms
+stop time: 7057 ms
+speed: 19787.44 B/s
+
+block num: 33
+start time: 7062 ms
+stop time: 7279 ms
+speed: 18875.58 B/s
+
+block num: 34
+start time: 7285 ms
+stop time: 7495 ms
+speed: 19504.76 B/s
+
+block num: 35
+start time: 7501 ms
+stop time: 7717 ms
+speed: 18962.96 B/s
+
+block num: 36
+start time: 7723 ms
+stop time: 7932 ms
+speed: 19598.09 B/s
+
+block num: 37
+start time: 7937 ms
+stop time: 8153 ms
+speed: 18962.96 B/s
+
+block num: 38
+start time: 8159 ms
+stop time: 8369 ms
+speed: 19504.76 B/s
+
+block num: 39
+start time: 8375 ms
+stop time: 8593 ms
+speed: 18788.99 B/s
+
+block num: 40
+start time: 8598 ms
+stop time: 8807 ms
+speed: 19598.09 B/s
+
+block num: 41
+start time: 8812 ms
+stop time: 9027 ms
+speed: 19051.16 B/s
+
+block num: 42
+start time: 9033 ms
+stop time: 9241 ms
+speed: 19692.31 B/s
+
+block num: 43
+start time: 9247 ms
+stop time: 9464 ms
+speed: 18875.58 B/s
+
+block num: 44
+start time: 9470 ms
+stop time: 9681 ms
+speed: 19412.32 B/s
+
+block num: 45
+start time: 9687 ms
+stop time: 9907 ms
+speed: 18618.18 B/s
+
+block num: 46
+start time: 9912 ms
+stop time: 10124 ms
+speed: 19320.75 B/s
+
+block num: 47
+start time: 10130 ms
+stop time: 10348 ms
+speed: 18788.99 B/s
+
+block num: 48
+start time: 10354 ms
+stop time: 10565 ms
+speed: 19412.32 B/s
+
+block num: 49
+start time: 10571 ms
+stop time: 10790 ms
+speed: 18703.20 B/s
+
+block num: 50
+start time: 10796 ms
+stop time: 11008 ms
+speed: 19320.75 B/s
+
+block num: 51
+start time: 11014 ms
+stop time: 11237 ms
+speed: 18367.71 B/s
+
+block num: 52
+start time: 11243 ms
+stop time: 11454 ms
+speed: 19412.32 B/s
+
+block num: 53
+start time: 11460 ms
+stop time: 11681 ms
+speed: 18533.94 B/s
+
+block num: 54
+start time: 11687 ms
+stop time: 11900 ms
+speed: 19230.05 B/s
+
+block num: 55
+start time: 11906 ms
+stop time: 12134 ms
+speed: 17964.91 B/s
+
+block num: 56
+start time: 12140 ms
+stop time: 12357 ms
+speed: 18875.58 B/s
+
+block num: 57
+start time: 12363 ms
+stop time: 12586 ms
+speed: 18367.71 B/s
+
+block num: 58
+start time: 12591 ms
+stop time: 12808 ms
+speed: 18875.58 B/s
+
+block num: 59
+start time: 12814 ms
+stop time: 13037 ms
+speed: 18367.71 B/s
+
+block num: 60
+start time: 13043 ms
+stop time: 13256 ms
+speed: 19230.05 B/s
+
+block num: 61
+start time: 13262 ms
+stop time: 13485 ms
+speed: 18367.71 B/s
+
+block num: 62
+start time: 13490 ms
+stop time: 13703 ms
+speed: 19230.05 B/s
+
+block num: 63
+start time: 13709 ms
+stop time: 13936 ms
+speed: 18044.05 B/s
+
+block num: 64
+start time: 13941 ms
+stop time: 14155 ms
+speed: 19140.19 B/s
+
+block num: 65
+start time: 14161 ms
+stop time: 14389 ms
+speed: 17964.91 B/s
+
+block num: 66
+start time: 14395 ms
+stop time: 14614 ms
+speed: 18703.20 B/s
+
+block num: 67
+start time: 14620 ms
+stop time: 14849 ms
+speed: 17886.46 B/s
+
+block num: 68
+start time: 14855 ms
+stop time: 15075 ms
+speed: 18618.18 B/s
+
+block num: 69
+start time: 15080 ms
+stop time: 15309 ms
+speed: 17886.46 B/s
+
+block num: 70
+start time: 15315 ms
+stop time: 15536 ms
+speed: 18533.94 B/s
+
+block num: 71
+start time: 15542 ms
+stop time: 15771 ms
+speed: 17886.46 B/s
+
+block num: 72
+start time: 15777 ms
+stop time: 15995 ms
+speed: 18788.99 B/s
+
+block num: 73
+start time: 16001 ms
+stop time: 16229 ms
+speed: 17964.91 B/s
+
+block num: 74
+start time: 16235 ms
+stop time: 16456 ms
+speed: 18533.94 B/s
+
+block num: 75
+start time: 16462 ms
+stop time: 16692 ms
+speed: 17808.70 B/s
+
+block num: 76
+start time: 16698 ms
+stop time: 16921 ms
+speed: 18367.71 B/s
+
+block num: 77
+start time: 16927 ms
+stop time: 17156 ms
+speed: 17886.46 B/s
+
+block num: 78
+start time: 17162 ms
+stop time: 17381 ms
+speed: 18703.20 B/s
+
+block num: 79
+start time: 17387 ms
+stop time: 17624 ms
+speed: 17282.70 B/s
+
+block num: 80
+start time: 17630 ms
+stop time: 17850 ms
+speed: 18618.18 B/s
+
+block num: 81
+start time: 17856 ms
+stop time: 18089 ms
+speed: 17579.40 B/s
+
+block num: 82
+start time: 18095 ms
+stop time: 18320 ms
+speed: 18204.45 B/s
+
+block num: 83
+start time: 18326 ms
+stop time: 18554 ms
+speed: 17964.91 B/s
+
+block num: 84
+start time: 18560 ms
+stop time: 18781 ms
+speed: 18533.94 B/s
+
+block num: 85
+start time: 18786 ms
+stop time: 19017 ms
+speed: 17731.60 B/s
+
+block num: 86
+start time: 19023 ms
+stop time: 19247 ms
+speed: 18285.71 B/s
+
+block num: 87
+start time: 19253 ms
+stop time: 19485 ms
+speed: 17655.17 B/s
+
+block num: 88
+start time: 19490 ms
+stop time: 19721 ms
+speed: 17731.60 B/s
+
+block num: 89
+start time: 19727 ms
+stop time: 19959 ms
+speed: 17655.17 B/s
+
+block num: 90
+start time: 19965 ms
+stop time: 20189 ms
+speed: 18285.71 B/s
+
+block num: 91
+start time: 20195 ms
+stop time: 20426 ms
+speed: 17731.60 B/s
+
+block num: 92
+start time: 20432 ms
+stop time: 20654 ms
+speed: 18450.45 B/s
+
+block num: 93
+start time: 20660 ms
+stop time: 20894 ms
+speed: 17504.27 B/s
+
+block num: 94
+start time: 20900 ms
+stop time: 21122 ms
+speed: 18450.45 B/s
+
+block num: 95
+start time: 21128 ms
+stop time: 21365 ms
+speed: 17282.70 B/s
+
+block num: 96
+start time: 21371 ms
+stop time: 21593 ms
+speed: 18450.45 B/s
+
+block num: 97
+start time: 21599 ms
+stop time: 21835 ms
+speed: 17355.93 B/s
+
+block num: 98
+start time: 21841 ms
+stop time: 22072 ms
+speed: 17731.60 B/s
+
+block num: 99
+start time: 22078 ms
+stop time: 22316 ms
+speed: 17210.08 B/s
+
+block num: 100
+start time: 22322 ms
+stop time: 22552 ms
+speed: 17808.70 B/s
+
+block num: 101
+start time: 22557 ms
+stop time: 22797 ms
+speed: 17066.67 B/s
+
+block num: 102
+start time: 22803 ms
+stop time: 23033 ms
+speed: 17808.70 B/s
+
+block num: 103
+start time: 23039 ms
+stop time: 23280 ms
+speed: 16995.85 B/s
+
+block num: 104
+start time: 23286 ms
+stop time: 23515 ms
+speed: 17886.46 B/s
+
+block num: 105
+start time: 23521 ms
+stop time: 23759 ms
+speed: 17210.08 B/s
+
+block num: 106
+start time: 23765 ms
+stop time: 23994 ms
+speed: 17886.46 B/s
+
+block num: 107
+start time: 24000 ms
+stop time: 24241 ms
+speed: 16995.85 B/s
+
+block num: 108
+start time: 24247 ms
+stop time: 24482 ms
+speed: 17429.79 B/s
+
+block num: 109
+start time: 24488 ms
+stop time: 24731 ms
+speed: 16855.97 B/s
+
+block num: 110
+start time: 24737 ms
+stop time: 24971 ms
+speed: 17504.27 B/s
+
+block num: 111
+start time: 24976 ms
+stop time: 25221 ms
+speed: 16718.37 B/s
+
+block num: 112
+start time: 25227 ms
+stop time: 25463 ms
+speed: 17355.93 B/s
+
+block num: 113
+start time: 25469 ms
+stop time: 25710 ms
+speed: 16995.85 B/s
+
+block num: 114
+start time: 25716 ms
+stop time: 25950 ms
+speed: 17504.27 B/s
+
+block num: 115
+start time: 25956 ms
+stop time: 26194 ms
+speed: 17210.08 B/s
+
+block num: 116
+start time: 26200 ms
+stop time: 26436 ms
+speed: 17355.93 B/s
+
+block num: 117
+start time: 26441 ms
+stop time: 26685 ms
+speed: 16786.88 B/s
+
+block num: 118
+start time: 26691 ms
+stop time: 26927 ms
+speed: 17355.93 B/s
+
+block num: 119
+start time: 26933 ms
+stop time: 27182 ms
+speed: 16449.80 B/s
+
+block num: 120
+start time: 27188 ms
+stop time: 27427 ms
+speed: 17138.08 B/s
+
+block num: 121
+start time: 27433 ms
+stop time: 27677 ms
+speed: 16786.88 B/s
+
+block num: 122
+start time: 27683 ms
+stop time: 28038 ms
+speed: 11538.03 B/s
+
+block num: 123
+start time: 28044 ms
+stop time: 28292 ms
+speed: 16516.13 B/s
+
+block num: 124
+start time: 28298 ms
+stop time: 28541 ms
+speed: 16855.97 B/s
+
+block num: 125
+start time: 28547 ms
+stop time: 28796 ms
+speed: 16449.80 B/s
+
+block num: 126
+start time: 28802 ms
+stop time: 29044 ms
+speed: 16925.62 B/s
+
+block num: 127
+start time: 29050 ms
+stop time: 29296 ms
+speed: 16650.41 B/s
+
+block num: 128
+start time: 29302 ms
+stop time: 29538 ms
+speed: 17355.93 B/s
+
+block num: 129
+start time: 29544 ms
+stop time: 29794 ms
+speed: 16384.00 B/s
+
+block num: 130
+start time: 29800 ms
+stop time: 30046 ms
+speed: 16650.41 B/s
+
+block num: 131
+start time: 30052 ms
+stop time: 30300 ms
+speed: 16516.13 B/s
+
+block num: 132
+start time: 30306 ms
+stop time: 30550 ms
+speed: 16786.88 B/s
+
+block num: 133
+start time: 30556 ms
+stop time: 30807 ms
+speed: 16318.73 B/s
+
+block num: 134
+start time: 30813 ms
+stop time: 31058 ms
+speed: 16718.37 B/s
+
+block num: 135
+start time: 31064 ms
+stop time: 31315 ms
+speed: 16318.73 B/s
+
+block num: 136
+start time: 31321 ms
+stop time: 31567 ms
+speed: 16650.41 B/s
+
+block num: 137
+start time: 31573 ms
+stop time: 31824 ms
+speed: 16318.73 B/s
+
+block num: 138
+start time: 31830 ms
+stop time: 32076 ms
+speed: 16650.41 B/s
+
+block num: 139
+start time: 32082 ms
+stop time: 32335 ms
+speed: 16189.72 B/s
+
+block num: 140
+start time: 32341 ms
+stop time: 32591 ms
+speed: 16384.00 B/s
+
+block num: 141
+start time: 32597 ms
+stop time: 32846 ms
+speed: 16449.80 B/s
+
+block num: 142
+start time: 32852 ms
+stop time: 33098 ms
+speed: 16650.41 B/s
+
+block num: 143
+start time: 33104 ms
+stop time: 33356 ms
+speed: 16253.97 B/s
+
+block num: 144
+start time: 33361 ms
+stop time: 33608 ms
+speed: 16583.00 B/s
+
+block num: 145
+start time: 33614 ms
+stop time: 33869 ms
+speed: 16062.75 B/s
+
+block num: 146
+start time: 33875 ms
+stop time: 34121 ms
+speed: 16650.41 B/s
+
+block num: 147
+start time: 34127 ms
+stop time: 34377 ms
+speed: 16384.00 B/s
+
+block num: 148
+start time: 34383 ms
+stop time: 34624 ms
+speed: 16995.85 B/s
+
+block num: 149
+start time: 34630 ms
+stop time: 34885 ms
+speed: 16062.75 B/s
+
+block num: 150
+start time: 34891 ms
+stop time: 35138 ms
+speed: 16583.00 B/s
+
+block num: 151
+start time: 35144 ms
+stop time: 35397 ms
+speed: 16189.72 B/s
+
+block num: 152
+start time: 35403 ms
+stop time: 35649 ms
+speed: 16650.41 B/s
+
+block num: 153
+start time: 35655 ms
+stop time: 35907 ms
+speed: 16253.97 B/s
+
+block num: 154
+start time: 35913 ms
+stop time: 36157 ms
+speed: 16786.88 B/s
+
+block num: 155
+start time: 36163 ms
+stop time: 36418 ms
+speed: 16062.75 B/s
+
+block num: 156
+start time: 36424 ms
+stop time: 36673 ms
+speed: 16449.80 B/s
+
+block num: 157
+start time: 36679 ms
+stop time: 36933 ms
+speed: 16125.98 B/s
+
+block num: 158
+start time: 36939 ms
+stop time: 37187 ms
+speed: 16516.13 B/s
+
+block num: 159
+start time: 37193 ms
+stop time: 37446 ms
+speed: 16189.72 B/s
+
+block num: 160
+start time: 37452 ms
+stop time: 37701 ms
+speed: 16449.80 B/s
+
+block num: 161
+start time: 37707 ms
+stop time: 37966 ms
+speed: 15814.67 B/s
+
+block num: 162
+start time: 37972 ms
+stop time: 38221 ms
+speed: 16449.80 B/s
+
+block num: 163
+start time: 38227 ms
+stop time: 38491 ms
+speed: 15515.15 B/s
+
+block num: 164
+start time: 38497 ms
+stop time: 38747 ms
+speed: 16384.00 B/s
+
+block num: 165
+start time: 38753 ms
+stop time: 39012 ms
+speed: 15814.67 B/s
+
+block num: 166
+start time: 39018 ms
+stop time: 39270 ms
+speed: 16253.97 B/s
+
+block num: 167
+start time: 39276 ms
+stop time: 39538 ms
+speed: 15633.59 B/s
+
+block num: 168
+start time: 39544 ms
+stop time: 39802 ms
+speed: 15875.97 B/s
+
+block num: 169
+start time: 39808 ms
+stop time: 40068 ms
+speed: 15753.85 B/s
+
+block num: 170
+start time: 40074 ms
+stop time: 40330 ms
+speed: 16000.00 B/s
+
+block num: 171
+start time: 40336 ms
+stop time: 40599 ms
+speed: 15574.14 B/s
+
+block num: 172
+start time: 40604 ms
+stop time: 40860 ms
+speed: 16000.00 B/s
+
+block num: 173
+start time: 40866 ms
+stop time: 41129 ms
+speed: 15574.14 B/s
+
+block num: 174
+start time: 41135 ms
+stop time: 41387 ms
+speed: 16253.97 B/s
+
+block num: 175
+start time: 41393 ms
+stop time: 41659 ms
+speed: 15398.50 B/s
+
+block num: 176
+start time: 41665 ms
+stop time: 41921 ms
+speed: 16000.00 B/s
+
+block num: 177
+start time: 41927 ms
+stop time: 42191 ms
+speed: 15515.15 B/s
+
+block num: 178
+start time: 42197 ms
+stop time: 42456 ms
+speed: 15814.67 B/s
+
+block num: 179
+start time: 42462 ms
+stop time: 42737 ms
+speed: 14894.55 B/s
+
+block num: 180
+start time: 42743 ms
+stop time: 43005 ms
+speed: 15633.59 B/s
+
+block num: 181
+start time: 43011 ms
+stop time: 43285 ms
+speed: 14948.91 B/s
+
+block num: 182
+start time: 43291 ms
+stop time: 43551 ms
+speed: 15753.85 B/s
+
+block num: 183
+start time: 43557 ms
+stop time: 43823 ms
+speed: 15398.50 B/s
+
+block num: 184
+start time: 43829 ms
+stop time: 44091 ms
+speed: 15633.59 B/s
+
+block num: 185
+start time: 44097 ms
+stop time: 44362 ms
+speed: 15456.60 B/s
+
+block num: 186
+start time: 44368 ms
+stop time: 44628 ms
+speed: 15753.85 B/s
+
+block num: 187
+start time: 44634 ms
+stop time: 44902 ms
+speed: 15283.58 B/s
+
+block num: 188
+start time: 44908 ms
+stop time: 45170 ms
+speed: 15633.59 B/s
+
+block num: 189
+start time: 45176 ms
+stop time: 45443 ms
+speed: 15340.82 B/s
+
+block num: 190
+start time: 45449 ms
+stop time: 45710 ms
+speed: 15693.49 B/s
+
+block num: 191
+start time: 45716 ms
+stop time: 45984 ms
+speed: 15283.58 B/s
+
+block num: 192
+start time: 45990 ms
+stop time: 46250 ms
+speed: 15753.85 B/s
+
+block num: 193
+start time: 46255 ms
+stop time: 46527 ms
+speed: 15058.82 B/s
+
+block num: 194
+start time: 46533 ms
+stop time: 46799 ms
+speed: 15398.50 B/s
+
+block num: 195
+start time: 46805 ms
+stop time: 47074 ms
+speed: 15226.77 B/s
+
+block num: 196
+start time: 47080 ms
+stop time: 47350 ms
+speed: 15170.37 B/s
+
+block num: 197
+start time: 47356 ms
+stop time: 47629 ms
+speed: 15003.66 B/s
+
+block num: 198
+start time: 47635 ms
+stop time: 47903 ms
+speed: 15283.58 B/s
+
+block num: 199
+start time: 47909 ms
+stop time: 48183 ms
+speed: 14948.91 B/s
+
+block num: 200
+start time: 48189 ms
+stop time: 48456 ms
+speed: 15340.82 B/s
+
+block num: 201
+start time: 48462 ms
+stop time: 48733 ms
+speed: 15114.39 B/s
+
+block num: 202
+start time: 48739 ms
+stop time: 49006 ms
+speed: 15340.82 B/s
+
+block num: 203
+start time: 49012 ms
+stop time: 49284 ms
+speed: 15058.82 B/s
+
+block num: 204
+start time: 49290 ms
+stop time: 49558 ms
+speed: 15283.58 B/s
+
+block num: 205
+start time: 49563 ms
+stop time: 49836 ms
+speed: 15003.66 B/s
+
+block num: 206
+start time: 49842 ms
+stop time: 50110 ms
+speed: 15283.58 B/s
+
+block num: 207
+start time: 50116 ms
+stop time: 50393 ms
+speed: 14787.00 B/s
+
+block num: 208
+start time: 50399 ms
+stop time: 50667 ms
+speed: 15283.58 B/s
+
+block num: 209
+start time: 50673 ms
+stop time: 50949 ms
+speed: 14840.58 B/s
+
+block num: 210
+start time: 50955 ms
+stop time: 51226 ms
+speed: 15114.39 B/s
+
+block num: 211
+start time: 51232 ms
+stop time: 51508 ms
+speed: 14840.58 B/s
+
+block num: 212
+start time: 51514 ms
+stop time: 51784 ms
+speed: 15170.37 B/s
+
+block num: 213
+start time: 51790 ms
+stop time: 52068 ms
+speed: 14733.81 B/s
+
+block num: 214
+start time: 52074 ms
+stop time: 52346 ms
+speed: 15058.82 B/s
+
+block num: 215
+start time: 52352 ms
+stop time: 52633 ms
+speed: 14576.51 B/s
+
+block num: 216
+start time: 52638 ms
+stop time: 52914 ms
+speed: 14840.58 B/s
+
+block num: 217
+start time: 52920 ms
+stop time: 53195 ms
+speed: 14894.55 B/s
+
+block num: 218
+start time: 53201 ms
+stop time: 53469 ms
+speed: 15283.58 B/s
+
+block num: 219
+start time: 53475 ms
+stop time: 53755 ms
+speed: 14628.57 B/s
+
+block num: 220
+start time: 53761 ms
+stop time: 54029 ms
+speed: 15283.58 B/s
+
+block num: 221
+start time: 54035 ms
+stop time: 54316 ms
+speed: 14576.51 B/s
+
+block num: 222
+start time: 54322 ms
+stop time: 54591 ms
+speed: 15226.77 B/s
+
+block num: 223
+start time: 54597 ms
+stop time: 54881 ms
+speed: 14422.54 B/s
+
+block num: 224
+start time: 54887 ms
+stop time: 55160 ms
+speed: 15003.66 B/s
+
+block num: 225
+start time: 55166 ms
+stop time: 55446 ms
+speed: 14628.57 B/s
+
+block num: 226
+start time: 55452 ms
+stop time: 55727 ms
+speed: 14894.55 B/s
+
+block num: 227
+start time: 55733 ms
+stop time: 56017 ms
+speed: 14422.54 B/s
+
+block num: 228
+start time: 56023 ms
+stop time: 56301 ms
+speed: 14733.81 B/s
+
+block num: 229
+start time: 56307 ms
+stop time: 56594 ms
+speed: 14271.78 B/s
+
+block num: 230
+start time: 56600 ms
+stop time: 56877 ms
+speed: 14787.00 B/s
+
+block num: 231
+start time: 56883 ms
+stop time: 57169 ms
+speed: 14321.68 B/s
+
+block num: 232
+start time: 57175 ms
+stop time: 57456 ms
+speed: 14576.51 B/s
+
+block num: 233
+start time: 57462 ms
+stop time: 57747 ms
+speed: 14371.93 B/s
+
+block num: 234
+start time: 57753 ms
+stop time: 58035 ms
+speed: 14524.82 B/s
+
+block num: 235
+start time: 58041 ms
+stop time: 58327 ms
+speed: 14321.68 B/s
+
+block num: 236
+start time: 58333 ms
+stop time: 58617 ms
+speed: 14422.54 B/s
+
+block num: 237
+start time: 58623 ms
+stop time: 58908 ms
+speed: 14371.93 B/s
+
+block num: 238
+start time: 58914 ms
+stop time: 59205 ms
+speed: 14075.60 B/s
+
+block num: 239
+start time: 59211 ms
+stop time: 59498 ms
+speed: 14271.78 B/s
+
+block num: 240
+start time: 59504 ms
+stop time: 59787 ms
+speed: 14473.50 B/s
+
+block num: 241
+start time: 59793 ms
+stop time: 60080 ms
+speed: 14271.78 B/s
+
+block num: 242
+start time: 60086 ms
+stop time: 60366 ms
+speed: 14628.57 B/s
+
+block num: 243
+start time: 60372 ms
+stop time: 60666 ms
+speed: 13931.97 B/s
+
+block num: 244
+start time: 60672 ms
+stop time: 60954 ms
+speed: 14524.82 B/s
+
+block num: 245
+start time: 60960 ms
+stop time: 61252 ms
+speed: 14027.40 B/s
+
+block num: 246
+start time: 61258 ms
+stop time: 61656 ms
+speed: 10291.46 B/s
+
+block num: 247
+start time: 61662 ms
+stop time: 61957 ms
+speed: 13884.75 B/s
+
+block num: 248
+start time: 61962 ms
+stop time: 62249 ms
+speed: 14271.78 B/s
+
+block num: 249
+start time: 62255 ms
+stop time: 62546 ms
+speed: 14075.60 B/s
+
+block num: 250
+start time: 62552 ms
+stop time: 62838 ms
+speed: 14321.68 B/s
+
+block num: 251
+start time: 62844 ms
+stop time: 63132 ms
+speed: 14222.22 B/s
+
+block num: 252
+start time: 63138 ms
+stop time: 63424 ms
+speed: 14321.68 B/s
+
+block num: 253
+start time: 63430 ms
+stop time: 63718 ms
+speed: 14222.22 B/s
+
+block num: 254
+start time: 63724 ms
+stop time: 64004 ms
+speed: 14628.57 B/s
+
+block num: 255
+start time: 64010 ms
+stop time: 64307 ms
+speed: 13791.25 B/s
+
+block num: 256
+start time: 64313 ms
+stop time: 64597 ms
+speed: 14422.54 B/s
+
+block num: 257
+start time: 64603 ms
+stop time: 64893 ms
+speed: 14124.14 B/s
+
+block num: 258
+start time: 64899 ms
+stop time: 65190 ms
+speed: 14075.60 B/s
+
+block num: 259
+start time: 65196 ms
+stop time: 65494 ms
+speed: 13744.97 B/s
+
+block num: 260
+start time: 65500 ms
+stop time: 65792 ms
+speed: 14027.40 B/s
+
+block num: 261
+start time: 65798 ms
+stop time: 66095 ms
+speed: 13791.25 B/s
+
+block num: 262
+start time: 66101 ms
+stop time: 66389 ms
+speed: 14222.22 B/s
+
+block num: 263
+start time: 66395 ms
+stop time: 66693 ms
+speed: 13744.97 B/s
+
+block num: 264
+start time: 66699 ms
+stop time: 66993 ms
+speed: 13931.97 B/s
+
+block num: 265
+start time: 66999 ms
+stop time: 67298 ms
+speed: 13699.00 B/s
+
+block num: 266
+start time: 67304 ms
+stop time: 67598 ms
+speed: 13931.97 B/s
+
+block num: 267
+start time: 67604 ms
+stop time: 67902 ms
+speed: 13744.97 B/s
+
+block num: 268
+start time: 67908 ms
+stop time: 68198 ms
+speed: 14124.14 B/s
+
+block num: 269
+start time: 68204 ms
+stop time: 68499 ms
+speed: 13884.75 B/s
+
+block num: 270
+start time: 68505 ms
+stop time: 68796 ms
+speed: 14075.60 B/s
+
+block num: 271
+start time: 68802 ms
+stop time: 69106 ms
+speed: 13473.68 B/s
+
+block num: 272
+start time: 69111 ms
+stop time: 69404 ms
+speed: 13979.52 B/s
+
+block num: 273
+start time: 69410 ms
+stop time: 69710 ms
+speed: 13653.33 B/s
+
+block num: 274
+start time: 69716 ms
+stop time: 70012 ms
+speed: 13837.84 B/s
+
+block num: 275
+start time: 70018 ms
+stop time: 70320 ms
+speed: 13562.91 B/s
+
+block num: 276
+start time: 70326 ms
+stop time: 70620 ms
+speed: 13931.97 B/s
+
+block num: 277
+start time: 70626 ms
+stop time: 70925 ms
+speed: 13699.00 B/s
+
+block num: 278
+start time: 70931 ms
+stop time: 71226 ms
+speed: 13884.75 B/s
+
+block num: 279
+start time: 71232 ms
+stop time: 71531 ms
+speed: 13699.00 B/s
+
+block num: 280
+start time: 71537 ms
+stop time: 71831 ms
+speed: 13931.97 B/s
+
+block num: 281
+start time: 71837 ms
+stop time: 72139 ms
+speed: 13562.91 B/s
+
+block num: 282
+start time: 72145 ms
+stop time: 72441 ms
+speed: 13837.84 B/s
+
+block num: 283
+start time: 72446 ms
+stop time: 72752 ms
+speed: 13385.62 B/s
+
+block num: 284
+start time: 72758 ms
+stop time: 73052 ms
+speed: 13931.97 B/s
+
+block num: 285
+start time: 73058 ms
+stop time: 73360 ms
+speed: 13562.91 B/s
+
+block num: 286
+start time: 73366 ms
+stop time: 73659 ms
+speed: 13979.52 B/s
+
+block num: 287
+start time: 73665 ms
+stop time: 73970 ms
+speed: 13429.51 B/s
+
+block num: 288
+start time: 73976 ms
+stop time: 74271 ms
+speed: 13884.75 B/s
+
+block num: 289
+start time: 74277 ms
+stop time: 74581 ms
+speed: 13473.68 B/s
+
+block num: 290
+start time: 74587 ms
+stop time: 74890 ms
+speed: 13518.15 B/s
+
+block num: 291
+start time: 74896 ms
+stop time: 75208 ms
+speed: 13128.21 B/s
+
+block num: 292
+start time: 75214 ms
+stop time: 75516 ms
+speed: 13562.91 B/s
+
+block num: 293
+start time: 75522 ms
+stop time: 75827 ms
+speed: 13429.51 B/s
+
+block num: 294
+start time: 75833 ms
+stop time: 76130 ms
+speed: 13791.25 B/s
+
+block num: 295
+start time: 76136 ms
+stop time: 76447 ms
+speed: 13170.42 B/s
+
+block num: 296
+start time: 76453 ms
+stop time: 76757 ms
+speed: 13473.68 B/s
+
+block num: 297
+start time: 76763 ms
+stop time: 77070 ms
+speed: 13342.02 B/s
+
+block num: 298
+start time: 77076 ms
+stop time: 77376 ms
+speed: 13653.33 B/s
+
+block num: 299
+start time: 77382 ms
+stop time: 77690 ms
+speed: 13298.70 B/s
+
+block num: 300
+start time: 77696 ms
+stop time: 78001 ms
+speed: 13429.51 B/s
+
+block num: 301
+start time: 78007 ms
+stop time: 78315 ms
+speed: 13298.70 B/s
+
+block num: 302
+start time: 78321 ms
+stop time: 78629 ms
+speed: 13298.70 B/s
+
+block num: 303
+start time: 78635 ms
+stop time: 78947 ms
+speed: 13128.21 B/s
+
+block num: 304
+start time: 78953 ms
+stop time: 79263 ms
+speed: 13212.90 B/s
+
+block num: 305
+start time: 79269 ms
+stop time: 79588 ms
+speed: 12840.12 B/s
+
+block num: 306
+start time: 79594 ms
+stop time: 79899 ms
+speed: 13429.51 B/s
+
+block num: 307
+start time: 79905 ms
+stop time: 80221 ms
+speed: 12962.03 B/s
+
+block num: 308
+start time: 80227 ms
+stop time: 80532 ms
+speed: 13429.51 B/s
+
+block num: 309
+start time: 80538 ms
+stop time: 80851 ms
+speed: 13086.26 B/s
+
+block num: 310
+start time: 80857 ms
+stop time: 81161 ms
+speed: 13473.68 B/s
+
+block num: 311
+start time: 81167 ms
+stop time: 81477 ms
+speed: 13212.90 B/s
+
+block num: 312
+start time: 81483 ms
+stop time: 81789 ms
+speed: 13385.62 B/s
+
+block num: 313
+start time: 81795 ms
+stop time: 82105 ms
+speed: 13212.90 B/s
+
+block num: 314
+start time: 82111 ms
+stop time: 82418 ms
+speed: 13342.02 B/s
+
+block num: 315
+start time: 82424 ms
+stop time: 82735 ms
+speed: 13170.42 B/s
+
+block num: 316
+start time: 82741 ms
+stop time: 83046 ms
+speed: 13429.51 B/s
+
+block num: 317
+start time: 83052 ms
+stop time: 83368 ms
+speed: 12962.03 B/s
+
+block num: 318
+start time: 83374 ms
+stop time: 83677 ms
+speed: 13518.15 B/s
+
+block num: 319
+start time: 83683 ms
+stop time: 84002 ms
+speed: 12840.12 B/s
+
+block num: 320
+start time: 84008 ms
+stop time: 84317 ms
+speed: 13255.66 B/s
+
+block num: 321
+start time: 84323 ms
+stop time: 84642 ms
+speed: 12840.12 B/s
+
+block num: 322
+start time: 84648 ms
+stop time: 84960 ms
+speed: 13128.21 B/s
+
+block num: 323
+start time: 84966 ms
+stop time: 85287 ms
+speed: 12760.12 B/s
+
+block num: 324
+start time: 85293 ms
+stop time: 85608 ms
+speed: 13003.17 B/s
+
+block num: 325
+start time: 85614 ms
+stop time: 85931 ms
+speed: 12921.14 B/s
+
+block num: 326
+start time: 85937 ms
+stop time: 86246 ms
+speed: 13255.66 B/s
+
+block num: 327
+start time: 86252 ms
+stop time: 86574 ms
+speed: 12720.50 B/s
+
+block num: 328
+start time: 86580 ms
+stop time: 86894 ms
+speed: 13044.59 B/s
+
+block num: 329
+start time: 86900 ms
+stop time: 87219 ms
+speed: 12840.12 B/s
+
+block num: 330
+start time: 87226 ms
+stop time: 87539 ms
+speed: 13086.26 B/s
+
+block num: 331
+start time: 87545 ms
+stop time: 87867 ms
+speed: 12720.50 B/s
+
+block num: 332
+start time: 87873 ms
+stop time: 88186 ms
+speed: 13086.26 B/s
+
+block num: 333
+start time: 88192 ms
+stop time: 88510 ms
+speed: 12880.50 B/s
+
+block num: 334
+start time: 88516 ms
+stop time: 88829 ms
+speed: 13086.26 B/s
+
+block num: 335
+start time: 88835 ms
+stop time: 89162 ms
+speed: 12525.99 B/s
+
+block num: 336
+start time: 89167 ms
+stop time: 89483 ms
+speed: 12962.03 B/s
+
+block num: 337
+start time: 89488 ms
+stop time: 89812 ms
+speed: 12641.98 B/s
+
+block num: 338
+start time: 89818 ms
+stop time: 90132 ms
+speed: 13044.59 B/s
+
+block num: 339
+start time: 90138 ms
+stop time: 90465 ms
+speed: 12525.99 B/s
+
+block num: 340
+start time: 90471 ms
+stop time: 90786 ms
+speed: 13003.17 B/s
+
+block num: 341
+start time: 90792 ms
+stop time: 91113 ms
+speed: 12760.12 B/s
+
+block num: 342
+start time: 91119 ms
+stop time: 91433 ms
+speed: 13044.59 B/s
+
+block num: 343
+start time: 91439 ms
+stop time: 91764 ms
+speed: 12603.08 B/s
+
+block num: 344
+start time: 91769 ms
+stop time: 92083 ms
+speed: 13044.59 B/s
+
+block num: 345
+start time: 92089 ms
+stop time: 92411 ms
+speed: 12720.50 B/s
+
+block num: 346
+start time: 92417 ms
+stop time: 92734 ms
+speed: 12921.14 B/s
+
+block num: 347
+start time: 92740 ms
+stop time: 93063 ms
+speed: 12681.11 B/s
+
+block num: 348
+start time: 93069 ms
+stop time: 93388 ms
+speed: 12840.12 B/s
+
+block num: 349
+start time: 93394 ms
+stop time: 93718 ms
+speed: 12641.98 B/s
+
+block num: 350
+start time: 93724 ms
+stop time: 94039 ms
+speed: 13003.17 B/s
+
+block num: 351
+start time: 94045 ms
+stop time: 94374 ms
+speed: 12449.85 B/s
+
+block num: 352
+start time: 94379 ms
+stop time: 94696 ms
+speed: 12921.14 B/s
+
+block num: 353
+start time: 94702 ms
+stop time: 95021 ms
+speed: 12840.12 B/s
+
+block num: 354
+start time: 95027 ms
+stop time: 95351 ms
+speed: 12641.98 B/s
+
+block num: 355
+start time: 95357 ms
+stop time: 95688 ms
+speed: 12374.62 B/s
+
+block num: 356
+start time: 95694 ms
+stop time: 96017 ms
+speed: 12681.11 B/s
+
+block num: 357
+start time: 96023 ms
+stop time: 96356 ms
+speed: 12300.30 B/s
+
+block num: 358
+start time: 96362 ms
+stop time: 96687 ms
+speed: 12603.08 B/s
+
+block num: 359
+start time: 96693 ms
+stop time: 97023 ms
+speed: 12412.12 B/s
+
+block num: 360
+start time: 97029 ms
+stop time: 97354 ms
+speed: 12603.08 B/s
+
+block num: 361
+start time: 97360 ms
+stop time: 97692 ms
+speed: 12337.35 B/s
+
+block num: 362
+start time: 97698 ms
+stop time: 98024 ms
+speed: 12564.42 B/s
+
+block num: 363
+start time: 98030 ms
+stop time: 98362 ms
+speed: 12337.35 B/s
+
+block num: 364
+start time: 98368 ms
+stop time: 98693 ms
+speed: 12603.08 B/s
+
+block num: 365
+start time: 98699 ms
+stop time: 99035 ms
+speed: 12190.48 B/s
+
+block num: 366
+start time: 99041 ms
+stop time: 99373 ms
+speed: 12337.35 B/s
+
+block num: 367
+start time: 99379 ms
+stop time: 99719 ms
+speed: 12047.06 B/s
+
+block num: 368
+start time: 99724 ms
+stop time: 100061 ms
+speed: 12154.30 B/s
+
+block num: 369
+start time: 100067 ms
+stop time: 100577 ms
+speed: 8031.37 B/s
+
+block num: 370
+start time: 100583 ms
+stop time: 100910 ms
+speed: 12525.99 B/s
+
+block num: 371
+start time: 100916 ms
+stop time: 101257 ms
+speed: 12011.73 B/s
+
+block num: 372
+start time: 101263 ms
+stop time: 101589 ms
+speed: 12564.42 B/s
+
+block num: 373
+start time: 101595 ms
+stop time: 101929 ms
+speed: 12263.47 B/s
+
+block num: 374
+start time: 101935 ms
+stop time: 102262 ms
+speed: 12525.99 B/s
+
+block num: 375
+start time: 102268 ms
+stop time: 102601 ms
+speed: 12300.30 B/s
+
+block num: 376
+start time: 102607 ms
+stop time: 102938 ms
+speed: 12374.62 B/s
+
+block num: 377
+start time: 102944 ms
+stop time: 103282 ms
+speed: 12118.34 B/s
+
+block num: 378
+start time: 103288 ms
+stop time: 103615 ms
+speed: 12525.99 B/s
+
+block num: 379
+start time: 103621 ms
+stop time: 103959 ms
+speed: 12118.34 B/s
+
+block num: 380
+start time: 103965 ms
+stop time: 104296 ms
+speed: 12374.62 B/s
+
+block num: 381
+start time: 104302 ms
+stop time: 104636 ms
+speed: 12263.47 B/s
+
+block num: 382
+start time: 104642 ms
+stop time: 104971 ms
+speed: 12449.85 B/s
+
+block num: 383
+start time: 104977 ms
+stop time: 105319 ms
+speed: 11976.61 B/s
+
+block num: 384
+start time: 105325 ms
+stop time: 105652 ms
+speed: 12525.99 B/s
+
+block num: 385
+start time: 105658 ms
+stop time: 106000 ms
+speed: 11976.61 B/s
+
+block num: 386
+start time: 106006 ms
+stop time: 106340 ms
+speed: 12263.47 B/s
+
+block num: 387
+start time: 106346 ms
+stop time: 106690 ms
+speed: 11906.98 B/s
+
+block num: 388
+start time: 106696 ms
+stop time: 107029 ms
+speed: 12300.30 B/s
+
+block num: 389
+start time: 107035 ms
+stop time: 107375 ms
+speed: 12047.06 B/s
+
+block num: 390
+start time: 107381 ms
+stop time: 107712 ms
+speed: 12374.62 B/s
+
+block num: 391
+start time: 107718 ms
+stop time: 108063 ms
+speed: 11872.46 B/s
+
+block num: 392
+start time: 108069 ms
+stop time: 108408 ms
+speed: 12082.60 B/s
+
+block num: 393
+start time: 108414 ms
+stop time: 108756 ms
+speed: 11976.61 B/s
+
+block num: 394
+start time: 108762 ms
+stop time: 109098 ms
+speed: 12190.48 B/s
+
+block num: 395
+start time: 109104 ms
+stop time: 109450 ms
+speed: 11838.15 B/s
+
+block num: 396
+start time: 109456 ms
+stop time: 109792 ms
+speed: 12190.48 B/s
+
+block num: 397
+start time: 109798 ms
+stop time: 110140 ms
+speed: 11976.61 B/s
+
+block num: 398
+start time: 110146 ms
+stop time: 110478 ms
+speed: 12337.35 B/s
+
+block num: 399
+start time: 110484 ms
+stop time: 110833 ms
+speed: 11736.39 B/s
+
+block num: 400
+start time: 110839 ms
+stop time: 111177 ms
+speed: 12118.34 B/s
+
+block num: 401
+start time: 111183 ms
+stop time: 111525 ms
+speed: 11976.61 B/s
+
+block num: 402
+start time: 111531 ms
+stop time: 111868 ms
+speed: 12154.30 B/s
+
+block num: 403
+start time: 111874 ms
+stop time: 112221 ms
+speed: 11804.03 B/s
+
+block num: 404
+start time: 112227 ms
+stop time: 112566 ms
+speed: 12082.60 B/s
+
+block num: 405
+start time: 112572 ms
+stop time: 112919 ms
+speed: 11804.03 B/s
+
+block num: 406
+start time: 112925 ms
+stop time: 113267 ms
+speed: 11976.61 B/s
+
+block num: 407
+start time: 113273 ms
+stop time: 113616 ms
+speed: 11941.69 B/s
+
+block num: 408
+start time: 113622 ms
+stop time: 113962 ms
+speed: 12047.06 B/s
+
+block num: 409
+start time: 113968 ms
+stop time: 114311 ms
+speed: 11941.69 B/s
+
+block num: 410
+start time: 114317 ms
+stop time: 114661 ms
+speed: 11906.98 B/s
+
+block num: 411
+start time: 114667 ms
+stop time: 115015 ms
+speed: 11770.12 B/s
+
+block num: 412
+start time: 115021 ms
+stop time: 115361 ms
+speed: 12047.06 B/s
+
+block num: 413
+start time: 115367 ms
+stop time: 115712 ms
+speed: 11872.46 B/s
+
+block num: 414
+start time: 115718 ms
+stop time: 116057 ms
+speed: 12082.60 B/s
+
+block num: 415
+start time: 116063 ms
+stop time: 116415 ms
+speed: 11636.36 B/s
+
+block num: 416
+start time: 116421 ms
+stop time: 116766 ms
+speed: 11872.46 B/s
+
+block num: 417
+start time: 116772 ms
+stop time: 117116 ms
+speed: 11906.98 B/s
+
+block num: 418
+start time: 117122 ms
+stop time: 117468 ms
+speed: 11838.15 B/s
+
+block num: 419
+start time: 117474 ms
+stop time: 117825 ms
+speed: 11669.52 B/s
+
+block num: 420
+start time: 117831 ms
+stop time: 118177 ms
+speed: 11838.15 B/s
+
+block num: 421
+start time: 118183 ms
+stop time: 118534 ms
+speed: 11669.52 B/s
+
+block num: 422
+start time: 118540 ms
+stop time: 118884 ms
+speed: 11906.98 B/s
+
+block num: 423
+start time: 118890 ms
+stop time: 119246 ms
+speed: 11505.62 B/s
+
+block num: 424
+start time: 119252 ms
+stop time: 119601 ms
+speed: 11736.39 B/s
+
+block num: 425
+start time: 119607 ms
+stop time: 119962 ms
+speed: 11538.03 B/s
+
+block num: 426
+start time: 119968 ms
+stop time: 120318 ms
+speed: 11702.86 B/s
+
+block num: 427
+start time: 120324 ms
+stop time: 120689 ms
+speed: 11221.92 B/s
+
+block num: 428
+start time: 120696 ms
+stop time: 121048 ms
+speed: 11636.36 B/s
+
+block num: 429
+start time: 121054 ms
+stop time: 121411 ms
+speed: 11473.39 B/s
+
+block num: 430
+start time: 121417 ms
+stop time: 121769 ms
+speed: 11636.36 B/s
+
+block num: 431
+start time: 121775 ms
+stop time: 122135 ms
+speed: 11377.78 B/s
+
+block num: 432
+start time: 122141 ms
+stop time: 122494 ms
+speed: 11603.40 B/s
+
+block num: 433
+start time: 122500 ms
+stop time: 122854 ms
+speed: 11570.62 B/s
+
+block num: 434
+start time: 122860 ms
+stop time: 123210 ms
+speed: 11702.86 B/s
+
+block num: 435
+start time: 123216 ms
+stop time: 123575 ms
+speed: 11409.47 B/s
+
+block num: 436
+start time: 123581 ms
+stop time: 123935 ms
+speed: 11570.62 B/s
+
+block num: 437
+start time: 123941 ms
+stop time: 124297 ms
+speed: 11505.62 B/s
+
+block num: 438
+start time: 124303 ms
+stop time: 124654 ms
+speed: 11669.52 B/s
+
+block num: 439
+start time: 124660 ms
+stop time: 125018 ms
+speed: 11441.34 B/s
+
+block num: 440
+start time: 125024 ms
+stop time: 125382 ms
+speed: 11441.34 B/s
+
+block num: 441
+start time: 125389 ms
+stop time: 125742 ms
+speed: 11603.40 B/s
+
+block num: 442
+start time: 125748 ms
+stop time: 126099 ms
+speed: 11669.52 B/s
+
+block num: 443
+start time: 126105 ms
+stop time: 126461 ms
+speed: 11505.62 B/s
+
+block num: 444
+start time: 126467 ms
+stop time: 126820 ms
+speed: 11603.40 B/s
+
+block num: 445
+start time: 126826 ms
+stop time: 127187 ms
+speed: 11346.26 B/s
+
+block num: 446
+start time: 127193 ms
+stop time: 127547 ms
+speed: 11570.62 B/s
+
+block num: 447
+start time: 127553 ms
+stop time: 127920 ms
+speed: 11160.76 B/s
+
+block num: 448
+start time: 127926 ms
+stop time: 128277 ms
+speed: 11669.52 B/s
+
+block num: 449
+start time: 128283 ms
+stop time: 128641 ms
+speed: 11441.34 B/s
+
+block num: 450
+start time: 128647 ms
+stop time: 129006 ms
+speed: 11409.47 B/s
+
+block num: 451
+start time: 129012 ms
+stop time: 129379 ms
+speed: 11160.76 B/s
+
+block num: 452
+start time: 129385 ms
+stop time: 129746 ms
+speed: 11346.26 B/s
+
+block num: 453
+start time: 129753 ms
+stop time: 130124 ms
+speed: 11040.43 B/s
+
+block num: 454
+start time: 130130 ms
+stop time: 130490 ms
+speed: 11377.78 B/s
+
+block num: 455
+start time: 130496 ms
+stop time: 130863 ms
+speed: 11160.76 B/s
+
+block num: 456
+start time: 130869 ms
+stop time: 131231 ms
+speed: 11314.92 B/s
+
+block num: 457
+start time: 131237 ms
+stop time: 131607 ms
+speed: 11070.27 B/s
+
+block num: 458
+start time: 131613 ms
+stop time: 131977 ms
+speed: 11252.75 B/s
+
+block num: 459
+start time: 131983 ms
+stop time: 132352 ms
+speed: 11100.27 B/s
+
+block num: 460
+start time: 132358 ms
+stop time: 132722 ms
+speed: 11252.75 B/s
+
+block num: 461
+start time: 132728 ms
+stop time: 133099 ms
+speed: 11040.43 B/s
+
+block num: 462
+start time: 133105 ms
+stop time: 133468 ms
+speed: 11283.75 B/s
+
+block num: 463
+start time: 133474 ms
+stop time: 133847 ms
+speed: 10981.23 B/s
+
+block num: 464
+start time: 133853 ms
+stop time: 134214 ms
+speed: 11346.26 B/s
+
+block num: 465
+start time: 134220 ms
+stop time: 134592 ms
+speed: 11010.75 B/s
+
+block num: 466
+start time: 134598 ms
+stop time: 134962 ms
+speed: 11252.75 B/s
+
+block num: 467
+start time: 134968 ms
+stop time: 135340 ms
+speed: 11010.75 B/s
+
+block num: 468
+start time: 135346 ms
+stop time: 135712 ms
+speed: 11191.26 B/s
+
+block num: 469
+start time: 135718 ms
+stop time: 136088 ms
+speed: 11070.27 B/s
+
+block num: 470
+start time: 136094 ms
+stop time: 136458 ms
+speed: 11252.75 B/s
+
+block num: 471
+start time: 136464 ms
+stop time: 136839 ms
+speed: 10922.67 B/s
+
+block num: 472
+start time: 136845 ms
+stop time: 137209 ms
+speed: 11252.75 B/s
+
+block num: 473
+start time: 137215 ms
+stop time: 137582 ms
+speed: 11160.76 B/s
+
+block num: 474
+start time: 137588 ms
+stop time: 137951 ms
+speed: 11283.75 B/s
+
+block num: 475
+start time: 137957 ms
+stop time: 138327 ms
+speed: 11070.27 B/s
+
+block num: 476
+start time: 138333 ms
+stop time: 138700 ms
+speed: 11160.76 B/s
+
+block num: 477
+start time: 138706 ms
+stop time: 139077 ms
+speed: 11040.43 B/s
+
+block num: 478
+start time: 139083 ms
+stop time: 139450 ms
+speed: 11160.76 B/s
+
+block num: 479
+start time: 139456 ms
+stop time: 139831 ms
+speed: 10922.67 B/s
+
+block num: 480
+start time: 139837 ms
+stop time: 140203 ms
+speed: 11191.26 B/s
+
+block num: 481
+start time: 140209 ms
+stop time: 140580 ms
+speed: 11040.43 B/s
+
+block num: 482
+start time: 140586 ms
+stop time: 140953 ms
+speed: 11160.76 B/s
+
+block num: 483
+start time: 140959 ms
+stop time: 141338 ms
+speed: 10807.39 B/s
+
+block num: 484
+start time: 141344 ms
+stop time: 141718 ms
+speed: 10951.87 B/s
+
+block num: 485
+start time: 141724 ms
+stop time: 142106 ms
+speed: 10722.51 B/s
+
+block num: 486
+start time: 142112 ms
+stop time: 142486 ms
+speed: 10951.87 B/s
+
+block num: 487
+start time: 142492 ms
+stop time: 142877 ms
+speed: 10638.96 B/s
+
+block num: 488
+start time: 142883 ms
+stop time: 143260 ms
+speed: 10864.72 B/s
+
+block num: 489
+start time: 143266 ms
+stop time: 143649 ms
+speed: 10694.52 B/s
+
+block num: 490
+start time: 143655 ms
+stop time: 144033 ms
+speed: 10835.98 B/s
+
+block num: 491
+start time: 144039 ms
+stop time: 144866 ms
+speed: 4952.84 B/s
+
+block num: 492
+start time: 144872 ms
+stop time: 145248 ms
+speed: 10893.62 B/s
+
+block num: 493
+start time: 145254 ms
+stop time: 145636 ms
+speed: 10722.51 B/s
+
+block num: 494
+start time: 145642 ms
+stop time: 146020 ms
+speed: 10835.98 B/s
+
+block num: 495
+start time: 146027 ms
+stop time: 146409 ms
+speed: 10722.51 B/s
+
+block num: 496
+start time: 146415 ms
+stop time: 146792 ms
+speed: 10864.72 B/s
+
+block num: 497
+start time: 146798 ms
+stop time: 147178 ms
+speed: 10778.95 B/s
+
+block num: 498
+start time: 147184 ms
+stop time: 147558 ms
+speed: 10951.87 B/s
+
+block num: 499
+start time: 147564 ms
+stop time: 147946 ms
+speed: 10722.51 B/s
+
+block num: 500
+start time: 147952 ms
+stop time: 148326 ms
+speed: 10951.87 B/s
+
+block num: 501
+start time: 148332 ms
+stop time: 148711 ms
+speed: 10807.39 B/s
+
+block num: 502
+start time: 148717 ms
+stop time: 149093 ms
+speed: 10893.62 B/s
+
+block num: 503
+start time: 149099 ms
+stop time: 149485 ms
+speed: 10611.40 B/s
+
+block num: 504
+start time: 149491 ms
+stop time: 149866 ms
+speed: 10922.67 B/s
+
+block num: 505
+start time: 149872 ms
+stop time: 150250 ms
+speed: 10835.98 B/s
+
+block num: 506
+start time: 150256 ms
+stop time: 150630 ms
+speed: 10951.87 B/s
+
+block num: 507
+start time: 150636 ms
+stop time: 151021 ms
+speed: 10638.96 B/s
+
+block num: 508
+start time: 151028 ms
+stop time: 151408 ms
+speed: 10778.95 B/s
+
+block num: 509
+start time: 151414 ms
+stop time: 151796 ms
+speed: 10722.51 B/s
+
+block num: 510
+start time: 151802 ms
+stop time: 152179 ms
+speed: 10864.72 B/s
+
+block num: 511
+start time: 152185 ms
+stop time: 152576 ms
+speed: 10475.70 B/s
+
+block num: 512
+start time: 152582 ms
+stop time: 152960 ms
+speed: 10835.98 B/s
+
+block num: 513
+start time: 152966 ms
+stop time: 153160 ms
+speed: 21113.40 B/s
+
+block num: 514
+start time: 153166 ms
+stop time: 153357 ms
+speed: 21445.03 B/s
+
+block num: 515
+start time: 153363 ms
+stop time: 153560 ms
+speed: 20791.88 B/s
+
+block num: 516
+start time: 153566 ms
+stop time: 153759 ms
+speed: 21222.80 B/s
+
+block num: 517
+start time: 153765 ms
+stop time: 153962 ms
+speed: 20791.88 B/s
+
+block num: 518
+start time: 153968 ms
+stop time: 154163 ms
+speed: 21005.13 B/s
+
+block num: 519
+start time: 154169 ms
+stop time: 154367 ms
+speed: 20686.87 B/s
+
+block num: 520
+start time: 154373 ms
+stop time: 154569 ms
+speed: 20897.96 B/s
+
+block num: 521
+start time: 154575 ms
+stop time: 154774 ms
+speed: 20582.91 B/s
+
+block num: 522
+start time: 154780 ms
+stop time: 154978 ms
+speed: 20686.87 B/s
+
+block num: 523
+start time: 154984 ms
+stop time: 155185 ms
+speed: 20378.11 B/s
+
+block num: 524
+start time: 155191 ms
+stop time: 155386 ms
+speed: 21005.13 B/s
+
+block num: 525
+start time: 155392 ms
+stop time: 155590 ms
+speed: 20686.87 B/s
+
+block num: 526
+start time: 155596 ms
+stop time: 155794 ms
+speed: 20686.87 B/s
+
+block num: 527
+start time: 155800 ms
+stop time: 155998 ms
+speed: 20686.87 B/s
+
+block num: 528
+start time: 156004 ms
+stop time: 156198 ms
+speed: 21113.40 B/s
+
+block num: 529
+start time: 156204 ms
+stop time: 156404 ms
+speed: 20480.00 B/s
+
+block num: 530
+start time: 156410 ms
+stop time: 156608 ms
+speed: 20686.87 B/s
+
+block num: 531
+start time: 156614 ms
+stop time: 156816 ms
+speed: 20277.23 B/s
+
+block num: 532
+start time: 156822 ms
+stop time: 157020 ms
+speed: 20686.87 B/s
+
+block num: 533
+start time: 157026 ms
+stop time: 157225 ms
+speed: 20582.91 B/s
+
+block num: 534
+start time: 157231 ms
+stop time: 157431 ms
+speed: 20480.00 B/s
+
+block num: 535
+start time: 157437 ms
+stop time: 157637 ms
+speed: 20480.00 B/s
+
+block num: 536
+start time: 157643 ms
+stop time: 157841 ms
+speed: 20686.87 B/s
+
+block num: 537
+start time: 157848 ms
+stop time: 158049 ms
+speed: 20378.11 B/s
+
+block num: 538
+start time: 158055 ms
+stop time: 158255 ms
+speed: 20480.00 B/s
+
+block num: 539
+start time: 158261 ms
+stop time: 158463 ms
+speed: 20277.23 B/s
+
+block num: 540
+start time: 158469 ms
+stop time: 158666 ms
+speed: 20791.88 B/s
+
+block num: 541
+start time: 158672 ms
+stop time: 158872 ms
+speed: 20480.00 B/s
+
+block num: 542
+start time: 158878 ms
+stop time: 159085 ms
+speed: 19787.44 B/s
+
+block num: 543
+start time: 159091 ms
+stop time: 159292 ms
+speed: 20378.11 B/s
+
+block num: 544
+start time: 159298 ms
+stop time: 159501 ms
+speed: 20177.34 B/s
+
+block num: 545
+start time: 159507 ms
+stop time: 159716 ms
+speed: 19598.09 B/s
+
+block num: 546
+start time: 159722 ms
+stop time: 159930 ms
+speed: 19692.31 B/s
+
+block num: 547
+start time: 159936 ms
+stop time: 160146 ms
+speed: 19504.76 B/s
+
+block num: 548
+start time: 160152 ms
+stop time: 160372 ms
+speed: 18618.18 B/s
+
+block num: 549
+start time: 160378 ms
+stop time: 160591 ms
+speed: 19230.05 B/s
+
+block num: 550
+start time: 160597 ms
+stop time: 160811 ms
+speed: 19140.19 B/s
+
+block num: 551
+start time: 160817 ms
+stop time: 161039 ms
+speed: 18450.45 B/s
+
+block num: 552
+start time: 161045 ms
+stop time: 161257 ms
+speed: 19320.75 B/s
+
+block num: 553
+start time: 161263 ms
+stop time: 161477 ms
+speed: 19140.19 B/s
+
+block num: 554
+start time: 161483 ms
+stop time: 161693 ms
+speed: 19504.76 B/s
+
+block num: 555
+start time: 161699 ms
+stop time: 161909 ms
+speed: 19504.76 B/s
+
+block num: 556
+start time: 161915 ms
+stop time: 162120 ms
+speed: 19980.49 B/s
+
+block num: 557
+start time: 162126 ms
+stop time: 162339 ms
+speed: 19230.05 B/s
+
+block num: 558
+start time: 162345 ms
+stop time: 162553 ms
+speed: 19692.31 B/s
+
+block num: 559
+start time: 162560 ms
+stop time: 162771 ms
+speed: 19412.32 B/s
+
+block num: 560
+start time: 162778 ms
+stop time: 162987 ms
+speed: 19598.09 B/s
+
+block num: 561
+start time: 162993 ms
+stop time: 163202 ms
+speed: 19598.09 B/s
+
+block num: 562
+start time: 163208 ms
+stop time: 163424 ms
+speed: 18962.96 B/s
+
+block num: 563
+start time: 163430 ms
+stop time: 163645 ms
+speed: 19051.16 B/s
+
+block num: 564
+start time: 163651 ms
+stop time: 163859 ms
+speed: 19692.31 B/s
+
+block num: 565
+start time: 163866 ms
+stop time: 164078 ms
+speed: 19320.75 B/s
+
+block num: 566
+start time: 164084 ms
+stop time: 164291 ms
+speed: 19787.44 B/s
+
+block num: 567
+start time: 164297 ms
+stop time: 164512 ms
+speed: 19051.16 B/s
+
+block num: 568
+start time: 164518 ms
+stop time: 164728 ms
+speed: 19504.76 B/s
+
+block num: 569
+start time: 164734 ms
+stop time: 164947 ms
+speed: 19230.05 B/s
+
+block num: 570
+start time: 164953 ms
+stop time: 165164 ms
+speed: 19412.32 B/s
+
+block num: 571
+start time: 165170 ms
+stop time: 165379 ms
+speed: 19598.09 B/s
+
+block num: 572
+start time: 165385 ms
+stop time: 165594 ms
+speed: 19598.09 B/s
+
+block num: 573
+start time: 165600 ms
+stop time: 165816 ms
+speed: 18962.96 B/s
+
+block num: 574
+start time: 165822 ms
+stop time: 166036 ms
+speed: 19140.19 B/s
+
+block num: 575
+start time: 166042 ms
+stop time: 166256 ms
+speed: 19140.19 B/s
+
+block num: 576
+start time: 166262 ms
+stop time: 166476 ms
+speed: 19140.19 B/s
+
+block num: 577
+start time: 166482 ms
+stop time: 166701 ms
+speed: 18703.20 B/s
+
+block num: 578
+start time: 166708 ms
+stop time: 166926 ms
+speed: 18788.99 B/s
+
+block num: 579
+start time: 166932 ms
+stop time: 167151 ms
+speed: 18703.20 B/s
+
+block num: 580
+start time: 167157 ms
+stop time: 167376 ms
+speed: 18703.20 B/s
+
+block num: 581
+start time: 167383 ms
+stop time: 167605 ms
+speed: 18450.45 B/s
+
+block num: 582
+start time: 167612 ms
+stop time: 167831 ms
+speed: 18703.20 B/s
+
+block num: 583
+start time: 167837 ms
+stop time: 168058 ms
+speed: 18533.94 B/s
+
+block num: 584
+start time: 168064 ms
+stop time: 168278 ms
+speed: 19140.19 B/s
+
+block num: 585
+start time: 168284 ms
+stop time: 168507 ms
+speed: 18367.71 B/s
+
+block num: 586
+start time: 168513 ms
+stop time: 168727 ms
+speed: 19140.19 B/s
+
+block num: 587
+start time: 168733 ms
+stop time: 168955 ms
+speed: 18450.45 B/s
+
+block num: 588
+start time: 168961 ms
+stop time: 169183 ms
+speed: 18450.45 B/s
+
+block num: 589
+start time: 169189 ms
+stop time: 169413 ms
+speed: 18285.71 B/s
+
+block num: 590
+start time: 169419 ms
+stop time: 169643 ms
+speed: 18285.71 B/s
+
+block num: 591
+start time: 169649 ms
+stop time: 169871 ms
+speed: 18450.45 B/s
+
+block num: 592
+start time: 169877 ms
+stop time: 170096 ms
+speed: 18703.20 B/s
+
+block num: 593
+start time: 170102 ms
+stop time: 170325 ms
+speed: 18367.71 B/s
+
+block num: 594
+start time: 170331 ms
+stop time: 170551 ms
+speed: 18618.18 B/s
+
+block num: 595
+start time: 170557 ms
+stop time: 170778 ms
+speed: 18533.94 B/s
+
+block num: 596
+start time: 170784 ms
+stop time: 171006 ms
+speed: 18450.45 B/s
+
+block num: 597
+start time: 171012 ms
+stop time: 171237 ms
+speed: 18204.45 B/s
+
+block num: 598
+start time: 171243 ms
+stop time: 171467 ms
+speed: 18285.71 B/s
+
+block num: 599
+start time: 171473 ms
+stop time: 171696 ms
+speed: 18367.71 B/s
+
+block num: 600
+start time: 171703 ms
+stop time: 171922 ms
+speed: 18703.20 B/s
+
+block num: 601
+start time: 171928 ms
+stop time: 172154 ms
+speed: 18123.89 B/s
+
+block num: 602
+start time: 172161 ms
+stop time: 172385 ms
+speed: 18285.71 B/s
+
+block num: 603
+start time: 172391 ms
+stop time: 172611 ms
+speed: 18618.18 B/s
+
+block num: 604
+start time: 172617 ms
+stop time: 172838 ms
+speed: 18533.94 B/s
+
+block num: 605
+start time: 172844 ms
+stop time: 173070 ms
+speed: 18123.89 B/s
+
+block num: 606
+start time: 173076 ms
+stop time: 173306 ms
+speed: 17808.70 B/s
+
+block num: 607
+start time: 173312 ms
+stop time: 173538 ms
+speed: 18123.89 B/s
+
+block num: 608
+start time: 173544 ms
+stop time: 173768 ms
+speed: 18285.71 B/s
+
+block num: 609
+start time: 173774 ms
+stop time: 174002 ms
+speed: 17964.91 B/s
+
+block num: 610
+start time: 174008 ms
+stop time: 174241 ms
+speed: 17579.40 B/s
+
+block num: 611
+start time: 174247 ms
+stop time: 174481 ms
+speed: 17504.27 B/s
+
+block num: 612
+start time: 174487 ms
+stop time: 174724 ms
+speed: 17282.70 B/s
+
+block num: 613
+start time: 174730 ms
+stop time: 174965 ms
+speed: 17429.79 B/s
+
+block num: 614
+start time: 174971 ms
+stop time: 175210 ms
+speed: 17138.08 B/s
+
+block num: 615
+start time: 175216 ms
+stop time: 175730 ms
+speed: 7968.87 B/s
+
+block num: 616
+start time: 175736 ms
+stop time: 175970 ms
+speed: 17504.27 B/s
+
+block num: 617
+start time: 175976 ms
+stop time: 176215 ms
+speed: 17138.08 B/s
+
+block num: 618
+start time: 176221 ms
+stop time: 176456 ms
+speed: 17429.79 B/s
+
+block num: 619
+start time: 176462 ms
+stop time: 176694 ms
+speed: 17655.17 B/s
+
+block num: 620
+start time: 176700 ms
+stop time: 176930 ms
+speed: 17808.70 B/s
+
+block num: 621
+start time: 176936 ms
+stop time: 177167 ms
+speed: 17731.60 B/s
+
+block num: 622
+start time: 177173 ms
+stop time: 177407 ms
+speed: 17504.27 B/s
+
+block num: 623
+start time: 177413 ms
+stop time: 177645 ms
+speed: 17655.17 B/s
+
+block num: 624
+start time: 177651 ms
+stop time: 177884 ms
+speed: 17579.40 B/s
+
+block num: 625
+start time: 177890 ms
+stop time: 178126 ms
+speed: 17355.93 B/s
+
+block num: 626
+start time: 178132 ms
+stop time: 178366 ms
+speed: 17504.27 B/s
+
+block num: 627
+start time: 178372 ms
+stop time: 178607 ms
+speed: 17429.79 B/s
+
+block num: 628
+start time: 178613 ms
+stop time: 178841 ms
+speed: 17964.91 B/s
+
+block num: 629
+start time: 178848 ms
+stop time: 179082 ms
+speed: 17504.27 B/s
+
+block num: 630
+start time: 179088 ms
+stop time: 179324 ms
+speed: 17355.93 B/s
+
+block num: 631
+start time: 179330 ms
+stop time: 179567 ms
+speed: 17282.70 B/s
+
+block num: 632
+start time: 179573 ms
+stop time: 179807 ms
+speed: 17504.27 B/s
+
+block num: 633
+start time: 179813 ms
+stop time: 180049 ms
+speed: 17355.93 B/s
+
+block num: 634
+start time: 180055 ms
+stop time: 180291 ms
+speed: 17355.93 B/s
+
+block num: 635
+start time: 180297 ms
+stop time: 180535 ms
+speed: 17210.08 B/s
+
+block num: 636
+start time: 180542 ms
+stop time: 180774 ms
+speed: 17655.17 B/s
+
+block num: 637
+start time: 180780 ms
+stop time: 181018 ms
+speed: 17210.08 B/s
+
+block num: 638
+start time: 181024 ms
+stop time: 181264 ms
+speed: 17066.67 B/s
+
+block num: 639
+start time: 181270 ms
+stop time: 181506 ms
+speed: 17355.93 B/s
+
+block num: 640
+start time: 181512 ms
+stop time: 181753 ms
+speed: 16995.85 B/s
+
+block num: 641
+start time: 181759 ms
+stop time: 182003 ms
+speed: 16786.88 B/s
+
+block num: 642
+start time: 182009 ms
+stop time: 182252 ms
+speed: 16855.97 B/s
+
+block num: 643
+start time: 182258 ms
+stop time: 182499 ms
+speed: 16995.85 B/s
+
+block num: 644
+start time: 182505 ms
+stop time: 182745 ms
+speed: 17066.67 B/s
+
+block num: 645
+start time: 182751 ms
+stop time: 182996 ms
+speed: 16718.37 B/s
+
+block num: 646
+start time: 183002 ms
+stop time: 183245 ms
+speed: 16855.97 B/s
+
+block num: 647
+start time: 183251 ms
+stop time: 183496 ms
+speed: 16718.37 B/s
+
+block num: 648
+start time: 183502 ms
+stop time: 183741 ms
+speed: 17138.08 B/s
+
+block num: 649
+start time: 183747 ms
+stop time: 183993 ms
+speed: 16650.41 B/s
+
+block num: 650
+start time: 183999 ms
+stop time: 184241 ms
+speed: 16925.62 B/s
+
+block num: 651
+start time: 184247 ms
+stop time: 184493 ms
+speed: 16650.41 B/s
+
+block num: 652
+start time: 184499 ms
+stop time: 184738 ms
+speed: 17138.08 B/s
+
+block num: 653
+start time: 184744 ms
+stop time: 184990 ms
+speed: 16650.41 B/s
+
+block num: 654
+start time: 184996 ms
+stop time: 185242 ms
+speed: 16650.41 B/s
+
+block num: 655
+start time: 185248 ms
+stop time: 185494 ms
+speed: 16650.41 B/s
+
+block num: 656
+start time: 185500 ms
+stop time: 185740 ms
+speed: 17066.67 B/s
+
+block num: 657
+start time: 185746 ms
+stop time: 185994 ms
+speed: 16516.13 B/s
+
+block num: 658
+start time: 186000 ms
+stop time: 186242 ms
+speed: 16925.62 B/s
+
+block num: 659
+start time: 186248 ms
+stop time: 186497 ms
+speed: 16449.80 B/s
+
+block num: 660
+start time: 186503 ms
+stop time: 186751 ms
+speed: 16516.13 B/s
+
+block num: 661
+start time: 186757 ms
+stop time: 187003 ms
+speed: 16650.41 B/s
+
+block num: 662
+start time: 187009 ms
+stop time: 187257 ms
+speed: 16516.13 B/s
+
+block num: 663
+start time: 187263 ms
+stop time: 187512 ms
+speed: 16449.80 B/s
+
+block num: 664
+start time: 187518 ms
+stop time: 187760 ms
+speed: 16925.62 B/s
+
+block num: 665
+start time: 187766 ms
+stop time: 188016 ms
+speed: 16384.00 B/s
+
+block num: 666
+start time: 188022 ms
+stop time: 188268 ms
+speed: 16650.41 B/s
+
+block num: 667
+start time: 188274 ms
+stop time: 188521 ms
+speed: 16583.00 B/s
+
+block num: 668
+start time: 188527 ms
+stop time: 188773 ms
+speed: 16650.41 B/s
+
+block num: 669
+start time: 188779 ms
+stop time: 189029 ms
+speed: 16384.00 B/s
+
+block num: 670
+start time: 189035 ms
+stop time: 189281 ms
+speed: 16650.41 B/s
+
+block num: 671
+start time: 189288 ms
+stop time: 189543 ms
+speed: 16062.75 B/s
+
+block num: 672
+start time: 189549 ms
+stop time: 189800 ms
+speed: 16318.73 B/s
+
+block num: 673
+start time: 189806 ms
+stop time: 190068 ms
+speed: 15633.59 B/s
+
+block num: 674
+start time: 190074 ms
+stop time: 190332 ms
+speed: 15875.97 B/s
+
+block num: 675
+start time: 190338 ms
+stop time: 190596 ms
+speed: 15875.97 B/s
+
+block num: 676
+start time: 190602 ms
+stop time: 190861 ms
+speed: 15814.67 B/s
+
+block num: 677
+start time: 190867 ms
+stop time: 191125 ms
+speed: 15875.97 B/s
+
+block num: 678
+start time: 191131 ms
+stop time: 191390 ms
+speed: 15814.67 B/s
+
+block num: 679
+start time: 191396 ms
+stop time: 191652 ms
+speed: 16000.00 B/s
+
+block num: 680
+start time: 191658 ms
+stop time: 191913 ms
+speed: 16062.75 B/s
+
+block num: 681
+start time: 191919 ms
+stop time: 192174 ms
+speed: 16062.75 B/s
+
+block num: 682
+start time: 192180 ms
+stop time: 192437 ms
+speed: 15937.74 B/s
+
+block num: 683
+start time: 192443 ms
+stop time: 192698 ms
+speed: 16062.75 B/s
+
+block num: 684
+start time: 192704 ms
+stop time: 192959 ms
+speed: 16062.75 B/s
+
+block num: 685
+start time: 192965 ms
+stop time: 193222 ms
+speed: 15937.74 B/s
+
+block num: 686
+start time: 193228 ms
+stop time: 193484 ms
+speed: 16000.00 B/s
+
+block num: 687
+start time: 193490 ms
+stop time: 193747 ms
+speed: 15937.74 B/s
+
+block num: 688
+start time: 193753 ms
+stop time: 194008 ms
+speed: 16062.75 B/s
+
+block num: 689
+start time: 194014 ms
+stop time: 194274 ms
+speed: 15753.85 B/s
+
+block num: 690
+start time: 194280 ms
+stop time: 194534 ms
+speed: 16125.98 B/s
+
+block num: 691
+start time: 194540 ms
+stop time: 194804 ms
+speed: 15515.15 B/s
+
+block num: 692
+start time: 194810 ms
+stop time: 195069 ms
+speed: 15814.67 B/s
+
+block num: 693
+start time: 195075 ms
+stop time: 195337 ms
+speed: 15633.59 B/s
+
+block num: 694
+start time: 195343 ms
+stop time: 195605 ms
+speed: 15633.59 B/s
+
+block num: 695
+start time: 195611 ms
+stop time: 195874 ms
+speed: 15574.14 B/s
+
+block num: 696
+start time: 195880 ms
+stop time: 196138 ms
+speed: 15875.97 B/s
+
+block num: 697
+start time: 196144 ms
+stop time: 196405 ms
+speed: 15693.49 B/s
+
+block num: 698
+start time: 196411 ms
+stop time: 196668 ms
+speed: 15937.74 B/s
+
+block num: 699
+start time: 196675 ms
+stop time: 196938 ms
+speed: 15574.14 B/s
+
+block num: 700
+start time: 196944 ms
+stop time: 197198 ms
+speed: 16125.98 B/s
+
+block num: 701
+start time: 197204 ms
+stop time: 197466 ms
+speed: 15633.59 B/s
+
+block num: 702
+start time: 197472 ms
+stop time: 197736 ms
+speed: 15515.15 B/s
+
+block num: 703
+start time: 197742 ms
+stop time: 198006 ms
+speed: 15515.15 B/s
+
+block num: 704
+start time: 198012 ms
+stop time: 198271 ms
+speed: 15814.67 B/s
+
+block num: 705
+start time: 198277 ms
+stop time: 198545 ms
+speed: 15283.58 B/s
+
+block num: 706
+start time: 198551 ms
+stop time: 198817 ms
+speed: 15398.50 B/s
+
+block num: 707
+start time: 198823 ms
+stop time: 199092 ms
+speed: 15226.77 B/s
+
+block num: 708
+start time: 199098 ms
+stop time: 199364 ms
+speed: 15398.50 B/s
+
+block num: 709
+start time: 199370 ms
+stop time: 199638 ms
+speed: 15283.58 B/s
+
+block num: 710
+start time: 199644 ms
+stop time: 199910 ms
+speed: 15398.50 B/s
+
+block num: 711
+start time: 199916 ms
+stop time: 200187 ms
+speed: 15114.39 B/s
+
+block num: 712
+start time: 200193 ms
+stop time: 200461 ms
+speed: 15283.58 B/s
+
+block num: 713
+start time: 200467 ms
+stop time: 200737 ms
+speed: 15170.37 B/s
+
+block num: 714
+start time: 200743 ms
+stop time: 201010 ms
+speed: 15340.82 B/s
+
+block num: 715
+start time: 201017 ms
+stop time: 201286 ms
+speed: 15226.77 B/s
+
+block num: 716
+start time: 201292 ms
+stop time: 201560 ms
+speed: 15283.58 B/s
+
+block num: 717
+start time: 201566 ms
+stop time: 201832 ms
+speed: 15398.50 B/s
+
+block num: 718
+start time: 201838 ms
+stop time: 202108 ms
+speed: 15170.37 B/s
+
+block num: 719
+start time: 202114 ms
+stop time: 202387 ms
+speed: 15003.66 B/s
+
+block num: 720
+start time: 202393 ms
+stop time: 202658 ms
+speed: 15456.60 B/s
+
+block num: 721
+start time: 202664 ms
+stop time: 202937 ms
+speed: 15003.66 B/s
+
+block num: 722
+start time: 202943 ms
+stop time: 203215 ms
+speed: 15058.82 B/s
+
+block num: 723
+start time: 203221 ms
+stop time: 203495 ms
+speed: 14948.91 B/s
+
+block num: 724
+start time: 203501 ms
+stop time: 203767 ms
+speed: 15398.50 B/s
+
+block num: 725
+start time: 203773 ms
+stop time: 204046 ms
+speed: 15003.66 B/s
+
+block num: 726
+start time: 204052 ms
+stop time: 204320 ms
+speed: 15283.58 B/s
+
+block num: 727
+start time: 204326 ms
+stop time: 204603 ms
+speed: 14787.00 B/s
+
+block num: 728
+start time: 204609 ms
+stop time: 204878 ms
+speed: 15226.77 B/s
+
+block num: 729
+start time: 204884 ms
+stop time: 205154 ms
+speed: 15170.37 B/s
+
+block num: 730
+start time: 205160 ms
+stop time: 205430 ms
+speed: 15170.37 B/s
+
+block num: 731
+start time: 205436 ms
+stop time: 205710 ms
+speed: 14948.91 B/s
+
+block num: 732
+start time: 205716 ms
+stop time: 205987 ms
+speed: 15114.39 B/s
+
+block num: 733
+start time: 205993 ms
+stop time: 206269 ms
+speed: 14840.58 B/s
+
+block num: 734
+start time: 206275 ms
+stop time: 206548 ms
+speed: 15003.66 B/s
+
+block num: 735
+start time: 206554 ms
+stop time: 206833 ms
+speed: 14681.00 B/s
+
+block num: 736
+start time: 206839 ms
+stop time: 207105 ms
+speed: 15398.50 B/s
+
+block num: 737
+start time: 207111 ms
+stop time: 207393 ms
+speed: 14524.82 B/s
+
+block num: 738
+start time: 207400 ms
+stop time: 208016 ms
+speed: 6649.35 B/s
+
+block num: 739
+start time: 208022 ms
+stop time: 208306 ms
+speed: 14422.54 B/s
+
+block num: 740
+start time: 208312 ms
+stop time: 208596 ms
+speed: 14422.54 B/s
+
+block num: 741
+start time: 208602 ms
+stop time: 208887 ms
+speed: 14371.93 B/s
+
+block num: 742
+start time: 208893 ms
+stop time: 209176 ms
+speed: 14473.50 B/s
+
+block num: 743
+start time: 209182 ms
+stop time: 209468 ms
+speed: 14321.68 B/s
+
+block num: 744
+start time: 209474 ms
+stop time: 209751 ms
+speed: 14787.00 B/s
+
+block num: 745
+start time: 209757 ms
+stop time: 210041 ms
+speed: 14422.54 B/s
+
+block num: 746
+start time: 210047 ms
+stop time: 210323 ms
+speed: 14840.58 B/s
+
+block num: 747
+start time: 210329 ms
+stop time: 210611 ms
+speed: 14524.82 B/s
+
+block num: 748
+start time: 210617 ms
+stop time: 210893 ms
+speed: 14840.58 B/s
+
+block num: 749
+start time: 210900 ms
+stop time: 211184 ms
+speed: 14422.54 B/s
+
+block num: 750
+start time: 211190 ms
+stop time: 211474 ms
+speed: 14422.54 B/s
+
+block num: 751
+start time: 211480 ms
+stop time: 211763 ms
+speed: 14473.50 B/s
+
+block num: 752
+start time: 211769 ms
+stop time: 212049 ms
+speed: 14628.57 B/s
+
+block num: 753
+start time: 212055 ms
+stop time: 212340 ms
+speed: 14371.93 B/s
+
+block num: 754
+start time: 212346 ms
+stop time: 212629 ms
+speed: 14473.50 B/s
+
+block num: 755
+start time: 212635 ms
+stop time: 212918 ms
+speed: 14473.50 B/s
+
+block num: 756
+start time: 212924 ms
+stop time: 213205 ms
+speed: 14576.51 B/s
+
+block num: 757
+start time: 213211 ms
+stop time: 213497 ms
+speed: 14321.68 B/s
+
+block num: 758
+start time: 213503 ms
+stop time: 213782 ms
+speed: 14681.00 B/s
+
+block num: 759
+start time: 213789 ms
+stop time: 214073 ms
+speed: 14422.54 B/s
+
+block num: 760
+start time: 214079 ms
+stop time: 214359 ms
+speed: 14628.57 B/s
+
+block num: 761
+start time: 214365 ms
+stop time: 214650 ms
+speed: 14371.93 B/s
+
+block num: 762
+start time: 214656 ms
+stop time: 214940 ms
+speed: 14422.54 B/s
+
+block num: 763
+start time: 214946 ms
+stop time: 215232 ms
+speed: 14321.68 B/s
+
+block num: 764
+start time: 215238 ms
+stop time: 215520 ms
+speed: 14524.82 B/s
+
+block num: 765
+start time: 215526 ms
+stop time: 215817 ms
+speed: 14075.60 B/s
+
+block num: 766
+start time: 215823 ms
+stop time: 216112 ms
+speed: 14173.01 B/s
+
+block num: 767
+start time: 216118 ms
+stop time: 216406 ms
+speed: 14222.22 B/s
+
+block num: 768
+start time: 216412 ms
+stop time: 216701 ms
+speed: 14173.01 B/s
+
+block num: 769
+start time: 216707 ms
+stop time: 216999 ms
+speed: 14027.40 B/s
+
+block num: 770
+start time: 217005 ms
+stop time: 217294 ms
+speed: 14173.01 B/s
+
+block num: 771
+start time: 217300 ms
+stop time: 217596 ms
+speed: 13837.84 B/s
+
+block num: 772
+start time: 217602 ms
+stop time: 217890 ms
+speed: 14222.22 B/s
+
+block num: 773
+start time: 217896 ms
+stop time: 218187 ms
+speed: 14075.60 B/s
+
+block num: 774
+start time: 218193 ms
+stop time: 218484 ms
+speed: 14075.60 B/s
+
+block num: 775
+start time: 218490 ms
+stop time: 218790 ms
+speed: 13653.33 B/s
+
+block num: 776
+start time: 218796 ms
+stop time: 219084 ms
+speed: 14222.22 B/s
+
+block num: 777
+start time: 219091 ms
+stop time: 219386 ms
+speed: 13884.75 B/s
+
+block num: 778
+start time: 219392 ms
+stop time: 219681 ms
+speed: 14173.01 B/s
+
+block num: 779
+start time: 219687 ms
+stop time: 219981 ms
+speed: 13931.97 B/s
+
+block num: 780
+start time: 219987 ms
+stop time: 220272 ms
+speed: 14371.93 B/s
+
+block num: 781
+start time: 220278 ms
+stop time: 220574 ms
+speed: 13837.84 B/s
+
+block num: 782
+start time: 220580 ms
+stop time: 220868 ms
+speed: 14222.22 B/s
+
+block num: 783
+start time: 220875 ms
+stop time: 221172 ms
+speed: 13791.25 B/s
+
+block num: 784
+start time: 221178 ms
+stop time: 221470 ms
+speed: 14027.40 B/s
+
+block num: 785
+start time: 221477 ms
+stop time: 221775 ms
+speed: 13744.97 B/s
+
+block num: 786
+start time: 221781 ms
+stop time: 222074 ms
+speed: 13979.52 B/s
+
+block num: 787
+start time: 222080 ms
+stop time: 222380 ms
+speed: 13653.33 B/s
+
+block num: 788
+start time: 222386 ms
+stop time: 222681 ms
+speed: 13884.75 B/s
+
+block num: 789
+start time: 222687 ms
+stop time: 222989 ms
+speed: 13562.91 B/s
+
+block num: 790
+start time: 222995 ms
+stop time: 223288 ms
+speed: 13979.52 B/s
+
+block num: 791
+start time: 223294 ms
+stop time: 223598 ms
+speed: 13473.68 B/s
+
+block num: 792
+start time: 223604 ms
+stop time: 223897 ms
+speed: 13979.52 B/s
+
+block num: 793
+start time: 223903 ms
+stop time: 224201 ms
+speed: 13744.97 B/s
+
+block num: 794
+start time: 224207 ms
+stop time: 224505 ms
+speed: 13744.97 B/s
+
+block num: 795
+start time: 224511 ms
+stop time: 224812 ms
+speed: 13607.97 B/s
+
+block num: 796
+start time: 224818 ms
+stop time: 225119 ms
+speed: 13607.97 B/s
+
+block num: 797
+start time: 225125 ms
+stop time: 225431 ms
+speed: 13385.62 B/s
+
+block num: 798
+start time: 225437 ms
+stop time: 225735 ms
+speed: 13744.97 B/s
+
+block num: 799
+start time: 225741 ms
+stop time: 226046 ms
+speed: 13429.51 B/s
+
+block num: 800
+start time: 226052 ms
+stop time: 226348 ms
+speed: 13837.84 B/s
+
+block num: 801
+start time: 226354 ms
+stop time: 226659 ms
+speed: 13429.51 B/s
+
+block num: 802
+start time: 226665 ms
+stop time: 226971 ms
+speed: 13385.62 B/s
+
+block num: 803
+start time: 226978 ms
+stop time: 227284 ms
+speed: 13385.62 B/s
+
+block num: 804
+start time: 227290 ms
+stop time: 227591 ms
+speed: 13607.97 B/s
+
+block num: 805
+start time: 227597 ms
+stop time: 227906 ms
+speed: 13255.66 B/s
+
+block num: 806
+start time: 227913 ms
+stop time: 228215 ms
+speed: 13562.91 B/s
+
+block num: 807
+start time: 228221 ms
+stop time: 228524 ms
+speed: 13518.15 B/s
+
+block num: 808
+start time: 228530 ms
+stop time: 228837 ms
+speed: 13342.02 B/s
+
+block num: 809
+start time: 228843 ms
+stop time: 229154 ms
+speed: 13170.42 B/s
+
+block num: 810
+start time: 229160 ms
+stop time: 229464 ms
+speed: 13473.68 B/s
+
+block num: 811
+start time: 229470 ms
+stop time: 229777 ms
+speed: 13342.02 B/s
+
+block num: 812
+start time: 229783 ms
+stop time: 230086 ms
+speed: 13518.15 B/s
+
+block num: 813
+start time: 230092 ms
+stop time: 230398 ms
+speed: 13385.62 B/s
+
+block num: 814
+start time: 230405 ms
+stop time: 230711 ms
+speed: 13385.62 B/s
+
+block num: 815
+start time: 230717 ms
+stop time: 231025 ms
+speed: 13298.70 B/s
+
+block num: 816
+start time: 231031 ms
+stop time: 231336 ms
+speed: 13429.51 B/s
+
+block num: 817
+start time: 231342 ms
+stop time: 231647 ms
+speed: 13429.51 B/s
+
+block num: 818
+start time: 231653 ms
+stop time: 231955 ms
+speed: 13562.91 B/s
+
+block num: 819
+start time: 231961 ms
+stop time: 232270 ms
+speed: 13255.66 B/s
+
+block num: 820
+start time: 232276 ms
+stop time: 232581 ms
+speed: 13429.51 B/s
+
+block num: 821
+start time: 232588 ms
+stop time: 232896 ms
+speed: 13298.70 B/s
+
+block num: 822
+start time: 232902 ms
+stop time: 233207 ms
+speed: 13429.51 B/s
+
+block num: 823
+start time: 233213 ms
+stop time: 233526 ms
+speed: 13086.26 B/s
+
+block num: 824
+start time: 233532 ms
+stop time: 233840 ms
+speed: 13298.70 B/s
+
+block num: 825
+start time: 233846 ms
+stop time: 234158 ms
+speed: 13128.21 B/s
+
+block num: 826
+start time: 234164 ms
+stop time: 234468 ms
+speed: 13473.68 B/s
+
+block num: 827
+start time: 234474 ms
+stop time: 234788 ms
+speed: 13044.59 B/s
+
+block num: 828
+start time: 234794 ms
+stop time: 235100 ms
+speed: 13385.62 B/s
+
+block num: 829
+start time: 235106 ms
+stop time: 235417 ms
+speed: 13170.42 B/s
+
+block num: 830
+start time: 235423 ms
+stop time: 235733 ms
+speed: 13212.90 B/s
+
+block num: 831
+start time: 235739 ms
+stop time: 236052 ms
+speed: 13086.26 B/s
+
+block num: 832
+start time: 236058 ms
+stop time: 236366 ms
+speed: 13298.70 B/s
+
+block num: 833
+start time: 236372 ms
+stop time: 236690 ms
+speed: 12880.50 B/s
+
+block num: 834
+start time: 236696 ms
+stop time: 237008 ms
+speed: 13128.21 B/s
+
+block num: 835
+start time: 237014 ms
+stop time: 237333 ms
+speed: 12840.12 B/s
+
+block num: 836
+start time: 237339 ms
+stop time: 237651 ms
+speed: 13128.21 B/s
+
+block num: 837
+start time: 237657 ms
+stop time: 237975 ms
+speed: 12880.50 B/s
+
+block num: 838
+start time: 237982 ms
+stop time: 238294 ms
+speed: 13128.21 B/s
+
+block num: 839
+start time: 238300 ms
+stop time: 238620 ms
+speed: 12800.00 B/s
+
+block num: 840
+start time: 238626 ms
+stop time: 238941 ms
+speed: 13003.17 B/s
+
+block num: 841
+start time: 238947 ms
+stop time: 239267 ms
+speed: 12800.00 B/s
+
+block num: 842
+start time: 239273 ms
+stop time: 239587 ms
+speed: 13044.59 B/s
+
+block num: 843
+start time: 239593 ms
+stop time: 239912 ms
+speed: 12840.12 B/s
+
+block num: 844
+start time: 239918 ms
+stop time: 240233 ms
+speed: 13003.17 B/s
+
+block num: 845
+start time: 240239 ms
+stop time: 240557 ms
+speed: 12880.50 B/s
+
+block num: 846
+start time: 240563 ms
+stop time: 240882 ms
+speed: 12840.12 B/s
+
+block num: 847
+start time: 240888 ms
+stop time: 241209 ms
+speed: 12760.12 B/s
+
+block num: 848
+start time: 241215 ms
+stop time: 241533 ms
+speed: 12880.50 B/s
+
+block num: 849
+start time: 241539 ms
+stop time: 241858 ms
+speed: 12840.12 B/s
+
+block num: 850
+start time: 241864 ms
+stop time: 242182 ms
+speed: 12880.50 B/s
+
+block num: 851
+start time: 242188 ms
+stop time: 242506 ms
+speed: 12880.50 B/s
+
+block num: 852
+start time: 242512 ms
+stop time: 242829 ms
+speed: 12921.14 B/s
+
+block num: 853
+start time: 242835 ms
+stop time: 243160 ms
+speed: 12603.08 B/s
+
+block num: 854
+start time: 243166 ms
+stop time: 243484 ms
+speed: 12880.50 B/s
+
+block num: 855
+start time: 243490 ms
+stop time: 243812 ms
+speed: 12720.50 B/s
+
+block num: 856
+start time: 243818 ms
+stop time: 244132 ms
+speed: 13044.59 B/s
+
+block num: 857
+start time: 244138 ms
+stop time: 244457 ms
+speed: 12840.12 B/s
+
+block num: 858
+start time: 244463 ms
+stop time: 244788 ms
+speed: 12603.08 B/s
+
+block num: 859
+start time: 244794 ms
+stop time: 245120 ms
+speed: 12564.42 B/s
+
+block num: 860
+start time: 245126 ms
+stop time: 245452 ms
+speed: 12564.42 B/s
+
+block num: 861
+start time: 245459 ms
+stop time: 246174 ms
+speed: 5728.67 B/s
+
+block num: 862
+start time: 246180 ms
+stop time: 246504 ms
+speed: 12641.98 B/s
+
+block num: 863
+start time: 246510 ms
+stop time: 246839 ms
+speed: 12449.85 B/s
+
+block num: 864
+start time: 246845 ms
+stop time: 247167 ms
+speed: 12720.50 B/s
+
+block num: 865
+start time: 247173 ms
+stop time: 247500 ms
+speed: 12525.99 B/s
+
+block num: 866
+start time: 247506 ms
+stop time: 247828 ms
+speed: 12720.50 B/s
+
+block num: 867
+start time: 247834 ms
+stop time: 248169 ms
+speed: 12226.87 B/s
+
+block num: 868
+start time: 248175 ms
+stop time: 248498 ms
+speed: 12681.11 B/s
+
+block num: 869
+start time: 248504 ms
+stop time: 248835 ms
+speed: 12374.62 B/s
+
+block num: 870
+start time: 248841 ms
+stop time: 249171 ms
+speed: 12412.12 B/s
+
+block num: 871
+start time: 249177 ms
+stop time: 249507 ms
+speed: 12412.12 B/s
+
+block num: 872
+start time: 249513 ms
+stop time: 249835 ms
+speed: 12720.50 B/s
+
+block num: 873
+start time: 249841 ms
+stop time: 250171 ms
+speed: 12412.12 B/s
+
+block num: 874
+start time: 250177 ms
+stop time: 250504 ms
+speed: 12525.99 B/s
+
+block num: 875
+start time: 250510 ms
+stop time: 250839 ms
+speed: 12449.85 B/s
+
+block num: 876
+start time: 250845 ms
+stop time: 251170 ms
+speed: 12603.08 B/s
+
+block num: 877
+start time: 251176 ms
+stop time: 251507 ms
+speed: 12374.62 B/s
+
+block num: 878
+start time: 251513 ms
+stop time: 251843 ms
+speed: 12412.12 B/s
+
+block num: 879
+start time: 251850 ms
+stop time: 252184 ms
+speed: 12263.47 B/s
+
+block num: 880
+start time: 252190 ms
+stop time: 252517 ms
+speed: 12525.99 B/s
+
+block num: 881
+start time: 252524 ms
+stop time: 252857 ms
+speed: 12300.30 B/s
+
+block num: 882
+start time: 252863 ms
+stop time: 253188 ms
+speed: 12603.08 B/s
+
+block num: 883
+start time: 253194 ms
+stop time: 253528 ms
+speed: 12263.47 B/s
+
+block num: 884
+start time: 253534 ms
+stop time: 253863 ms
+speed: 12449.85 B/s
+
+block num: 885
+start time: 253869 ms
+stop time: 254202 ms
+speed: 12300.30 B/s
+
+block num: 886
+start time: 254208 ms
+stop time: 254535 ms
+speed: 12525.99 B/s
+
+block num: 887
+start time: 254541 ms
+stop time: 254872 ms
+speed: 12374.62 B/s
+
+block num: 888
+start time: 254879 ms
+stop time: 255207 ms
+speed: 12487.80 B/s
+
+block num: 889
+start time: 255213 ms
+stop time: 255548 ms
+speed: 12226.87 B/s
+
+block num: 890
+start time: 255554 ms
+stop time: 255882 ms
+speed: 12487.80 B/s
+
+block num: 891
+start time: 255888 ms
+stop time: 256226 ms
+speed: 12118.34 B/s
+
+block num: 892
+start time: 256232 ms
+stop time: 256564 ms
+speed: 12337.35 B/s
+
+block num: 893
+start time: 256570 ms
+stop time: 256904 ms
+speed: 12263.47 B/s
+
+block num: 894
+start time: 256910 ms
+stop time: 257244 ms
+speed: 12263.47 B/s
+
+block num: 895
+start time: 257250 ms
+stop time: 257582 ms
+speed: 12337.35 B/s
+
+block num: 896
+start time: 257588 ms
+stop time: 257918 ms
+speed: 12412.12 B/s
+
+block num: 897
+start time: 257924 ms
+stop time: 258261 ms
+speed: 12154.30 B/s
+
+block num: 898
+start time: 258267 ms
+stop time: 258600 ms
+speed: 12300.30 B/s
+
+block num: 899
+start time: 258607 ms
+stop time: 258944 ms
+speed: 12154.30 B/s
+
+block num: 900
+start time: 258950 ms
+stop time: 259287 ms
+speed: 12154.30 B/s
+
+block num: 901
+start time: 259293 ms
+stop time: 259635 ms
+speed: 11976.61 B/s
+
+block num: 902
+start time: 259641 ms
+stop time: 259978 ms
+speed: 12154.30 B/s
+
+block num: 903
+start time: 259984 ms
+stop time: 260325 ms
+speed: 12011.73 B/s
+
+block num: 904
+start time: 260331 ms
+stop time: 260665 ms
+speed: 12263.47 B/s
+
+block num: 905
+start time: 260672 ms
+stop time: 261009 ms
+speed: 12154.30 B/s
+
+block num: 906
+start time: 261016 ms
+stop time: 261353 ms
+speed: 12154.30 B/s
+
+block num: 907
+start time: 261359 ms
+stop time: 261705 ms
+speed: 11838.15 B/s
+
+block num: 908
+start time: 261711 ms
+stop time: 262049 ms
+speed: 12118.34 B/s
+
+block num: 909
+start time: 262055 ms
+stop time: 262395 ms
+speed: 12047.06 B/s
+
+block num: 910
+start time: 262401 ms
+stop time: 262740 ms
+speed: 12082.60 B/s
+
+block num: 911
+start time: 262746 ms
+stop time: 263084 ms
+speed: 12118.34 B/s
+
+block num: 912
+start time: 263090 ms
+stop time: 263424 ms
+speed: 12263.47 B/s
+
+block num: 913
+start time: 263430 ms
+stop time: 263773 ms
+speed: 11941.69 B/s
+
+block num: 914
+start time: 263780 ms
+stop time: 264116 ms
+speed: 12190.48 B/s
+
+block num: 915
+start time: 264122 ms
+stop time: 264466 ms
+speed: 11906.98 B/s
+
+block num: 916
+start time: 264472 ms
+stop time: 264816 ms
+speed: 11906.98 B/s
+
+block num: 917
+start time: 264822 ms
+stop time: 265170 ms
+speed: 11770.12 B/s
+
+block num: 918
+start time: 265176 ms
+stop time: 265517 ms
+speed: 12011.73 B/s
+
+block num: 919
+start time: 265523 ms
+stop time: 265876 ms
+speed: 11603.40 B/s
+
+block num: 920
+start time: 265882 ms
+stop time: 266229 ms
+speed: 11804.03 B/s
+
+block num: 921
+start time: 266235 ms
+stop time: 266588 ms
+speed: 11603.40 B/s
+
+block num: 922
+start time: 266594 ms
+stop time: 266940 ms
+speed: 11838.15 B/s
+
+block num: 923
+start time: 266946 ms
+stop time: 267295 ms
+speed: 11736.39 B/s
+
+block num: 924
+start time: 267301 ms
+stop time: 267645 ms
+speed: 11906.98 B/s
+
+block num: 925
+start time: 267651 ms
+stop time: 267999 ms
+speed: 11770.12 B/s
+
+block num: 926
+start time: 268005 ms
+stop time: 268351 ms
+speed: 11838.15 B/s
+
+block num: 927
+start time: 268357 ms
+stop time: 268701 ms
+speed: 11906.98 B/s
+
+block num: 928
+start time: 268707 ms
+stop time: 269052 ms
+speed: 11872.46 B/s
+
+block num: 929
+start time: 269058 ms
+stop time: 269406 ms
+speed: 11770.12 B/s
+
+block num: 930
+start time: 269412 ms
+stop time: 269760 ms
+speed: 11770.12 B/s
+
+block num: 931
+start time: 269766 ms
+stop time: 270119 ms
+speed: 11603.40 B/s
+
+block num: 932
+start time: 270125 ms
+stop time: 270480 ms
+speed: 11538.03 B/s
+
+block num: 933
+start time: 270486 ms
+stop time: 270839 ms
+speed: 11603.40 B/s
+
+block num: 934
+start time: 270845 ms
+stop time: 271195 ms
+speed: 11702.86 B/s
+
+block num: 935
+start time: 271201 ms
+stop time: 271558 ms
+speed: 11473.39 B/s
+
+block num: 936
+start time: 271564 ms
+stop time: 271915 ms
+speed: 11669.52 B/s
+
+block num: 937
+start time: 271921 ms
+stop time: 272276 ms
+speed: 11538.03 B/s
+
+block num: 938
+start time: 272282 ms
+stop time: 272631 ms
+speed: 11736.39 B/s
+
+block num: 939
+start time: 272637 ms
+stop time: 272991 ms
+speed: 11570.62 B/s
+
+block num: 940
+start time: 272997 ms
+stop time: 273345 ms
+speed: 11770.12 B/s
+
+block num: 941
+start time: 273351 ms
+stop time: 273708 ms
+speed: 11473.39 B/s
+
+block num: 942
+start time: 273714 ms
+stop time: 274067 ms
+speed: 11603.40 B/s
+
+block num: 943
+start time: 274073 ms
+stop time: 274428 ms
+speed: 11538.03 B/s
+
+block num: 944
+start time: 274434 ms
+stop time: 274786 ms
+speed: 11636.36 B/s
+
+block num: 945
+start time: 274792 ms
+stop time: 275150 ms
+speed: 11441.34 B/s
+
+block num: 946
+start time: 275157 ms
+stop time: 275509 ms
+speed: 11636.36 B/s
+
+block num: 947
+start time: 275515 ms
+stop time: 275873 ms
+speed: 11441.34 B/s
+
+block num: 948
+start time: 275879 ms
+stop time: 276234 ms
+speed: 11538.03 B/s
+
+block num: 949
+start time: 276240 ms
+stop time: 276596 ms
+speed: 11505.62 B/s
+
+block num: 950
+start time: 276602 ms
+stop time: 276955 ms
+speed: 11603.40 B/s
+
+block num: 951
+start time: 276961 ms
+stop time: 277315 ms
+speed: 11570.62 B/s
+
+block num: 952
+start time: 277321 ms
+stop time: 277672 ms
+speed: 11669.52 B/s
+
+block num: 953
+start time: 277679 ms
+stop time: 278037 ms
+speed: 11441.34 B/s
+
+block num: 954
+start time: 278043 ms
+stop time: 278395 ms
+speed: 11636.36 B/s
+
+block num: 955
+start time: 278401 ms
+stop time: 278758 ms
+speed: 11473.39 B/s
+
+block num: 956
+start time: 278765 ms
+stop time: 279119 ms
+speed: 11570.62 B/s
+
+block num: 957
+start time: 279125 ms
+stop time: 279484 ms
+speed: 11409.47 B/s
+
+block num: 958
+start time: 279490 ms
+stop time: 279847 ms
+speed: 11473.39 B/s
+
+block num: 959
+start time: 279853 ms
+stop time: 280209 ms
+speed: 11505.62 B/s
+
+block num: 960
+start time: 280215 ms
+stop time: 280570 ms
+speed: 11538.03 B/s
+
+block num: 961
+start time: 280576 ms
+stop time: 280935 ms
+speed: 11409.47 B/s
+
+block num: 962
+start time: 280941 ms
+stop time: 281302 ms
+speed: 11346.26 B/s
+
+block num: 963
+start time: 281308 ms
+stop time: 281670 ms
+speed: 11314.92 B/s
+
+block num: 964
+start time: 281676 ms
+stop time: 282037 ms
+speed: 11346.26 B/s
+
+block num: 965
+start time: 282043 ms
+stop time: 282408 ms
+speed: 11221.92 B/s
+
+block num: 966
+start time: 282414 ms
+stop time: 282778 ms
+speed: 11252.75 B/s
+
+block num: 967
+start time: 282784 ms
+stop time: 283151 ms
+speed: 11160.76 B/s
+
+block num: 968
+start time: 283157 ms
+stop time: 283514 ms
+speed: 11473.39 B/s
+
+block num: 969
+start time: 283520 ms
+stop time: 283885 ms
+speed: 11221.92 B/s
+
+block num: 970
+start time: 283892 ms
+stop time: 284251 ms
+speed: 11409.47 B/s
+
+block num: 971
+start time: 284257 ms
+stop time: 284623 ms
+speed: 11191.26 B/s
+
+block num: 972
+start time: 284629 ms
+stop time: 284988 ms
+speed: 11409.47 B/s
+
+block num: 973
+start time: 284994 ms
+stop time: 285365 ms
+speed: 11040.43 B/s
+
+block num: 974
+start time: 285371 ms
+stop time: 285734 ms
+speed: 11283.75 B/s
+
+block num: 975
+start time: 285741 ms
+stop time: 286108 ms
+speed: 11160.76 B/s
+
+block num: 976
+start time: 286114 ms
+stop time: 286474 ms
+speed: 11377.78 B/s
+
+block num: 977
+start time: 286480 ms
+stop time: 286854 ms
+speed: 10951.87 B/s
+
+block num: 978
+start time: 286861 ms
+stop time: 287222 ms
+speed: 11346.26 B/s
+
+block num: 979
+start time: 287228 ms
+stop time: 287595 ms
+speed: 11160.76 B/s
+
+block num: 980
+start time: 287601 ms
+stop time: 287964 ms
+speed: 11283.75 B/s
+
+block num: 981
+start time: 287970 ms
+stop time: 288339 ms
+speed: 11100.27 B/s
+
+block num: 982
+start time: 288345 ms
+stop time: 288713 ms
+speed: 11130.43 B/s
+
+block num: 983
+start time: 288719 ms
+stop time: 289966 ms
+speed: 3284.68 B/s
+
+block num: 984
+start time: 289972 ms
+stop time: 290340 ms
+speed: 11130.43 B/s
+
+block num: 985
+start time: 290346 ms
+stop time: 290722 ms
+speed: 10893.62 B/s
+
+block num: 986
+start time: 290728 ms
+stop time: 291099 ms
+speed: 11040.43 B/s
+
+block num: 987
+start time: 291105 ms
+stop time: 291477 ms
+speed: 11010.75 B/s
+
+block num: 988
+start time: 291483 ms
+stop time: 291846 ms
+speed: 11283.75 B/s
+
+block num: 989
+start time: 291852 ms
+stop time: 292221 ms
+speed: 11100.27 B/s
+
+block num: 990
+start time: 292227 ms
+stop time: 292600 ms
+speed: 10981.23 B/s
+
+block num: 991
+start time: 292606 ms
+stop time: 292975 ms
+speed: 11100.27 B/s
+
+block num: 992
+start time: 292981 ms
+stop time: 293349 ms
+speed: 11130.43 B/s
+
+block num: 993
+start time: 293355 ms
+stop time: 293733 ms
+speed: 10835.98 B/s
+
+block num: 994
+start time: 293739 ms
+stop time: 294124 ms
+speed: 10638.96 B/s
+
+block num: 995
+start time: 294130 ms
+stop time: 294508 ms
+speed: 10835.98 B/s
+
+block num: 996
+start time: 294514 ms
+stop time: 294886 ms
+speed: 11010.75 B/s
+
+block num: 997
+start time: 294892 ms
+stop time: 295268 ms
+speed: 10893.62 B/s
+
+block num: 998
+start time: 295274 ms
+stop time: 295651 ms
+speed: 10864.72 B/s
+
+block num: 999
+start time: 295657 ms
+stop time: 296038 ms
+speed: 10750.66 B/s
+
+block num: 1000
+start time: 296044 ms
+stop time: 296417 ms
+speed: 10981.23 B/s
+
+block num: 1001
+start time: 296423 ms
+stop time: 296807 ms
+speed: 10666.67 B/s
+
+block num: 1002
+start time: 296813 ms
+stop time: 297187 ms
+speed: 10951.87 B/s
+
+block num: 1003
+start time: 297193 ms
+stop time: 297572 ms
+speed: 10807.39 B/s
+
+block num: 1004
+start time: 297578 ms
+stop time: 297951 ms
+speed: 10981.23 B/s
+
+block num: 1005
+start time: 297957 ms
+stop time: 298340 ms
+speed: 10694.52 B/s
+
+block num: 1006
+start time: 298346 ms
+stop time: 298726 ms
+speed: 10778.95 B/s
+
+block num: 1007
+start time: 298732 ms
+stop time: 299111 ms
+speed: 10807.39 B/s
+
+block num: 1008
+start time: 299117 ms
+stop time: 299492 ms
+speed: 10922.67 B/s
+
+block num: 1009
+start time: 299499 ms
+stop time: 299884 ms
+speed: 10638.96 B/s
+
+block num: 1010
+start time: 299890 ms
+stop time: 300269 ms
+speed: 10807.39 B/s
+
+block num: 1011
+start time: 300275 ms
+stop time: 300656 ms
+speed: 10750.66 B/s
+
+block num: 1012
+start time: 300662 ms
+stop time: 301042 ms
+speed: 10778.95 B/s
+
+block num: 1013
+start time: 301048 ms
+stop time: 301431 ms
+speed: 10694.52 B/s
+
+block num: 1014
+start time: 301437 ms
+stop time: 301814 ms
+speed: 10864.72 B/s
+
+block num: 1015
+start time: 301820 ms
+stop time: 302201 ms
+speed: 10750.66 B/s
+
+block num: 1016
+start time: 302207 ms
+stop time: 302583 ms
+speed: 10893.62 B/s
+
+block num: 1017
+start time: 302590 ms
+stop time: 302978 ms
+speed: 10556.70 B/s
+
+block num: 1018
+start time: 302984 ms
+stop time: 303364 ms
+speed: 10778.95 B/s
+
+block num: 1019
+start time: 303370 ms
+stop time: 303751 ms
+speed: 10750.66 B/s
+
+block num: 1020
+start time: 303757 ms
+stop time: 304143 ms
+speed: 10611.40 B/s
+
+block num: 1021
+start time: 304149 ms
+stop time: 304539 ms
+speed: 10502.56 B/s
+
+block num: 1022
+start time: 304545 ms
+stop time: 304932 ms
+speed: 10583.98 B/s
+
+block num: 1023
+start time: 304938 ms
+stop time: 305321 ms
+speed: 10694.52 B/s
+
+** WARN: _fs_delete error at file  [-39]
+Uninitializing HB Storage...
