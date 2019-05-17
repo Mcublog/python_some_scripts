@@ -4,37 +4,35 @@ import os, sys
 
 import speed_test_parse as stp
 
-# block_number = 'test_data'
-block_number = '4096'
-# block_number = '2048'
-# block_number = '1024'
-# block_number = '512'
+# block_size = 'test_data'
+# block_size = '4096'
+block_size = '2048'
+# block_size = '1024'
+# block_size = '512'
+# block_size = '256'
+# block_size = '120'
 
-f = open(os.getcwd() + '\\test\\' + block_number +'.txt', 'r')
+f = open(os.getcwd() + '\\test\\' + block_size +'.txt', 'r')
 data = f.read()
 f.close()
 
-numbers = stp.get_param(data, 'block num')
-speeds = stp.get_param(data, 'speed')
+time_start = stp.get_param(data, 'start time')
+time_stop = stp.get_param(data, 'stop time')
 
-#print(speeds)
-#print(numbers)
+speeds = []
+for sst, ssp in zip(time_start, time_stop):
+    speeds.append(float(block_size) * 1000 / (float(ssp) - float(sst)))
 
 # Create plots
 fig, ax = plt.subplots()
+fig.canvas.set_window_title(block_size)
 plt.xlabel("Block number", fontsize = 12)
-# Generate a list from 0 to report number
+# Generate a list from 0 to speeds len
+xdata = range(len(speeds))
 plt.title('LittleFS write speed test (4MB filesize)', fontsize = 14)
-plt.ylabel('Bytes\s', fontsize = 12)
-
-ydata = []
-xdata = []
-
-for speed, num in zip(speeds, numbers):
-    ydata.append(float(speed))
-    xdata.append(int(num))
-    
-ax.plot(xdata, ydata, 'b-', label= block_number + ' byte block')
+plt.ylabel('Bytes\\s', fontsize = 12)
+  
+ax.plot(xdata, speeds, 'b-', label = block_size + ' byte block')
 
 # Create x_tick, grid and legend
 plt.xticks(xdata, rotation = 90)
@@ -51,7 +49,3 @@ mng = plt.get_current_fig_manager()
 mng.window.state('zoomed')
 
 plt.show()
-
-
-
-

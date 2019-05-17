@@ -1,14 +1,17 @@
 import matplotlib.pyplot as plt
-import math, os, numpy
+import math, os
+import numpy as np
 import sys, shutil
 import re
 
 def get_param(data, param):
 
     exp = r''
-    if ('speed' in param):
+    if ('speed' == param):
         exp = r'[^Tt]+' + param + ': ' + '(\d+.\d+)'
-    elif ('block num' in param):
+    elif ('block num' == param):
+        exp = r'[^Tt]+' + param + ': ' + '(\d+)'
+    else:
         exp = r'[^Tt]+' + param + ': ' + '(\d+)'
         
     params = re.findall(exp, data)
@@ -20,9 +23,22 @@ def get_param(data, param):
 def main():
     f = open(os.getcwd() + '\\test\\test_data.txt', 'r')
     data = f.read()
-    p = get_param(data, 'block num')
-    print(p)
     f.close()
+    
+    start_times = get_param(data, 'start time')
+    stop_times = get_param(data, 'stop time')
+    
+    start = []
+    stop = []
+    for stt, stp in zip(start_times, stop_times):
+        start.append(int(stt))
+        stop.append(int(stp))
+        
+    print(start)
+    print(stop)
+        
+    print(np.subtract(stop,start))
+    
 
 if __name__ == '__main__':
     main()
