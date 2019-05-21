@@ -1,38 +1,4315 @@
-﻿Creating file: firmware.txt...   -   [OK]
+﻿-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+
+-- Healbe Board 4L --
+-- Compiled: May 20 2019 11:43:13 --
+
+Initializing the board for Functional FW...
+-------------------------------------------------
+Board XTAL = 12000000
+Board MCK  = 12000000
+ADC clock  = 1000000
+Sys clock  = 12000000
+-------------------------------------------------
+UART baud rate = 250000
+
+Trying to SET security bit... ...setting FAILED!
+
+INIT TEST
+
+INIT: TWI_CHANNEL_0 init OK!
+
+INIT: I2C accelerometer init OK!
+Current Chem ID already set: 0x1202
+Current Design Capacity already set: 350 mAh
+Current Design Energy already set: 1295 mW
+Current Termination Voltage already set: 3000 mV
+Current Sleep Current already set: 2 mA
+Current Load Mode already set: 0x83
+BQ27426 init OK!
+-I- Initialize SPI as master
+AFE44XX init... done
+
+START TEST
+Initializing HB Storage...
+Mounting disk volume...File system is LITTLE_FS
+[OK]
+
+Creating file: firmware.txt...   -   [OK]
 , size = 0 bytes
 Opening file: firmware.txt...   -   [OK]
+File size: 4194304
+Block size: 4096
 Total block num: 1024
 block num: 0
-start time: 197 ms
-stop time: 359 ms
-speed: 25283.95 B/s
+start time: 68583 ms
+stop time: 68586 ms
 
 block num: 1
-start time: 365 ms
-stop time: 568 ms
-speed: 20177.34 B/s
+start time: 68987 ms
+stop time: 68990 ms
 
 block num: 2
-start time: 574 ms
-stop time: 770 ms
-speed: 20897.96 B/s
+start time: 69391 ms
+stop time: 69394 ms
 
 block num: 3
-start time: 775 ms
-stop time: 983 ms
-speed: 19692.31 B/s
+start time: 69795 ms
+stop time: 69798 ms
 
 block num: 4
-start time: 988 ms
-stop time: 1183 ms
-speed: 21005.13 B/s
+start time: 70198 ms
+stop time: 70201 ms
 
 block num: 5
-start time: 1189 ms
-stop time: 1396 ms
-speed: 19787.44 B/s
+start time: 70602 ms
+stop time: 70605 ms
 
 block num: 6
-start time: 1189 ms
-stop time: 1396 ms
-speed: 20000 B/s
+start time: 71005 ms
+stop time: 71008 ms
+
+block num: 7
+start time: 71408 ms
+stop time: 71411 ms
+
+block num: 8
+start time: 71811 ms
+stop time: 71814 ms
+
+block num: 9
+start time: 72212 ms
+stop time: 72215 ms
+
+block num: 10
+start time: 72629 ms
+stop time: 72632 ms
+
+block num: 11
+start time: 73045 ms
+stop time: 73048 ms
+
+block num: 12
+start time: 73461 ms
+stop time: 73464 ms
+
+block num: 13
+start time: 73877 ms
+stop time: 73880 ms
+
+block num: 14
+start time: 74293 ms
+stop time: 74296 ms
+
+block num: 15
+start time: 74711 ms
+stop time: 74714 ms
+
+block num: 16
+start time: 75127 ms
+stop time: 75130 ms
+
+block num: 17
+start time: 75543 ms
+stop time: 75546 ms
+
+block num: 18
+start time: 75959 ms
+stop time: 75962 ms
+
+block num: 19
+start time: 76375 ms
+stop time: 76378 ms
+
+block num: 20
+start time: 76791 ms
+stop time: 76794 ms
+
+block num: 21
+start time: 77210 ms
+stop time: 77213 ms
+
+block num: 22
+start time: 77626 ms
+stop time: 77629 ms
+
+block num: 23
+start time: 78042 ms
+stop time: 78045 ms
+
+block num: 24
+start time: 78458 ms
+stop time: 78461 ms
+
+block num: 25
+start time: 78874 ms
+stop time: 78877 ms
+
+block num: 26
+start time: 79290 ms
+stop time: 79293 ms
+
+block num: 27
+start time: 79708 ms
+stop time: 79711 ms
+
+block num: 28
+start time: 80124 ms
+stop time: 80127 ms
+
+block num: 29
+start time: 80540 ms
+stop time: 80543 ms
+
+block num: 30
+start time: 80956 ms
+stop time: 80959 ms
+
+block num: 31
+start time: 81372 ms
+stop time: 81375 ms
+
+block num: 32
+start time: 81788 ms
+stop time: 81791 ms
+
+block num: 33
+start time: 82207 ms
+stop time: 82210 ms
+
+block num: 34
+start time: 82623 ms
+stop time: 82626 ms
+
+block num: 35
+start time: 83039 ms
+stop time: 83042 ms
+
+block num: 36
+start time: 83455 ms
+stop time: 83458 ms
+
+block num: 37
+start time: 83871 ms
+stop time: 83874 ms
+
+block num: 38
+start time: 84287 ms
+stop time: 84290 ms
+
+block num: 39
+start time: 84706 ms
+stop time: 84709 ms
+
+block num: 40
+start time: 85123 ms
+stop time: 85126 ms
+
+block num: 41
+start time: 85539 ms
+stop time: 85542 ms
+
+block num: 42
+start time: 85955 ms
+stop time: 85958 ms
+
+block num: 43
+start time: 86371 ms
+stop time: 86374 ms
+
+block num: 44
+start time: 86787 ms
+stop time: 86790 ms
+
+block num: 45
+start time: 87206 ms
+stop time: 87209 ms
+
+block num: 46
+start time: 87623 ms
+stop time: 87626 ms
+
+block num: 47
+start time: 88039 ms
+stop time: 88042 ms
+
+block num: 48
+start time: 88455 ms
+stop time: 88458 ms
+
+block num: 49
+start time: 88871 ms
+stop time: 88874 ms
+
+block num: 50
+start time: 89287 ms
+stop time: 89290 ms
+
+block num: 51
+start time: 89706 ms
+stop time: 89709 ms
+
+block num: 52
+start time: 90123 ms
+stop time: 90126 ms
+
+block num: 53
+start time: 90539 ms
+stop time: 90542 ms
+
+block num: 54
+start time: 90955 ms
+stop time: 90958 ms
+
+block num: 55
+start time: 91371 ms
+stop time: 91374 ms
+
+block num: 56
+start time: 91787 ms
+stop time: 91790 ms
+
+block num: 57
+start time: 92206 ms
+stop time: 92209 ms
+
+block num: 58
+start time: 92623 ms
+stop time: 92626 ms
+
+block num: 59
+start time: 93039 ms
+stop time: 93042 ms
+
+block num: 60
+start time: 93455 ms
+stop time: 93458 ms
+
+block num: 61
+start time: 93871 ms
+stop time: 93874 ms
+
+block num: 62
+start time: 94287 ms
+stop time: 94290 ms
+
+block num: 63
+start time: 94706 ms
+stop time: 94709 ms
+
+block num: 64
+start time: 95123 ms
+stop time: 95126 ms
+
+block num: 65
+start time: 95539 ms
+stop time: 95542 ms
+
+block num: 66
+start time: 95955 ms
+stop time: 95958 ms
+
+block num: 67
+start time: 96371 ms
+stop time: 96374 ms
+
+block num: 68
+start time: 96787 ms
+stop time: 96790 ms
+
+block num: 69
+start time: 97206 ms
+stop time: 97209 ms
+
+block num: 70
+start time: 97623 ms
+stop time: 97626 ms
+
+block num: 71
+start time: 98039 ms
+stop time: 98042 ms
+
+block num: 72
+start time: 98455 ms
+stop time: 98458 ms
+
+block num: 73
+start time: 98871 ms
+stop time: 98874 ms
+
+block num: 74
+start time: 99287 ms
+stop time: 99290 ms
+
+block num: 75
+start time: 99706 ms
+stop time: 99709 ms
+
+block num: 76
+start time: 100123 ms
+stop time: 100126 ms
+
+block num: 77
+start time: 100557 ms
+stop time: 100560 ms
+
+block num: 78
+start time: 100991 ms
+stop time: 100994 ms
+
+block num: 79
+start time: 101427 ms
+stop time: 101430 ms
+
+block num: 80
+start time: 101861 ms
+stop time: 101864 ms
+
+block num: 81
+start time: 102295 ms
+stop time: 102298 ms
+
+block num: 82
+start time: 102731 ms
+stop time: 102734 ms
+
+block num: 83
+start time: 103165 ms
+stop time: 103168 ms
+
+block num: 84
+start time: 103599 ms
+stop time: 103603 ms
+
+block num: 85
+start time: 104035 ms
+stop time: 104038 ms
+
+block num: 86
+start time: 104469 ms
+stop time: 104472 ms
+
+block num: 87
+start time: 104905 ms
+stop time: 104908 ms
+
+block num: 88
+start time: 105339 ms
+stop time: 105342 ms
+
+block num: 89
+start time: 105774 ms
+stop time: 105777 ms
+
+block num: 90
+start time: 106210 ms
+stop time: 106213 ms
+
+block num: 91
+start time: 106644 ms
+stop time: 106647 ms
+
+block num: 92
+start time: 107077 ms
+stop time: 107080 ms
+
+block num: 93
+start time: 107513 ms
+stop time: 107516 ms
+
+block num: 94
+start time: 107947 ms
+stop time: 107950 ms
+
+block num: 95
+start time: 108380 ms
+stop time: 108383 ms
+
+block num: 96
+start time: 108815 ms
+stop time: 108818 ms
+
+block num: 97
+start time: 109249 ms
+stop time: 109252 ms
+
+block num: 98
+start time: 109682 ms
+stop time: 109685 ms
+
+block num: 99
+start time: 110119 ms
+stop time: 110122 ms
+
+block num: 100
+start time: 110563 ms
+stop time: 110566 ms
+
+block num: 101
+start time: 111007 ms
+stop time: 111010 ms
+
+block num: 102
+start time: 111450 ms
+stop time: 111453 ms
+
+block num: 103
+start time: 111893 ms
+stop time: 111896 ms
+
+block num: 104
+start time: 112336 ms
+stop time: 112339 ms
+
+block num: 105
+start time: 112781 ms
+stop time: 112784 ms
+
+block num: 106
+start time: 113226 ms
+stop time: 113229 ms
+
+block num: 107
+start time: 113670 ms
+stop time: 113673 ms
+
+block num: 108
+start time: 114115 ms
+stop time: 114118 ms
+
+block num: 109
+start time: 114558 ms
+stop time: 114561 ms
+
+block num: 110
+start time: 115002 ms
+stop time: 115005 ms
+
+block num: 111
+start time: 115446 ms
+stop time: 115449 ms
+
+block num: 112
+start time: 115889 ms
+stop time: 115892 ms
+
+block num: 113
+start time: 116333 ms
+stop time: 116336 ms
+
+block num: 114
+start time: 116777 ms
+stop time: 116780 ms
+
+block num: 115
+start time: 117222 ms
+stop time: 117225 ms
+
+block num: 116
+start time: 117665 ms
+stop time: 117668 ms
+
+block num: 117
+start time: 118109 ms
+stop time: 118112 ms
+
+block num: 118
+start time: 118552 ms
+stop time: 118555 ms
+
+block num: 119
+start time: 118995 ms
+stop time: 118998 ms
+
+block num: 120
+start time: 119439 ms
+stop time: 119442 ms
+
+block num: 121
+start time: 119884 ms
+stop time: 119887 ms
+
+block num: 122
+start time: 120328 ms
+stop time: 120331 ms
+
+block num: 123
+start time: 120773 ms
+stop time: 120776 ms
+
+block num: 124
+start time: 121218 ms
+stop time: 121221 ms
+
+block num: 125
+start time: 121661 ms
+stop time: 121664 ms
+
+block num: 126
+start time: 122104 ms
+stop time: 122107 ms
+
+block num: 127
+start time: 122548 ms
+stop time: 122551 ms
+
+block num: 128
+start time: 122991 ms
+stop time: 122994 ms
+
+block num: 129
+start time: 123435 ms
+stop time: 123438 ms
+
+block num: 130
+start time: 123879 ms
+stop time: 123882 ms
+
+block num: 131
+start time: 124324 ms
+stop time: 124327 ms
+
+block num: 132
+start time: 124768 ms
+stop time: 124771 ms
+
+block num: 133
+start time: 125212 ms
+stop time: 125215 ms
+
+block num: 134
+start time: 125655 ms
+stop time: 125658 ms
+
+block num: 135
+start time: 126099 ms
+stop time: 126102 ms
+
+block num: 136
+start time: 126543 ms
+stop time: 126546 ms
+
+block num: 137
+start time: 126986 ms
+stop time: 126989 ms
+
+block num: 138
+start time: 127431 ms
+stop time: 127434 ms
+
+block num: 139
+start time: 127875 ms
+stop time: 127878 ms
+
+block num: 140
+start time: 128320 ms
+stop time: 128323 ms
+
+block num: 141
+start time: 128764 ms
+stop time: 128767 ms
+
+block num: 142
+start time: 129208 ms
+stop time: 129211 ms
+
+block num: 143
+start time: 129651 ms
+stop time: 129654 ms
+
+block num: 144
+start time: 130094 ms
+stop time: 130097 ms
+
+block num: 145
+start time: 130538 ms
+stop time: 130541 ms
+
+block num: 146
+start time: 130982 ms
+stop time: 130985 ms
+
+block num: 147
+start time: 131427 ms
+stop time: 131430 ms
+
+block num: 148
+start time: 131871 ms
+stop time: 131874 ms
+
+block num: 149
+start time: 132316 ms
+stop time: 132319 ms
+
+block num: 150
+start time: 132759 ms
+stop time: 132762 ms
+
+block num: 151
+start time: 133203 ms
+stop time: 133206 ms
+
+block num: 152
+start time: 133647 ms
+stop time: 133650 ms
+
+block num: 153
+start time: 134090 ms
+stop time: 134093 ms
+
+block num: 154
+start time: 134534 ms
+stop time: 134537 ms
+
+block num: 155
+start time: 134978 ms
+stop time: 134981 ms
+
+block num: 156
+start time: 135423 ms
+stop time: 135426 ms
+
+block num: 157
+start time: 135867 ms
+stop time: 135870 ms
+
+block num: 158
+start time: 136311 ms
+stop time: 136314 ms
+
+block num: 159
+start time: 136754 ms
+stop time: 136757 ms
+
+block num: 160
+start time: 137198 ms
+stop time: 137201 ms
+
+block num: 161
+start time: 137642 ms
+stop time: 137645 ms
+
+block num: 162
+start time: 138086 ms
+stop time: 138089 ms
+
+block num: 163
+start time: 138531 ms
+stop time: 138534 ms
+
+block num: 164
+start time: 138975 ms
+stop time: 138978 ms
+
+block num: 165
+start time: 139420 ms
+stop time: 139423 ms
+
+block num: 166
+start time: 139864 ms
+stop time: 139867 ms
+
+block num: 167
+start time: 140308 ms
+stop time: 140311 ms
+
+block num: 168
+start time: 140751 ms
+stop time: 140754 ms
+
+block num: 169
+start time: 141194 ms
+stop time: 141197 ms
+
+block num: 170
+start time: 141638 ms
+stop time: 141641 ms
+
+block num: 171
+start time: 142082 ms
+stop time: 142085 ms
+
+block num: 172
+start time: 142527 ms
+stop time: 142530 ms
+
+block num: 173
+start time: 142971 ms
+stop time: 142974 ms
+
+block num: 174
+start time: 143416 ms
+stop time: 143419 ms
+
+block num: 175
+start time: 143859 ms
+stop time: 143862 ms
+
+block num: 176
+start time: 144303 ms
+stop time: 144306 ms
+
+block num: 177
+start time: 144747 ms
+stop time: 144750 ms
+
+block num: 178
+start time: 145190 ms
+stop time: 145193 ms
+
+block num: 179
+start time: 145634 ms
+stop time: 145637 ms
+
+block num: 180
+start time: 146078 ms
+stop time: 146081 ms
+
+block num: 181
+start time: 146523 ms
+stop time: 146526 ms
+
+block num: 182
+start time: 146967 ms
+stop time: 146970 ms
+
+block num: 183
+start time: 147411 ms
+stop time: 147414 ms
+
+block num: 184
+start time: 147854 ms
+stop time: 147857 ms
+
+block num: 185
+start time: 148298 ms
+stop time: 148301 ms
+
+block num: 186
+start time: 148742 ms
+stop time: 148745 ms
+
+block num: 187
+start time: 149186 ms
+stop time: 149189 ms
+
+block num: 188
+start time: 149631 ms
+stop time: 149634 ms
+
+block num: 189
+start time: 150075 ms
+stop time: 150078 ms
+
+block num: 190
+start time: 150520 ms
+stop time: 150523 ms
+
+block num: 191
+start time: 150964 ms
+stop time: 150967 ms
+
+block num: 192
+start time: 151408 ms
+stop time: 151411 ms
+
+block num: 193
+start time: 151851 ms
+stop time: 151854 ms
+
+block num: 194
+start time: 152294 ms
+stop time: 152297 ms
+
+block num: 195
+start time: 152738 ms
+stop time: 152741 ms
+
+block num: 196
+start time: 153182 ms
+stop time: 153185 ms
+
+block num: 197
+start time: 153627 ms
+stop time: 153630 ms
+
+block num: 198
+start time: 154071 ms
+stop time: 154074 ms
+
+block num: 199
+start time: 154516 ms
+stop time: 154519 ms
+
+block num: 200
+start time: 154959 ms
+stop time: 154962 ms
+
+block num: 201
+start time: 155403 ms
+stop time: 155406 ms
+
+block num: 202
+start time: 155847 ms
+stop time: 155850 ms
+
+block num: 203
+start time: 156290 ms
+stop time: 156293 ms
+
+block num: 204
+start time: 156734 ms
+stop time: 156737 ms
+
+block num: 205
+start time: 157178 ms
+stop time: 157181 ms
+
+block num: 206
+start time: 157623 ms
+stop time: 157626 ms
+
+block num: 207
+start time: 158067 ms
+stop time: 158070 ms
+
+block num: 208
+start time: 158511 ms
+stop time: 158514 ms
+
+block num: 209
+start time: 158954 ms
+stop time: 158957 ms
+
+block num: 210
+start time: 159398 ms
+stop time: 159401 ms
+
+block num: 211
+start time: 159842 ms
+stop time: 159845 ms
+
+block num: 212
+start time: 160286 ms
+stop time: 160289 ms
+
+block num: 213
+start time: 160732 ms
+stop time: 160735 ms
+
+block num: 214
+start time: 161177 ms
+stop time: 161180 ms
+
+block num: 215
+start time: 161623 ms
+stop time: 161626 ms
+
+block num: 216
+start time: 162067 ms
+stop time: 162070 ms
+
+block num: 217
+start time: 162512 ms
+stop time: 162515 ms
+
+block num: 218
+start time: 162955 ms
+stop time: 162958 ms
+
+block num: 219
+start time: 163400 ms
+stop time: 163403 ms
+
+block num: 220
+start time: 163844 ms
+stop time: 163847 ms
+
+block num: 221
+start time: 164288 ms
+stop time: 164291 ms
+
+block num: 222
+start time: 164733 ms
+stop time: 164736 ms
+
+block num: 223
+start time: 165178 ms
+stop time: 165181 ms
+
+block num: 224
+start time: 165624 ms
+stop time: 165627 ms
+
+block num: 225
+start time: 166068 ms
+stop time: 166071 ms
+
+block num: 226
+start time: 166514 ms
+stop time: 166517 ms
+
+block num: 227
+start time: 166957 ms
+stop time: 166960 ms
+
+block num: 228
+start time: 167402 ms
+stop time: 167405 ms
+
+block num: 229
+start time: 167846 ms
+stop time: 167849 ms
+
+block num: 230
+start time: 168291 ms
+stop time: 168294 ms
+
+block num: 231
+start time: 168736 ms
+stop time: 168739 ms
+
+block num: 232
+start time: 169181 ms
+stop time: 169184 ms
+
+block num: 233
+start time: 169627 ms
+stop time: 169630 ms
+
+block num: 234
+start time: 170072 ms
+stop time: 170075 ms
+
+block num: 235
+start time: 170518 ms
+stop time: 170521 ms
+
+block num: 236
+start time: 170961 ms
+stop time: 170964 ms
+
+block num: 237
+start time: 171406 ms
+stop time: 171409 ms
+
+block num: 238
+start time: 171849 ms
+stop time: 171852 ms
+
+block num: 239
+start time: 172294 ms
+stop time: 172297 ms
+
+block num: 240
+start time: 172739 ms
+stop time: 172742 ms
+
+block num: 241
+start time: 173184 ms
+stop time: 173187 ms
+
+block num: 242
+start time: 173630 ms
+stop time: 173633 ms
+
+block num: 243
+start time: 174075 ms
+stop time: 174078 ms
+
+block num: 244
+start time: 174520 ms
+stop time: 174523 ms
+
+block num: 245
+start time: 174964 ms
+stop time: 174967 ms
+
+block num: 246
+start time: 175409 ms
+stop time: 175412 ms
+
+block num: 247
+start time: 175852 ms
+stop time: 175855 ms
+
+block num: 248
+start time: 176296 ms
+stop time: 176299 ms
+
+block num: 249
+start time: 176740 ms
+stop time: 176743 ms
+
+block num: 250
+start time: 177185 ms
+stop time: 177188 ms
+
+block num: 251
+start time: 177631 ms
+stop time: 177634 ms
+
+block num: 252
+start time: 178076 ms
+stop time: 178079 ms
+
+block num: 253
+start time: 178522 ms
+stop time: 178525 ms
+
+block num: 254
+start time: 178965 ms
+stop time: 178968 ms
+
+block num: 255
+start time: 179410 ms
+stop time: 179413 ms
+
+block num: 256
+start time: 179852 ms
+stop time: 179855 ms
+
+block num: 257
+start time: 180297 ms
+stop time: 180300 ms
+
+block num: 258
+start time: 180741 ms
+stop time: 180744 ms
+
+block num: 259
+start time: 181186 ms
+stop time: 181189 ms
+
+block num: 260
+start time: 181632 ms
+stop time: 181635 ms
+
+block num: 261
+start time: 182077 ms
+stop time: 182080 ms
+
+block num: 262
+start time: 182523 ms
+stop time: 182526 ms
+
+block num: 263
+start time: 182967 ms
+stop time: 182970 ms
+
+block num: 264
+start time: 183412 ms
+stop time: 183415 ms
+
+block num: 265
+start time: 183855 ms
+stop time: 183858 ms
+
+block num: 266
+start time: 184300 ms
+stop time: 184303 ms
+
+block num: 267
+start time: 184744 ms
+stop time: 184747 ms
+
+block num: 268
+start time: 185188 ms
+stop time: 185191 ms
+
+block num: 269
+start time: 185633 ms
+stop time: 185636 ms
+
+block num: 270
+start time: 186078 ms
+stop time: 186081 ms
+
+block num: 271
+start time: 186524 ms
+stop time: 186527 ms
+
+block num: 272
+start time: 186968 ms
+stop time: 186971 ms
+
+block num: 273
+start time: 187414 ms
+stop time: 187417 ms
+
+block num: 274
+start time: 187857 ms
+stop time: 187860 ms
+
+block num: 275
+start time: 188302 ms
+stop time: 188305 ms
+
+block num: 276
+start time: 188746 ms
+stop time: 188749 ms
+
+block num: 277
+start time: 189191 ms
+stop time: 189194 ms
+
+block num: 278
+start time: 189636 ms
+stop time: 189639 ms
+
+block num: 279
+start time: 190081 ms
+stop time: 190084 ms
+
+block num: 280
+start time: 190527 ms
+stop time: 190530 ms
+
+block num: 281
+start time: 190972 ms
+stop time: 190975 ms
+
+block num: 282
+start time: 191418 ms
+stop time: 191421 ms
+
+block num: 283
+start time: 191861 ms
+stop time: 191864 ms
+
+block num: 284
+start time: 192306 ms
+stop time: 192309 ms
+
+block num: 285
+start time: 192749 ms
+stop time: 192752 ms
+
+block num: 286
+start time: 193194 ms
+stop time: 193197 ms
+
+block num: 287
+start time: 193639 ms
+stop time: 193642 ms
+
+block num: 288
+start time: 194084 ms
+stop time: 194087 ms
+
+block num: 289
+start time: 194530 ms
+stop time: 194533 ms
+
+block num: 290
+start time: 194975 ms
+stop time: 194978 ms
+
+block num: 291
+start time: 195420 ms
+stop time: 195423 ms
+
+block num: 292
+start time: 195864 ms
+stop time: 195867 ms
+
+block num: 293
+start time: 196309 ms
+stop time: 196312 ms
+
+block num: 294
+start time: 196752 ms
+stop time: 196755 ms
+
+block num: 295
+start time: 197196 ms
+stop time: 197199 ms
+
+block num: 296
+start time: 197640 ms
+stop time: 197643 ms
+
+block num: 297
+start time: 198085 ms
+stop time: 198088 ms
+
+block num: 298
+start time: 198531 ms
+stop time: 198534 ms
+
+block num: 299
+start time: 198976 ms
+stop time: 198979 ms
+
+block num: 300
+start time: 199422 ms
+stop time: 199425 ms
+
+block num: 301
+start time: 199865 ms
+stop time: 199868 ms
+
+block num: 302
+start time: 200310 ms
+stop time: 200313 ms
+
+block num: 303
+start time: 200752 ms
+stop time: 200755 ms
+
+block num: 304
+start time: 201197 ms
+stop time: 201200 ms
+
+block num: 305
+start time: 201641 ms
+stop time: 201644 ms
+
+block num: 306
+start time: 202086 ms
+stop time: 202089 ms
+
+block num: 307
+start time: 202532 ms
+stop time: 202535 ms
+
+block num: 308
+start time: 202977 ms
+stop time: 202980 ms
+
+block num: 309
+start time: 203423 ms
+stop time: 203426 ms
+
+block num: 310
+start time: 203867 ms
+stop time: 203870 ms
+
+block num: 311
+start time: 204312 ms
+stop time: 204315 ms
+
+block num: 312
+start time: 204755 ms
+stop time: 204758 ms
+
+block num: 313
+start time: 205200 ms
+stop time: 205203 ms
+
+block num: 314
+start time: 205644 ms
+stop time: 205647 ms
+
+block num: 315
+start time: 206089 ms
+stop time: 206092 ms
+
+block num: 316
+start time: 206534 ms
+stop time: 206537 ms
+
+block num: 317
+start time: 206979 ms
+stop time: 206982 ms
+
+block num: 318
+start time: 207425 ms
+stop time: 207428 ms
+
+block num: 319
+start time: 207869 ms
+stop time: 207872 ms
+
+block num: 320
+start time: 208315 ms
+stop time: 208318 ms
+
+block num: 321
+start time: 208758 ms
+stop time: 208761 ms
+
+block num: 322
+start time: 209202 ms
+stop time: 209205 ms
+
+block num: 323
+start time: 209647 ms
+stop time: 209650 ms
+
+block num: 324
+start time: 210092 ms
+stop time: 210095 ms
+
+block num: 325
+start time: 210536 ms
+stop time: 210539 ms
+
+block num: 326
+start time: 210981 ms
+stop time: 210984 ms
+
+block num: 327
+start time: 211427 ms
+stop time: 211430 ms
+
+block num: 328
+start time: 211872 ms
+stop time: 211875 ms
+
+block num: 329
+start time: 212318 ms
+stop time: 212321 ms
+
+block num: 330
+start time: 212761 ms
+stop time: 212764 ms
+
+block num: 331
+start time: 213206 ms
+stop time: 213209 ms
+
+block num: 332
+start time: 213650 ms
+stop time: 213653 ms
+
+block num: 333
+start time: 214094 ms
+stop time: 214097 ms
+
+block num: 334
+start time: 214539 ms
+stop time: 214542 ms
+
+block num: 335
+start time: 214984 ms
+stop time: 214987 ms
+
+block num: 336
+start time: 215430 ms
+stop time: 215433 ms
+
+block num: 337
+start time: 215875 ms
+stop time: 215878 ms
+
+block num: 338
+start time: 216320 ms
+stop time: 216323 ms
+
+block num: 339
+start time: 216764 ms
+stop time: 216767 ms
+
+block num: 340
+start time: 217209 ms
+stop time: 217212 ms
+
+block num: 341
+start time: 217652 ms
+stop time: 217655 ms
+
+block num: 342
+start time: 218096 ms
+stop time: 218099 ms
+
+block num: 343
+start time: 218541 ms
+stop time: 218544 ms
+
+block num: 344
+start time: 218986 ms
+stop time: 218989 ms
+
+block num: 345
+start time: 219432 ms
+stop time: 219435 ms
+
+block num: 346
+start time: 219877 ms
+stop time: 219880 ms
+
+block num: 347
+start time: 220323 ms
+stop time: 220326 ms
+
+block num: 348
+start time: 220767 ms
+stop time: 220770 ms
+
+block num: 349
+start time: 221212 ms
+stop time: 221215 ms
+
+block num: 350
+start time: 221656 ms
+stop time: 221659 ms
+
+block num: 351
+start time: 222101 ms
+stop time: 222104 ms
+
+block num: 352
+start time: 222546 ms
+stop time: 222549 ms
+
+block num: 353
+start time: 222991 ms
+stop time: 222994 ms
+
+block num: 354
+start time: 223436 ms
+stop time: 223439 ms
+
+block num: 355
+start time: 223881 ms
+stop time: 223884 ms
+
+block num: 356
+start time: 224327 ms
+stop time: 224330 ms
+
+block num: 357
+start time: 224772 ms
+stop time: 224775 ms
+
+block num: 358
+start time: 225218 ms
+stop time: 225221 ms
+
+block num: 359
+start time: 225661 ms
+stop time: 225664 ms
+
+block num: 360
+start time: 226106 ms
+stop time: 226109 ms
+
+block num: 361
+start time: 226550 ms
+stop time: 226553 ms
+
+block num: 362
+start time: 226994 ms
+stop time: 226997 ms
+
+block num: 363
+start time: 227439 ms
+stop time: 227442 ms
+
+block num: 364
+start time: 227884 ms
+stop time: 227887 ms
+
+block num: 365
+start time: 228330 ms
+stop time: 228333 ms
+
+block num: 366
+start time: 228775 ms
+stop time: 228778 ms
+
+block num: 367
+start time: 229220 ms
+stop time: 229223 ms
+
+block num: 368
+start time: 229664 ms
+stop time: 229667 ms
+
+block num: 369
+start time: 230109 ms
+stop time: 230112 ms
+
+block num: 370
+start time: 230552 ms
+stop time: 230555 ms
+
+block num: 371
+start time: 230996 ms
+stop time: 230999 ms
+
+block num: 372
+start time: 231441 ms
+stop time: 231444 ms
+
+block num: 373
+start time: 231886 ms
+stop time: 231889 ms
+
+block num: 374
+start time: 232332 ms
+stop time: 232335 ms
+
+block num: 375
+start time: 232777 ms
+stop time: 232780 ms
+
+block num: 376
+start time: 233223 ms
+stop time: 233226 ms
+
+block num: 377
+start time: 233667 ms
+stop time: 233670 ms
+
+block num: 378
+start time: 234112 ms
+stop time: 234115 ms
+
+block num: 379
+start time: 234556 ms
+stop time: 234559 ms
+
+block num: 380
+start time: 235001 ms
+stop time: 235004 ms
+
+block num: 381
+start time: 235446 ms
+stop time: 235449 ms
+
+block num: 382
+start time: 235891 ms
+stop time: 235894 ms
+
+block num: 383
+start time: 236336 ms
+stop time: 236339 ms
+
+block num: 384
+start time: 236781 ms
+stop time: 236784 ms
+
+block num: 385
+start time: 237227 ms
+stop time: 237230 ms
+
+block num: 386
+start time: 237672 ms
+stop time: 237675 ms
+
+block num: 387
+start time: 238118 ms
+stop time: 238121 ms
+
+block num: 388
+start time: 238561 ms
+stop time: 238564 ms
+
+block num: 389
+start time: 239006 ms
+stop time: 239009 ms
+
+block num: 390
+start time: 239450 ms
+stop time: 239453 ms
+
+block num: 391
+start time: 239894 ms
+stop time: 239897 ms
+
+block num: 392
+start time: 240339 ms
+stop time: 240342 ms
+
+block num: 393
+start time: 240784 ms
+stop time: 240787 ms
+
+block num: 394
+start time: 241230 ms
+stop time: 241233 ms
+
+block num: 395
+start time: 241675 ms
+stop time: 241678 ms
+
+block num: 396
+start time: 242120 ms
+stop time: 242123 ms
+
+block num: 397
+start time: 242564 ms
+stop time: 242567 ms
+
+block num: 398
+start time: 243009 ms
+stop time: 243012 ms
+
+block num: 399
+start time: 243452 ms
+stop time: 243455 ms
+
+block num: 400
+start time: 243896 ms
+stop time: 243899 ms
+
+block num: 401
+start time: 244341 ms
+stop time: 244344 ms
+
+block num: 402
+start time: 244786 ms
+stop time: 244789 ms
+
+block num: 403
+start time: 245232 ms
+stop time: 245235 ms
+
+block num: 404
+start time: 245677 ms
+stop time: 245680 ms
+
+block num: 405
+start time: 246123 ms
+stop time: 246126 ms
+
+block num: 406
+start time: 246567 ms
+stop time: 246570 ms
+
+block num: 407
+start time: 247012 ms
+stop time: 247015 ms
+
+block num: 408
+start time: 247456 ms
+stop time: 247459 ms
+
+block num: 409
+start time: 247901 ms
+stop time: 247904 ms
+
+block num: 410
+start time: 248346 ms
+stop time: 248349 ms
+
+block num: 411
+start time: 248791 ms
+stop time: 248794 ms
+
+block num: 412
+start time: 249236 ms
+stop time: 249239 ms
+
+block num: 413
+start time: 249681 ms
+stop time: 249684 ms
+
+block num: 414
+start time: 250127 ms
+stop time: 250130 ms
+
+block num: 415
+start time: 250572 ms
+stop time: 250575 ms
+
+block num: 416
+start time: 251018 ms
+stop time: 251021 ms
+
+block num: 417
+start time: 251461 ms
+stop time: 251464 ms
+
+block num: 418
+start time: 251906 ms
+stop time: 251909 ms
+
+block num: 419
+start time: 252350 ms
+stop time: 252353 ms
+
+block num: 420
+start time: 252794 ms
+stop time: 252797 ms
+
+block num: 421
+start time: 253239 ms
+stop time: 253242 ms
+
+block num: 422
+start time: 253684 ms
+stop time: 253687 ms
+
+block num: 423
+start time: 254130 ms
+stop time: 254133 ms
+
+block num: 424
+start time: 254575 ms
+stop time: 254578 ms
+
+block num: 425
+start time: 255020 ms
+stop time: 255023 ms
+
+block num: 426
+start time: 255464 ms
+stop time: 255467 ms
+
+block num: 427
+start time: 255909 ms
+stop time: 255912 ms
+
+block num: 428
+start time: 256352 ms
+stop time: 256355 ms
+
+block num: 429
+start time: 256796 ms
+stop time: 256799 ms
+
+block num: 430
+start time: 257241 ms
+stop time: 257244 ms
+
+block num: 431
+start time: 257686 ms
+stop time: 257689 ms
+
+block num: 432
+start time: 258132 ms
+stop time: 258135 ms
+
+block num: 433
+start time: 258577 ms
+stop time: 258580 ms
+
+block num: 434
+start time: 259023 ms
+stop time: 259026 ms
+
+block num: 435
+start time: 259467 ms
+stop time: 259470 ms
+
+block num: 436
+start time: 259912 ms
+stop time: 259915 ms
+
+block num: 437
+start time: 260356 ms
+stop time: 260359 ms
+
+block num: 438
+start time: 260801 ms
+stop time: 260804 ms
+
+block num: 439
+start time: 261246 ms
+stop time: 261249 ms
+
+block num: 440
+start time: 261691 ms
+stop time: 261694 ms
+
+block num: 441
+start time: 262136 ms
+stop time: 262139 ms
+
+block num: 442
+start time: 262581 ms
+stop time: 262584 ms
+
+block num: 443
+start time: 263027 ms
+stop time: 263030 ms
+
+block num: 444
+start time: 263472 ms
+stop time: 263475 ms
+
+block num: 445
+start time: 263918 ms
+stop time: 263921 ms
+
+block num: 446
+start time: 264361 ms
+stop time: 264364 ms
+
+block num: 447
+start time: 264806 ms
+stop time: 264809 ms
+
+block num: 448
+start time: 265250 ms
+stop time: 265253 ms
+
+block num: 449
+start time: 265694 ms
+stop time: 265697 ms
+
+block num: 450
+start time: 266139 ms
+stop time: 266142 ms
+
+block num: 451
+start time: 266584 ms
+stop time: 266587 ms
+
+block num: 452
+start time: 267030 ms
+stop time: 267033 ms
+
+block num: 453
+start time: 267475 ms
+stop time: 267478 ms
+
+block num: 454
+start time: 267920 ms
+stop time: 267923 ms
+
+block num: 455
+start time: 268364 ms
+stop time: 268367 ms
+
+block num: 456
+start time: 268809 ms
+stop time: 268812 ms
+
+block num: 457
+start time: 269252 ms
+stop time: 269255 ms
+
+block num: 458
+start time: 269696 ms
+stop time: 269699 ms
+
+block num: 459
+start time: 270141 ms
+stop time: 270144 ms
+
+block num: 460
+start time: 270586 ms
+stop time: 270589 ms
+
+block num: 461
+start time: 271032 ms
+stop time: 271035 ms
+
+block num: 462
+start time: 271477 ms
+stop time: 271480 ms
+
+block num: 463
+start time: 271923 ms
+stop time: 271926 ms
+
+block num: 464
+start time: 272367 ms
+stop time: 272370 ms
+
+block num: 465
+start time: 272812 ms
+stop time: 272815 ms
+
+block num: 466
+start time: 273256 ms
+stop time: 273259 ms
+
+block num: 467
+start time: 273701 ms
+stop time: 273704 ms
+
+block num: 468
+start time: 274146 ms
+stop time: 274149 ms
+
+block num: 469
+start time: 274591 ms
+stop time: 274594 ms
+
+block num: 470
+start time: 275036 ms
+stop time: 275039 ms
+
+block num: 471
+start time: 275481 ms
+stop time: 275484 ms
+
+block num: 472
+start time: 275927 ms
+stop time: 275930 ms
+
+block num: 473
+start time: 276372 ms
+stop time: 276375 ms
+
+block num: 474
+start time: 276818 ms
+stop time: 276821 ms
+
+block num: 475
+start time: 277261 ms
+stop time: 277264 ms
+
+block num: 476
+start time: 277706 ms
+stop time: 277709 ms
+
+block num: 477
+start time: 278150 ms
+stop time: 278153 ms
+
+block num: 478
+start time: 278594 ms
+stop time: 278597 ms
+
+block num: 479
+start time: 279039 ms
+stop time: 279042 ms
+
+block num: 480
+start time: 279484 ms
+stop time: 279487 ms
+
+block num: 481
+start time: 279930 ms
+stop time: 279933 ms
+
+block num: 482
+start time: 280375 ms
+stop time: 280378 ms
+
+block num: 483
+start time: 280820 ms
+stop time: 280823 ms
+
+block num: 484
+start time: 281264 ms
+stop time: 281267 ms
+
+block num: 485
+start time: 281709 ms
+stop time: 281712 ms
+
+block num: 486
+start time: 282152 ms
+stop time: 282155 ms
+
+block num: 487
+start time: 282596 ms
+stop time: 282599 ms
+
+block num: 488
+start time: 283041 ms
+stop time: 283044 ms
+
+block num: 489
+start time: 283486 ms
+stop time: 283489 ms
+
+block num: 490
+start time: 283932 ms
+stop time: 283935 ms
+
+block num: 491
+start time: 284377 ms
+stop time: 284380 ms
+
+block num: 492
+start time: 284823 ms
+stop time: 284826 ms
+
+block num: 493
+start time: 285267 ms
+stop time: 285270 ms
+
+block num: 494
+start time: 285712 ms
+stop time: 285715 ms
+
+block num: 495
+start time: 286156 ms
+stop time: 286159 ms
+
+block num: 496
+start time: 286601 ms
+stop time: 286604 ms
+
+block num: 497
+start time: 287046 ms
+stop time: 287049 ms
+
+block num: 498
+start time: 287491 ms
+stop time: 287494 ms
+
+block num: 499
+start time: 287936 ms
+stop time: 287939 ms
+
+block num: 500
+start time: 288381 ms
+stop time: 288384 ms
+
+block num: 501
+start time: 288827 ms
+stop time: 288830 ms
+
+block num: 502
+start time: 289272 ms
+stop time: 289275 ms
+
+block num: 503
+start time: 289718 ms
+stop time: 289721 ms
+
+block num: 504
+start time: 290161 ms
+stop time: 290164 ms
+
+block num: 505
+start time: 290606 ms
+stop time: 290609 ms
+
+block num: 506
+start time: 291050 ms
+stop time: 291053 ms
+
+block num: 507
+start time: 291494 ms
+stop time: 291497 ms
+
+block num: 508
+start time: 291939 ms
+stop time: 291942 ms
+
+block num: 509
+start time: 292384 ms
+stop time: 292387 ms
+
+block num: 510
+start time: 292830 ms
+stop time: 292833 ms
+
+block num: 511
+start time: 293275 ms
+stop time: 293278 ms
+
+block num: 512
+start time: 293720 ms
+stop time: 293723 ms
+
+block num: 513
+start time: 294164 ms
+stop time: 294167 ms
+
+block num: 514
+start time: 294609 ms
+stop time: 294612 ms
+
+block num: 515
+start time: 295052 ms
+stop time: 295055 ms
+
+block num: 516
+start time: 295496 ms
+stop time: 295499 ms
+
+block num: 517
+start time: 295941 ms
+stop time: 295944 ms
+
+block num: 518
+start time: 296386 ms
+stop time: 296389 ms
+
+block num: 519
+start time: 296832 ms
+stop time: 296835 ms
+
+block num: 520
+start time: 297277 ms
+stop time: 297280 ms
+
+block num: 521
+start time: 297723 ms
+stop time: 297726 ms
+
+block num: 522
+start time: 298167 ms
+stop time: 298170 ms
+
+block num: 523
+start time: 298612 ms
+stop time: 298615 ms
+
+block num: 524
+start time: 299056 ms
+stop time: 299059 ms
+
+block num: 525
+start time: 299501 ms
+stop time: 299504 ms
+
+block num: 526
+start time: 299946 ms
+stop time: 299949 ms
+
+block num: 527
+start time: 300391 ms
+stop time: 300394 ms
+
+block num: 528
+start time: 300836 ms
+stop time: 300839 ms
+
+block num: 529
+start time: 301281 ms
+stop time: 301284 ms
+
+block num: 530
+start time: 301727 ms
+stop time: 301730 ms
+
+block num: 531
+start time: 302172 ms
+stop time: 302175 ms
+
+block num: 532
+start time: 302618 ms
+stop time: 302621 ms
+
+block num: 533
+start time: 303061 ms
+stop time: 303064 ms
+
+block num: 534
+start time: 303506 ms
+stop time: 303509 ms
+
+block num: 535
+start time: 303950 ms
+stop time: 303953 ms
+
+block num: 536
+start time: 304394 ms
+stop time: 304397 ms
+
+block num: 537
+start time: 304839 ms
+stop time: 304842 ms
+
+block num: 538
+start time: 305284 ms
+stop time: 305287 ms
+
+block num: 539
+start time: 305730 ms
+stop time: 305733 ms
+
+block num: 540
+start time: 306175 ms
+stop time: 306178 ms
+
+block num: 541
+start time: 306620 ms
+stop time: 306623 ms
+
+block num: 542
+start time: 307064 ms
+stop time: 307067 ms
+
+block num: 543
+start time: 307509 ms
+stop time: 307512 ms
+
+block num: 544
+start time: 307952 ms
+stop time: 307955 ms
+
+block num: 545
+start time: 308396 ms
+stop time: 308399 ms
+
+block num: 546
+start time: 308841 ms
+stop time: 308844 ms
+
+block num: 547
+start time: 309286 ms
+stop time: 309289 ms
+
+block num: 548
+start time: 309732 ms
+stop time: 309735 ms
+
+block num: 549
+start time: 310177 ms
+stop time: 310180 ms
+
+block num: 550
+start time: 310623 ms
+stop time: 310626 ms
+
+block num: 551
+start time: 311067 ms
+stop time: 311070 ms
+
+block num: 552
+start time: 311512 ms
+stop time: 311515 ms
+
+block num: 553
+start time: 311956 ms
+stop time: 311959 ms
+
+block num: 554
+start time: 312401 ms
+stop time: 312404 ms
+
+block num: 555
+start time: 312846 ms
+stop time: 312849 ms
+
+block num: 556
+start time: 313291 ms
+stop time: 313294 ms
+
+block num: 557
+start time: 313736 ms
+stop time: 313739 ms
+
+block num: 558
+start time: 314181 ms
+stop time: 314184 ms
+
+block num: 559
+start time: 314627 ms
+stop time: 314630 ms
+
+block num: 560
+start time: 315072 ms
+stop time: 315075 ms
+
+block num: 561
+start time: 315518 ms
+stop time: 315521 ms
+
+block num: 562
+start time: 315961 ms
+stop time: 315964 ms
+
+block num: 563
+start time: 316406 ms
+stop time: 316409 ms
+
+block num: 564
+start time: 316850 ms
+stop time: 316853 ms
+
+block num: 565
+start time: 317294 ms
+stop time: 317297 ms
+
+block num: 566
+start time: 317739 ms
+stop time: 317742 ms
+
+block num: 567
+start time: 318184 ms
+stop time: 318187 ms
+
+block num: 568
+start time: 318630 ms
+stop time: 318633 ms
+
+block num: 569
+start time: 319075 ms
+stop time: 319078 ms
+
+block num: 570
+start time: 319520 ms
+stop time: 319523 ms
+
+block num: 571
+start time: 319964 ms
+stop time: 319967 ms
+
+block num: 572
+start time: 320409 ms
+stop time: 320412 ms
+
+block num: 573
+start time: 320852 ms
+stop time: 320855 ms
+
+block num: 574
+start time: 321296 ms
+stop time: 321299 ms
+
+block num: 575
+start time: 321741 ms
+stop time: 321744 ms
+
+block num: 576
+start time: 322186 ms
+stop time: 322189 ms
+
+block num: 577
+start time: 322632 ms
+stop time: 322635 ms
+
+block num: 578
+start time: 323077 ms
+stop time: 323080 ms
+
+block num: 579
+start time: 323523 ms
+stop time: 323526 ms
+
+block num: 580
+start time: 323967 ms
+stop time: 323970 ms
+
+block num: 581
+start time: 324412 ms
+stop time: 324415 ms
+
+block num: 582
+start time: 324856 ms
+stop time: 324859 ms
+
+block num: 583
+start time: 325301 ms
+stop time: 325304 ms
+
+block num: 584
+start time: 325746 ms
+stop time: 325749 ms
+
+block num: 585
+start time: 326191 ms
+stop time: 326194 ms
+
+block num: 586
+start time: 326636 ms
+stop time: 326639 ms
+
+block num: 587
+start time: 327081 ms
+stop time: 327084 ms
+
+block num: 588
+start time: 327527 ms
+stop time: 327530 ms
+
+block num: 589
+start time: 327972 ms
+stop time: 327975 ms
+
+block num: 590
+start time: 328418 ms
+stop time: 328421 ms
+
+block num: 591
+start time: 328861 ms
+stop time: 328864 ms
+
+block num: 592
+start time: 329306 ms
+stop time: 329309 ms
+
+block num: 593
+start time: 329750 ms
+stop time: 329753 ms
+
+block num: 594
+start time: 330194 ms
+stop time: 330197 ms
+
+block num: 595
+start time: 330639 ms
+stop time: 330642 ms
+
+block num: 596
+start time: 331084 ms
+stop time: 331087 ms
+
+block num: 597
+start time: 331530 ms
+stop time: 331533 ms
+
+block num: 598
+start time: 331975 ms
+stop time: 331978 ms
+
+block num: 599
+start time: 332420 ms
+stop time: 332423 ms
+
+block num: 600
+start time: 332864 ms
+stop time: 332867 ms
+
+block num: 601
+start time: 333309 ms
+stop time: 333312 ms
+
+block num: 602
+start time: 333752 ms
+stop time: 333755 ms
+
+block num: 603
+start time: 334196 ms
+stop time: 334199 ms
+
+block num: 604
+start time: 334641 ms
+stop time: 334644 ms
+
+block num: 605
+start time: 335086 ms
+stop time: 335089 ms
+
+block num: 606
+start time: 335532 ms
+stop time: 335535 ms
+
+block num: 607
+start time: 335977 ms
+stop time: 335980 ms
+
+block num: 608
+start time: 336423 ms
+stop time: 336426 ms
+
+block num: 609
+start time: 336867 ms
+stop time: 336870 ms
+
+block num: 610
+start time: 337312 ms
+stop time: 337315 ms
+
+block num: 611
+start time: 337756 ms
+stop time: 337759 ms
+
+block num: 612
+start time: 338201 ms
+stop time: 338204 ms
+
+block num: 613
+start time: 338646 ms
+stop time: 338649 ms
+
+block num: 614
+start time: 339091 ms
+stop time: 339094 ms
+
+block num: 615
+start time: 339536 ms
+stop time: 339539 ms
+
+block num: 616
+start time: 339981 ms
+stop time: 339984 ms
+
+block num: 617
+start time: 340427 ms
+stop time: 340430 ms
+
+block num: 618
+start time: 340872 ms
+stop time: 340875 ms
+
+block num: 619
+start time: 341318 ms
+stop time: 341321 ms
+
+block num: 620
+start time: 341761 ms
+stop time: 341764 ms
+
+block num: 621
+start time: 342206 ms
+stop time: 342209 ms
+
+block num: 622
+start time: 342650 ms
+stop time: 342653 ms
+
+block num: 623
+start time: 343094 ms
+stop time: 343097 ms
+
+block num: 624
+start time: 343539 ms
+stop time: 343542 ms
+
+block num: 625
+start time: 343984 ms
+stop time: 343987 ms
+
+block num: 626
+start time: 344430 ms
+stop time: 344433 ms
+
+block num: 627
+start time: 344875 ms
+stop time: 344878 ms
+
+block num: 628
+start time: 345320 ms
+stop time: 345323 ms
+
+block num: 629
+start time: 345764 ms
+stop time: 345767 ms
+
+block num: 630
+start time: 346209 ms
+stop time: 346212 ms
+
+block num: 631
+start time: 346652 ms
+stop time: 346655 ms
+
+block num: 632
+start time: 347096 ms
+stop time: 347099 ms
+
+block num: 633
+start time: 347541 ms
+stop time: 347544 ms
+
+block num: 634
+start time: 347986 ms
+stop time: 347989 ms
+
+block num: 635
+start time: 348432 ms
+stop time: 348435 ms
+
+block num: 636
+start time: 348877 ms
+stop time: 348880 ms
+
+block num: 637
+start time: 349323 ms
+stop time: 349326 ms
+
+block num: 638
+start time: 349767 ms
+stop time: 349770 ms
+
+block num: 639
+start time: 350212 ms
+stop time: 350215 ms
+
+block num: 640
+start time: 350656 ms
+stop time: 350659 ms
+
+block num: 641
+start time: 351101 ms
+stop time: 351104 ms
+
+block num: 642
+start time: 351546 ms
+stop time: 351549 ms
+
+block num: 643
+start time: 351991 ms
+stop time: 351994 ms
+
+block num: 644
+start time: 352436 ms
+stop time: 352439 ms
+
+block num: 645
+start time: 352881 ms
+stop time: 352884 ms
+
+block num: 646
+start time: 353327 ms
+stop time: 353330 ms
+
+block num: 647
+start time: 353772 ms
+stop time: 353775 ms
+
+block num: 648
+start time: 354218 ms
+stop time: 354221 ms
+
+block num: 649
+start time: 354661 ms
+stop time: 354664 ms
+
+block num: 650
+start time: 355106 ms
+stop time: 355109 ms
+
+block num: 651
+start time: 355550 ms
+stop time: 355553 ms
+
+block num: 652
+start time: 355994 ms
+stop time: 355997 ms
+
+block num: 653
+start time: 356439 ms
+stop time: 356442 ms
+
+block num: 654
+start time: 356884 ms
+stop time: 356887 ms
+
+block num: 655
+start time: 357330 ms
+stop time: 357333 ms
+
+block num: 656
+start time: 357775 ms
+stop time: 357778 ms
+
+block num: 657
+start time: 358220 ms
+stop time: 358223 ms
+
+block num: 658
+start time: 358664 ms
+stop time: 358667 ms
+
+block num: 659
+start time: 359109 ms
+stop time: 359112 ms
+
+block num: 660
+start time: 359552 ms
+stop time: 359555 ms
+
+block num: 661
+start time: 359996 ms
+stop time: 359999 ms
+
+block num: 662
+start time: 360441 ms
+stop time: 360444 ms
+
+block num: 663
+start time: 360886 ms
+stop time: 360889 ms
+
+block num: 664
+start time: 361332 ms
+stop time: 361335 ms
+
+block num: 665
+start time: 361777 ms
+stop time: 361780 ms
+
+block num: 666
+start time: 362223 ms
+stop time: 362226 ms
+
+block num: 667
+start time: 362667 ms
+stop time: 362670 ms
+
+block num: 668
+start time: 363112 ms
+stop time: 363115 ms
+
+block num: 669
+start time: 363556 ms
+stop time: 363559 ms
+
+block num: 670
+start time: 364001 ms
+stop time: 364004 ms
+
+block num: 671
+start time: 364446 ms
+stop time: 364449 ms
+
+block num: 672
+start time: 364891 ms
+stop time: 364894 ms
+
+block num: 673
+start time: 365336 ms
+stop time: 365339 ms
+
+block num: 674
+start time: 365781 ms
+stop time: 365784 ms
+
+block num: 675
+start time: 366227 ms
+stop time: 366230 ms
+
+block num: 676
+start time: 366672 ms
+stop time: 366675 ms
+
+block num: 677
+start time: 367118 ms
+stop time: 367121 ms
+
+block num: 678
+start time: 367561 ms
+stop time: 367564 ms
+
+block num: 679
+start time: 368006 ms
+stop time: 368009 ms
+
+block num: 680
+start time: 368450 ms
+stop time: 368453 ms
+
+block num: 681
+start time: 368894 ms
+stop time: 368897 ms
+
+block num: 682
+start time: 369339 ms
+stop time: 369342 ms
+
+block num: 683
+start time: 369784 ms
+stop time: 369787 ms
+
+block num: 684
+start time: 370230 ms
+stop time: 370233 ms
+
+block num: 685
+start time: 370675 ms
+stop time: 370678 ms
+
+block num: 686
+start time: 371120 ms
+stop time: 371123 ms
+
+block num: 687
+start time: 371564 ms
+stop time: 371567 ms
+
+block num: 688
+start time: 372009 ms
+stop time: 372012 ms
+
+block num: 689
+start time: 372452 ms
+stop time: 372455 ms
+
+block num: 690
+start time: 372896 ms
+stop time: 372899 ms
+
+block num: 691
+start time: 373341 ms
+stop time: 373344 ms
+
+block num: 692
+start time: 373786 ms
+stop time: 373789 ms
+
+block num: 693
+start time: 374232 ms
+stop time: 374235 ms
+
+block num: 694
+start time: 374677 ms
+stop time: 374680 ms
+
+block num: 695
+start time: 375123 ms
+stop time: 375126 ms
+
+block num: 696
+start time: 375567 ms
+stop time: 375570 ms
+
+block num: 697
+start time: 376012 ms
+stop time: 376015 ms
+
+block num: 698
+start time: 376456 ms
+stop time: 376459 ms
+
+block num: 699
+start time: 376901 ms
+stop time: 376904 ms
+
+block num: 700
+start time: 377346 ms
+stop time: 377349 ms
+
+block num: 701
+start time: 377791 ms
+stop time: 377794 ms
+
+block num: 702
+start time: 378236 ms
+stop time: 378239 ms
+
+block num: 703
+start time: 378681 ms
+stop time: 378684 ms
+
+block num: 704
+start time: 379127 ms
+stop time: 379130 ms
+
+block num: 705
+start time: 379572 ms
+stop time: 379575 ms
+
+block num: 706
+start time: 380018 ms
+stop time: 380021 ms
+
+block num: 707
+start time: 380461 ms
+stop time: 380464 ms
+
+block num: 708
+start time: 380906 ms
+stop time: 380909 ms
+
+block num: 709
+start time: 381350 ms
+stop time: 381353 ms
+
+block num: 710
+start time: 381794 ms
+stop time: 381797 ms
+
+block num: 711
+start time: 382239 ms
+stop time: 382242 ms
+
+block num: 712
+start time: 382684 ms
+stop time: 382687 ms
+
+block num: 713
+start time: 383130 ms
+stop time: 383133 ms
+
+block num: 714
+start time: 383575 ms
+stop time: 383578 ms
+
+block num: 715
+start time: 384020 ms
+stop time: 384023 ms
+
+block num: 716
+start time: 384464 ms
+stop time: 384467 ms
+
+block num: 717
+start time: 384909 ms
+stop time: 384912 ms
+
+block num: 718
+start time: 385352 ms
+stop time: 385355 ms
+
+block num: 719
+start time: 385796 ms
+stop time: 385799 ms
+
+block num: 720
+start time: 386241 ms
+stop time: 386244 ms
+
+block num: 721
+start time: 386686 ms
+stop time: 386689 ms
+
+block num: 722
+start time: 387132 ms
+stop time: 387135 ms
+
+block num: 723
+start time: 387577 ms
+stop time: 387580 ms
+
+block num: 724
+start time: 388023 ms
+stop time: 388026 ms
+
+block num: 725
+start time: 388467 ms
+stop time: 388470 ms
+
+block num: 726
+start time: 388912 ms
+stop time: 388915 ms
+
+block num: 727
+start time: 389356 ms
+stop time: 389359 ms
+
+block num: 728
+start time: 389801 ms
+stop time: 389804 ms
+
+block num: 729
+start time: 390246 ms
+stop time: 390249 ms
+
+block num: 730
+start time: 390691 ms
+stop time: 390694 ms
+
+block num: 731
+start time: 391136 ms
+stop time: 391139 ms
+
+block num: 732
+start time: 391581 ms
+stop time: 391584 ms
+
+block num: 733
+start time: 392027 ms
+stop time: 392030 ms
+
+block num: 734
+start time: 392472 ms
+stop time: 392475 ms
+
+block num: 735
+start time: 392918 ms
+stop time: 392921 ms
+
+block num: 736
+start time: 393361 ms
+stop time: 393364 ms
+
+block num: 737
+start time: 393806 ms
+stop time: 393809 ms
+
+block num: 738
+start time: 394250 ms
+stop time: 394253 ms
+
+block num: 739
+start time: 394694 ms
+stop time: 394697 ms
+
+block num: 740
+start time: 395139 ms
+stop time: 395142 ms
+
+block num: 741
+start time: 395584 ms
+stop time: 395587 ms
+
+block num: 742
+start time: 396030 ms
+stop time: 396033 ms
+
+block num: 743
+start time: 396475 ms
+stop time: 396478 ms
+
+block num: 744
+start time: 396920 ms
+stop time: 396923 ms
+
+block num: 745
+start time: 397364 ms
+stop time: 397367 ms
+
+block num: 746
+start time: 397809 ms
+stop time: 397812 ms
+
+block num: 747
+start time: 398252 ms
+stop time: 398255 ms
+
+block num: 748
+start time: 398696 ms
+stop time: 398699 ms
+
+block num: 749
+start time: 399141 ms
+stop time: 399144 ms
+
+block num: 750
+start time: 399586 ms
+stop time: 399589 ms
+
+block num: 751
+start time: 400032 ms
+stop time: 400035 ms
+
+block num: 752
+start time: 400477 ms
+stop time: 400480 ms
+
+block num: 753
+start time: 400923 ms
+stop time: 400926 ms
+
+block num: 754
+start time: 401367 ms
+stop time: 401370 ms
+
+block num: 755
+start time: 401812 ms
+stop time: 401815 ms
+
+block num: 756
+start time: 402256 ms
+stop time: 402259 ms
+
+block num: 757
+start time: 402701 ms
+stop time: 402704 ms
+
+block num: 758
+start time: 403146 ms
+stop time: 403149 ms
+
+block num: 759
+start time: 403591 ms
+stop time: 403594 ms
+
+block num: 760
+start time: 404036 ms
+stop time: 404039 ms
+
+block num: 761
+start time: 404481 ms
+stop time: 404484 ms
+
+block num: 762
+start time: 404927 ms
+stop time: 404930 ms
+
+block num: 763
+start time: 405372 ms
+stop time: 405375 ms
+
+block num: 764
+start time: 405818 ms
+stop time: 405821 ms
+
+block num: 765
+start time: 406261 ms
+stop time: 406264 ms
+
+block num: 766
+start time: 406706 ms
+stop time: 406709 ms
+
+block num: 767
+start time: 407150 ms
+stop time: 407153 ms
+
+block num: 768
+start time: 407594 ms
+stop time: 407597 ms
+
+block num: 769
+start time: 408039 ms
+stop time: 408042 ms
+
+block num: 770
+start time: 408484 ms
+stop time: 408487 ms
+
+block num: 771
+start time: 408930 ms
+stop time: 408933 ms
+
+block num: 772
+start time: 409375 ms
+stop time: 409378 ms
+
+block num: 773
+start time: 409820 ms
+stop time: 409823 ms
+
+block num: 774
+start time: 410264 ms
+stop time: 410267 ms
+
+block num: 775
+start time: 410709 ms
+stop time: 410712 ms
+
+block num: 776
+start time: 411152 ms
+stop time: 411155 ms
+
+block num: 777
+start time: 411596 ms
+stop time: 411599 ms
+
+block num: 778
+start time: 412041 ms
+stop time: 412044 ms
+
+block num: 779
+start time: 412486 ms
+stop time: 412489 ms
+
+block num: 780
+start time: 412932 ms
+stop time: 412935 ms
+
+block num: 781
+start time: 413377 ms
+stop time: 413380 ms
+
+block num: 782
+start time: 413823 ms
+stop time: 413826 ms
+
+block num: 783
+start time: 414267 ms
+stop time: 414270 ms
+
+block num: 784
+start time: 414712 ms
+stop time: 414715 ms
+
+block num: 785
+start time: 415156 ms
+stop time: 415159 ms
+
+block num: 786
+start time: 415601 ms
+stop time: 415604 ms
+
+block num: 787
+start time: 416046 ms
+stop time: 416049 ms
+
+block num: 788
+start time: 416491 ms
+stop time: 416494 ms
+
+block num: 789
+start time: 416936 ms
+stop time: 416939 ms
+
+block num: 790
+start time: 417381 ms
+stop time: 417384 ms
+
+block num: 791
+start time: 417827 ms
+stop time: 417830 ms
+
+block num: 792
+start time: 418272 ms
+stop time: 418275 ms
+
+block num: 793
+start time: 418718 ms
+stop time: 418721 ms
+
+block num: 794
+start time: 419161 ms
+stop time: 419164 ms
+
+block num: 795
+start time: 419606 ms
+stop time: 419609 ms
+
+block num: 796
+start time: 420050 ms
+stop time: 420053 ms
+
+block num: 797
+start time: 420494 ms
+stop time: 420497 ms
+
+block num: 798
+start time: 420939 ms
+stop time: 420942 ms
+
+block num: 799
+start time: 421384 ms
+stop time: 421387 ms
+
+block num: 800
+start time: 421830 ms
+stop time: 421833 ms
+
+block num: 801
+start time: 422275 ms
+stop time: 422278 ms
+
+block num: 802
+start time: 422721 ms
+stop time: 422724 ms
+
+block num: 803
+start time: 423165 ms
+stop time: 423168 ms
+
+block num: 804
+start time: 423610 ms
+stop time: 423613 ms
+
+block num: 805
+start time: 424054 ms
+stop time: 424057 ms
+
+block num: 806
+start time: 424499 ms
+stop time: 424502 ms
+
+block num: 807
+start time: 424944 ms
+stop time: 424947 ms
+
+block num: 808
+start time: 425389 ms
+stop time: 425392 ms
+
+block num: 809
+start time: 425834 ms
+stop time: 425837 ms
+
+block num: 810
+start time: 426279 ms
+stop time: 426282 ms
+
+block num: 811
+start time: 426725 ms
+stop time: 426728 ms
+
+block num: 812
+start time: 427169 ms
+stop time: 427172 ms
+
+block num: 813
+start time: 427615 ms
+stop time: 427618 ms
+
+block num: 814
+start time: 428058 ms
+stop time: 428061 ms
+
+block num: 815
+start time: 428502 ms
+stop time: 428505 ms
+
+block num: 816
+start time: 428947 ms
+stop time: 428950 ms
+
+block num: 817
+start time: 429392 ms
+stop time: 429395 ms
+
+block num: 818
+start time: 429837 ms
+stop time: 429840 ms
+
+block num: 819
+start time: 430282 ms
+stop time: 430285 ms
+
+block num: 820
+start time: 430728 ms
+stop time: 430731 ms
+
+block num: 821
+start time: 431173 ms
+stop time: 431176 ms
+
+block num: 822
+start time: 431619 ms
+stop time: 431622 ms
+
+block num: 823
+start time: 432063 ms
+stop time: 432066 ms
+
+block num: 824
+start time: 432508 ms
+stop time: 432511 ms
+
+block num: 825
+start time: 432951 ms
+stop time: 432954 ms
+
+block num: 826
+start time: 433395 ms
+stop time: 433398 ms
+
+block num: 827
+start time: 433840 ms
+stop time: 433843 ms
+
+block num: 828
+start time: 434285 ms
+stop time: 434288 ms
+
+block num: 829
+start time: 434731 ms
+stop time: 434734 ms
+
+block num: 830
+start time: 435176 ms
+stop time: 435179 ms
+
+block num: 831
+start time: 435622 ms
+stop time: 435625 ms
+
+block num: 832
+start time: 436066 ms
+stop time: 436069 ms
+
+block num: 833
+start time: 436511 ms
+stop time: 436514 ms
+
+block num: 834
+start time: 436955 ms
+stop time: 436958 ms
+
+block num: 835
+start time: 437400 ms
+stop time: 437403 ms
+
+block num: 836
+start time: 437845 ms
+stop time: 437848 ms
+
+block num: 837
+start time: 438289 ms
+stop time: 438292 ms
+
+block num: 838
+start time: 438734 ms
+stop time: 438737 ms
+
+block num: 839
+start time: 439179 ms
+stop time: 439182 ms
+
+block num: 840
+start time: 439625 ms
+stop time: 439628 ms
+
+block num: 841
+start time: 440069 ms
+stop time: 440072 ms
+
+block num: 842
+start time: 440515 ms
+stop time: 440518 ms
+
+block num: 843
+start time: 440958 ms
+stop time: 440961 ms
+
+block num: 844
+start time: 441402 ms
+stop time: 441405 ms
+
+block num: 845
+start time: 441847 ms
+stop time: 441850 ms
+
+block num: 846
+start time: 442292 ms
+stop time: 442295 ms
+
+block num: 847
+start time: 442737 ms
+stop time: 442740 ms
+
+block num: 848
+start time: 443182 ms
+stop time: 443185 ms
+
+block num: 849
+start time: 443628 ms
+stop time: 443631 ms
+
+block num: 850
+start time: 444073 ms
+stop time: 444076 ms
+
+block num: 851
+start time: 444519 ms
+stop time: 444522 ms
+
+block num: 852
+start time: 444963 ms
+stop time: 444966 ms
+
+block num: 853
+start time: 445408 ms
+stop time: 445411 ms
+
+block num: 854
+start time: 445851 ms
+stop time: 445854 ms
+
+block num: 855
+start time: 446295 ms
+stop time: 446298 ms
+
+block num: 856
+start time: 446740 ms
+stop time: 446743 ms
+
+block num: 857
+start time: 447185 ms
+stop time: 447188 ms
+
+block num: 858
+start time: 447631 ms
+stop time: 447634 ms
+
+block num: 859
+start time: 448076 ms
+stop time: 448079 ms
+
+block num: 860
+start time: 448522 ms
+stop time: 448525 ms
+
+block num: 861
+start time: 448966 ms
+stop time: 448969 ms
+
+block num: 862
+start time: 449411 ms
+stop time: 449414 ms
+
+block num: 863
+start time: 449855 ms
+stop time: 449858 ms
+
+block num: 864
+start time: 450300 ms
+stop time: 450303 ms
+
+block num: 865
+start time: 450745 ms
+stop time: 450748 ms
+
+block num: 866
+start time: 451189 ms
+stop time: 451192 ms
+
+block num: 867
+start time: 451634 ms
+stop time: 451637 ms
+
+block num: 868
+start time: 452079 ms
+stop time: 452082 ms
+
+block num: 869
+start time: 452525 ms
+stop time: 452528 ms
+
+block num: 870
+start time: 452969 ms
+stop time: 452972 ms
+
+block num: 871
+start time: 453415 ms
+stop time: 453418 ms
+
+block num: 872
+start time: 453858 ms
+stop time: 453861 ms
+
+block num: 873
+start time: 454302 ms
+stop time: 454305 ms
+
+block num: 874
+start time: 454747 ms
+stop time: 454750 ms
+
+block num: 875
+start time: 455192 ms
+stop time: 455195 ms
+
+block num: 876
+start time: 455637 ms
+stop time: 455640 ms
+
+block num: 877
+start time: 456082 ms
+stop time: 456085 ms
+
+block num: 878
+start time: 456528 ms
+stop time: 456531 ms
+
+block num: 879
+start time: 456973 ms
+stop time: 456976 ms
+
+block num: 880
+start time: 457419 ms
+stop time: 457422 ms
+
+block num: 881
+start time: 457863 ms
+stop time: 457866 ms
+
+block num: 882
+start time: 458308 ms
+stop time: 458311 ms
+
+block num: 883
+start time: 458751 ms
+stop time: 458754 ms
+
+block num: 884
+start time: 459195 ms
+stop time: 459198 ms
+
+block num: 885
+start time: 459640 ms
+stop time: 459643 ms
+
+block num: 886
+start time: 460085 ms
+stop time: 460088 ms
+
+block num: 887
+start time: 460531 ms
+stop time: 460534 ms
+
+block num: 888
+start time: 460976 ms
+stop time: 460979 ms
+
+block num: 889
+start time: 461422 ms
+stop time: 461425 ms
+
+block num: 890
+start time: 461866 ms
+stop time: 461869 ms
+
+block num: 891
+start time: 462311 ms
+stop time: 462314 ms
+
+block num: 892
+start time: 462755 ms
+stop time: 462758 ms
+
+block num: 893
+start time: 463200 ms
+stop time: 463203 ms
+
+block num: 894
+start time: 463645 ms
+stop time: 463648 ms
+
+block num: 895
+start time: 464089 ms
+stop time: 464092 ms
+
+block num: 896
+start time: 464534 ms
+stop time: 464537 ms
+
+block num: 897
+start time: 464979 ms
+stop time: 464982 ms
+
+block num: 898
+start time: 465425 ms
+stop time: 465428 ms
+
+block num: 899
+start time: 465869 ms
+stop time: 465872 ms
+
+block num: 900
+start time: 466315 ms
+stop time: 466318 ms
+
+block num: 901
+start time: 466758 ms
+stop time: 466761 ms
+
+block num: 902
+start time: 467202 ms
+stop time: 467205 ms
+
+block num: 903
+start time: 467647 ms
+stop time: 467650 ms
+
+block num: 904
+start time: 468092 ms
+stop time: 468095 ms
+
+block num: 905
+start time: 468537 ms
+stop time: 468540 ms
+
+block num: 906
+start time: 468982 ms
+stop time: 468985 ms
+
+block num: 907
+start time: 469428 ms
+stop time: 469431 ms
+
+block num: 908
+start time: 469873 ms
+stop time: 469876 ms
+
+block num: 909
+start time: 470319 ms
+stop time: 470322 ms
+
+block num: 910
+start time: 470763 ms
+stop time: 470766 ms
+
+block num: 911
+start time: 471208 ms
+stop time: 471211 ms
+
+block num: 912
+start time: 471651 ms
+stop time: 471654 ms
+
+block num: 913
+start time: 472095 ms
+stop time: 472098 ms
+
+block num: 914
+start time: 472540 ms
+stop time: 472543 ms
+
+block num: 915
+start time: 472985 ms
+stop time: 472988 ms
+
+block num: 916
+start time: 473431 ms
+stop time: 473434 ms
+
+block num: 917
+start time: 473876 ms
+stop time: 473879 ms
+
+block num: 918
+start time: 474322 ms
+stop time: 474325 ms
+
+block num: 919
+start time: 474766 ms
+stop time: 474769 ms
+
+block num: 920
+start time: 475211 ms
+stop time: 475214 ms
+
+block num: 921
+start time: 475655 ms
+stop time: 475658 ms
+
+block num: 922
+start time: 476100 ms
+stop time: 476103 ms
+
+block num: 923
+start time: 476545 ms
+stop time: 476548 ms
+
+block num: 924
+start time: 476989 ms
+stop time: 476992 ms
+
+block num: 925
+start time: 477434 ms
+stop time: 477437 ms
+
+block num: 926
+start time: 477879 ms
+stop time: 477882 ms
+
+block num: 927
+start time: 478325 ms
+stop time: 478328 ms
+
+block num: 928
+start time: 478769 ms
+stop time: 478772 ms
+
+block num: 929
+start time: 479215 ms
+stop time: 479218 ms
+
+block num: 930
+start time: 479658 ms
+stop time: 479661 ms
+
+block num: 931
+start time: 480102 ms
+stop time: 480105 ms
+
+block num: 932
+start time: 480547 ms
+stop time: 480550 ms
+
+block num: 933
+start time: 480992 ms
+stop time: 480995 ms
+
+block num: 934
+start time: 481437 ms
+stop time: 481440 ms
+
+block num: 935
+start time: 481882 ms
+stop time: 481885 ms
+
+block num: 936
+start time: 482328 ms
+stop time: 482331 ms
+
+block num: 937
+start time: 482773 ms
+stop time: 482776 ms
+
+block num: 938
+start time: 483219 ms
+stop time: 483222 ms
+
+block num: 939
+start time: 483663 ms
+stop time: 483666 ms
+
+block num: 940
+start time: 484108 ms
+stop time: 484111 ms
+
+block num: 941
+start time: 484551 ms
+stop time: 484554 ms
+
+block num: 942
+start time: 484995 ms
+stop time: 484998 ms
+
+block num: 943
+start time: 485440 ms
+stop time: 485443 ms
+
+block num: 944
+start time: 485885 ms
+stop time: 485888 ms
+
+block num: 945
+start time: 486331 ms
+stop time: 486334 ms
+
+block num: 946
+start time: 486776 ms
+stop time: 486779 ms
+
+block num: 947
+start time: 487222 ms
+stop time: 487225 ms
+
+block num: 948
+start time: 487666 ms
+stop time: 487669 ms
+
+block num: 949
+start time: 488111 ms
+stop time: 488114 ms
+
+block num: 950
+start time: 488555 ms
+stop time: 488558 ms
+
+block num: 951
+start time: 489000 ms
+stop time: 489003 ms
+
+block num: 952
+start time: 489445 ms
+stop time: 489448 ms
+
+block num: 953
+start time: 489889 ms
+stop time: 489892 ms
+
+block num: 954
+start time: 490334 ms
+stop time: 490337 ms
+
+block num: 955
+start time: 490779 ms
+stop time: 490782 ms
+
+block num: 956
+start time: 491225 ms
+stop time: 491228 ms
+
+block num: 957
+start time: 491669 ms
+stop time: 491672 ms
+
+block num: 958
+start time: 492115 ms
+stop time: 492118 ms
+
+block num: 959
+start time: 492558 ms
+stop time: 492561 ms
+
+block num: 960
+start time: 493002 ms
+stop time: 493005 ms
+
+block num: 961
+start time: 493447 ms
+stop time: 493450 ms
+
+block num: 962
+start time: 493892 ms
+stop time: 493895 ms
+
+block num: 963
+start time: 494337 ms
+stop time: 494340 ms
+
+block num: 964
+start time: 494782 ms
+stop time: 494785 ms
+
+block num: 965
+start time: 495228 ms
+stop time: 495231 ms
+
+block num: 966
+start time: 495673 ms
+stop time: 495676 ms
+
+block num: 967
+start time: 496119 ms
+stop time: 496122 ms
+
+block num: 968
+start time: 496563 ms
+stop time: 496566 ms
+
+block num: 969
+start time: 497008 ms
+stop time: 497011 ms
+
+block num: 970
+start time: 497451 ms
+stop time: 497454 ms
+
+block num: 971
+start time: 497895 ms
+stop time: 497898 ms
+
+block num: 972
+start time: 498340 ms
+stop time: 498343 ms
+
+block num: 973
+start time: 498785 ms
+stop time: 498788 ms
+
+block num: 974
+start time: 499231 ms
+stop time: 499234 ms
+
+block num: 975
+start time: 499676 ms
+stop time: 499679 ms
+
+block num: 976
+start time: 500122 ms
+stop time: 500125 ms
+
+block num: 977
+start time: 500566 ms
+stop time: 500569 ms
+
+block num: 978
+start time: 501011 ms
+stop time: 501014 ms
+
+block num: 979
+start time: 501455 ms
+stop time: 501458 ms
+
+block num: 980
+start time: 501900 ms
+stop time: 501903 ms
+
+block num: 981
+start time: 502345 ms
+stop time: 502348 ms
+
+block num: 982
+start time: 502789 ms
+stop time: 502792 ms
+
+block num: 983
+start time: 503234 ms
+stop time: 503237 ms
+
+block num: 984
+start time: 503679 ms
+stop time: 503682 ms
+
+block num: 985
+start time: 504125 ms
+stop time: 504128 ms
+
+block num: 986
+start time: 504569 ms
+stop time: 504572 ms
+
+block num: 987
+start time: 505015 ms
+stop time: 505018 ms
+
+block num: 988
+start time: 505458 ms
+stop time: 505461 ms
+
+block num: 989
+start time: 505902 ms
+stop time: 505905 ms
+
+block num: 990
+start time: 506347 ms
+stop time: 506350 ms
+
+block num: 991
+start time: 506792 ms
+stop time: 506795 ms
+
+block num: 992
+start time: 507237 ms
+stop time: 507240 ms
+
+block num: 993
+start time: 507682 ms
+stop time: 507685 ms
+
+block num: 994
+start time: 508128 ms
+stop time: 508131 ms
+
+block num: 995
+start time: 508573 ms
+stop time: 508576 ms
+
+block num: 996
+start time: 509019 ms
+stop time: 509022 ms
+
+block num: 997
+start time: 509463 ms
+stop time: 509466 ms
+
+block num: 998
+start time: 509908 ms
+stop time: 509911 ms
+
+block num: 999
+start time: 510351 ms
+stop time: 510354 ms
+
+block num: 1000
+start time: 510804 ms
+stop time: 510807 ms
+
+block num: 1001
+start time: 511258 ms
+stop time: 511261 ms
+
+block num: 1002
+start time: 511711 ms
+stop time: 511714 ms
+
+block num: 1003
+start time: 512163 ms
+stop time: 512166 ms
+
+block num: 1004
+start time: 512618 ms
+stop time: 512621 ms
+
+block num: 1005
+start time: 513071 ms
+stop time: 513074 ms
+
+block num: 1006
+start time: 513526 ms
+stop time: 513529 ms
+
+block num: 1007
+start time: 513978 ms
+stop time: 513981 ms
+
+block num: 1008
+start time: 514434 ms
+stop time: 514437 ms
+
+block num: 1009
+start time: 514888 ms
+stop time: 514891 ms
+
+block num: 1010
+start time: 515342 ms
+stop time: 515345 ms
+
+block num: 1011
+start time: 515795 ms
+stop time: 515798 ms
+
+block num: 1012
+start time: 516249 ms
+stop time: 516252 ms
+
+block num: 1013
+start time: 516703 ms
+stop time: 516706 ms
+
+block num: 1014
+start time: 517157 ms
+stop time: 517160 ms
+
+block num: 1015
+start time: 517611 ms
+stop time: 517614 ms
+
+block num: 1016
+start time: 518063 ms
+stop time: 518066 ms
+
+block num: 1017
+start time: 518518 ms
+stop time: 518521 ms
+
+block num: 1018
+start time: 518971 ms
+stop time: 518974 ms
+
+block num: 1019
+start time: 519426 ms
+stop time: 519429 ms
+
+block num: 1020
+start time: 519878 ms
+stop time: 519881 ms
+
+block num: 1021
+start time: 520334 ms
+stop time: 520337 ms
+
+block num: 1022
+start time: 520788 ms
+stop time: 520791 ms
+
+block num: 1023
+start time: 521242 ms
+stop time: 521245 ms
