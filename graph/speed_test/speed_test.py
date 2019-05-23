@@ -4,7 +4,7 @@ import os, sys
 
 import speed_test_parse as stp
 
-# block_size = 'test_data'
+block_size = 'test_data'
 # block_size = '4096'
 # block_size = '2048'
 # block_size = '1024'
@@ -16,7 +16,6 @@ import speed_test_parse as stp
 # block_size = '2048o'
 # block_size = '1024o'
 # block_size = '512o'
-# block_size = '256o'
 # block_size = '120o'
 
 # block_size = '4096r'
@@ -26,7 +25,7 @@ import speed_test_parse as stp
 # block_size = '256r'
 # block_size = '120r'
 
-block_size = '4096p'
+# block_size = '4096p'
 # block_size = '2048p'
 # block_size = '1024p'
 # block_size = '512p'
@@ -48,13 +47,17 @@ except:
     print("File not found: + " + os.getcwd() + '\\test\\' + block_size +'.txt')
     raise SystemExit(0)
 
+print(block_size)
 test_type = 'write'
 
-if 'r' or 'p' in block_size:
+if ('r' or 'p') in block_size:
     test_type = 'read'
     block_size = block_size[:-1]
-elif 'o':
+elif 'o' in block_size:
+    test_type = 'write'
     block_size = block_size[:-1]
+else:
+    test_type = 'write'
     
 
 time_start = stp.get_param(data, 'start time')
@@ -67,10 +70,10 @@ print(block_size)
 speeds = []
 for start, stop in zip(time_start, time_stop):
     difftime = int(stop) - int(start)
-    if not difftime <= 0:
+    if not difftime <= 1:
         speeds.append(float(block_size) * 1000 / (float(difftime)))
 
-#speeds = speeds[:10]
+#speeds = speeds[:-1]
 # Create plots
 fig, ax = plt.subplots()
 fig.canvas.set_window_title(block_size)

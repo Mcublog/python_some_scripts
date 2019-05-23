@@ -21,9 +21,8 @@ def get_param(data, param):
     return params
 
 def main():
-    f = open(os.getcwd() + '\\test\\test_data.txt', 'r')
-    data = f.read()
-    f.close()
+    with open(os.getcwd() + '\\test\\test_data.txt', 'r') as f: 
+        data = f.read()
     
     start_times = get_param(data, 'start time')
     stop_times = get_param(data, 'stop time')
