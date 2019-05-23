@@ -4,25 +4,49 @@ import re
 
 from xcrc32 import xcrc32
 
+def parse_cmd(s):
+    crc_cnt = s[:-8]
+    print(crc_cnt)
+    crc_cnt = xcrc32 (crc_cnt, len(crc_cnt))
+    
+    crc = s[-7:-3]
+    crc = int.from_bytes(crc, byteorder='little')
+    if (crc == crc_cnt):
+        print('Crc correct:' + hex(crc) + ':' + hex(crc_cnt))
 
-CMD_LENGHT_ADD = 14
+    try:
+        s = s[6:]
+        s = s.decode('utf-8', errors = 'ignore')
+    except:
+        print('not hex at ' + str(datetime.datetime.now().ctime()))
+        s = ''
 
-body = b'[GET_NAME][string][0]'
-body_len = len(body) + CMD_LENGHT_ADD
+    print('string:' + s)
 
-# Form CMD
-buf = b'[' + body_len.to_bytes(4, byteorder='little') + b']' 
-buf += body
+    param = re.findall(r'[\[]\w*[\]]', s)
+    print(param)
+    return param
+    
+def create_cmd(body = b'[GET_NAME][string][0]'):
+    CMD_LENGHT_ADD = 14 # add number service bytes
+    body_len = len(body) + CMD_LENGHT_ADD
 
-# Added crc32 to buf
-crc = xcrc32 (buf, len(buf)) 
-buf+=b'['
-buf+= crc.to_bytes(4, byteorder='little')
-buf+=b']\r\n'
-print(buf)
+    # Form CMD
+    buf = b'[' + body_len.to_bytes(4, byteorder='little') + b']' 
+    buf += body
+
+    # Added crc32 to buf
+    crc = xcrc32 (buf, len(buf)) 
+    buf+=b'['
+    buf+= crc.to_bytes(4, byteorder='little')
+    buf+=b']\r\n'
+    print(buf)
+    return buf
+
+
+buf = create_cmd(b'[WRITE_APP][string][0]')
 
 ser = serial.Serial()
-
 ser.baudrate = 115000
 ser.port = 'COM3'
 
@@ -54,25 +78,6 @@ while ser.in_waiting:
         
 print('RX: ' + str(s))
 
-test_buf = s[:-8]
-print(test_buf)
-crc_cnt = xcrc32 (test_buf, len(test_buf))
-crc = s[-7:-3]
-crc = int.from_bytes(crc, byteorder='little')
-if (crc == crc_cnt):
-    print('Crc correct:' + hex(crc) + ':' + hex(crc_cnt))
-
-
-try:
-    s = s[6:]
-    s = s.decode('utf-8', errors = 'ignore')
-except:
-    print('not hex at ' + str(datetime.datetime.now().ctime()))
-    s = ''
-
-print('string:' + s)
-
-param = re.findall(r'[\[]\w*[\]]', s)
-print(param)
+parse_cmd(s)
 
 ser.close()
