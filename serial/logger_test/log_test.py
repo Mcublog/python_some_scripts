@@ -1,6 +1,7 @@
 ﻿import serial, time
 import time, datetime
 import re
+import random
 
 from xcrc32 import xcrc32
 
@@ -23,7 +24,7 @@ def parse_cmd(s):
 
     print('string:' + s)
 
-    param = re.findall(r'[\[]\w*[\]]', s)
+    param = re.findall(r'[\[](\w*|\W*|\S+)[\]]', s)
     print(param)
     return param
     
@@ -42,42 +43,47 @@ def create_cmd(body = b'[GET_NAME][string][0]'):
     buf+=b']\r\n'
     print(buf)
     return buf
-
-
-buf = create_cmd(b'[WRITE_APP][string][0]')
-
-ser = serial.Serial()
-ser.baudrate = 115000
-ser.port = 'COM3'
-
-try:
-    ser.open()
-except:
-    print("Can't open port: " + ser.port)
-    raise SystemExit(0)
     
-print('Port: ' + ser.port + ' open')
-ser.write(buf)
+def send_and_get_cmd(buf, port = 'COM3'):
+    ser = serial.Serial()
+    ser.baudrate = 115000
+    ser.port = port
 
-for i in range(5):  # Waiting 500 ms maximum
-    if ser.in_waiting:
-        break
-    time.sleep(.1)  # Waiting 100 ms
-
-if ser.in_waiting == 0:
-    print('no data received')
-    ser.close()
-    raise SystemExit(0)
-
-s = b''
-while ser.in_waiting:
     try:
-        s += ser.readline()
+        ser.open()
     except:
-        print('not hex')
-        
-print('RX: ' + str(s))
+        print("Can't open port: " + ser.port)
+        raise SystemExit(0)
+    
+    print('Port: ' + ser.port + ' open')
+    ser.write(buf)
+    
+    buf = b''
+    for i in range(5):  # Waiting 500 ms maximum
+        if ser.in_waiting:
+            break
+        time.sleep(.1)  # Waiting 100 ms
 
-parse_cmd(s)
+    if ser.in_waiting == 0:
+        print('no data received')
+        ser.close()
+        return b''
 
-ser.close()
+    while ser.in_waiting:
+        buf += ser.read()
+
+    return buf
+
+with open('app.bin', 'rb') as f:
+    data = f.read()
+
+write_app = b'[WRITE_APP][bin][1][' + data + b']'
+get_fw_ver = b'[GET_FW_VER][string][0]'
+
+cmd = write_app
+
+buf = create_cmd(cmd)
+data = send_and_get_cmd(buf, 'COM3')
+print('RX: ' + str(data))
+
+parse_cmd(data)
