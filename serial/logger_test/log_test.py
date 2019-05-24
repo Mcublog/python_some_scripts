@@ -77,10 +77,11 @@ def send_and_get_cmd(buf, port = 'COM3'):
 with open('app.bin', 'rb') as f:
     data = f.read()
 
+jmp_to_fw = b'[JMP_APP][string][0]'
 write_app = b'[WRITE_APP][bin][1][' + data + b']'
 get_fw_ver = b'[GET_FW_VER][string][0]'
 
-cmd = write_app
+cmd = jmp_to_fw
 
 buf = create_cmd(cmd)
 data = send_and_get_cmd(buf, 'COM3')
