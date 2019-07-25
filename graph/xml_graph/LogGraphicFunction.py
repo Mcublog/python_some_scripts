@@ -125,7 +125,7 @@ def show_acc_graph(path):
     freq = float(get_acc_setting(root, 'freq').text)
     reports = root.find('report')
     for i, report in enumerate(reports):
-        x_tick.append(i / freq * 1000)
+        x_tick.append((i + 1) / freq * 1000)
         accx.append(get_float_from_report(report, 'x'))
         accy.append(get_float_from_report(report, 'y'))
         accz.append(get_float_from_report(report, 'z'))
