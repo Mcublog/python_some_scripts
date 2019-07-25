@@ -7,19 +7,40 @@ def get_datetime_from_report(report, datetime):
     timestamp = report.find('timestamp')
     return(timestamp.find(datetime).text)
     
+
 def get_float_from_dev_report(report, device, param):
     dev = report.find(device)
     return get_float_from_report(dev, param)
+
 
 def get_float_from_report(report, param):
     temp = report.find(param).text
     if ',' in temp:
         temp = temp.replace(',', '.')
     return (float(temp))
+
+
+def get_acc_setting(report, param):
+    header = report.find('header')
+    settings = header.find('settings')
+    try:
+        return settings.find(param)
+    except:
+        return    
+
     
+def get_acc_time(report):
+    header = report.find('header')
+    try:
+        return header.find('time').text
+    except:
+        return
+    
+
 def set_plt_title_and_ylabel(plt, title, label):
-        plt.title(title, fontsize = 14)
-        plt.ylabel(label, fontsize = 12)  
+    plt.title(title, fontsize = 14)
+    plt.ylabel(label, fontsize = 12)  
+
 
 def get_list_files(file_name):
     # Set path to data file
@@ -39,6 +60,7 @@ def get_list_files(file_name):
     del file_list[0:idx]
     return file_list
     
+
 def show_tph_graph(path, type):
     tree = ET.parse(path)
     reports = tree.getroot()
@@ -98,22 +120,24 @@ def show_acc_graph(path):
     tree = ET.parse(path)
     root = tree.getroot()
 
-    # x_tick = [] # x ticks like 10:42:30:513, 10:42:31:513 and etc
+    x_tick = [] # x ticks like 10:42:30:513, 0.25 us, 0.5 us and etc depends of freq
     accx = [] # acc for axis
     accy = [] # acc for axis
     accz = [] # acc for axis
     
     # get node data
+    freq = float(get_acc_setting(root, 'freq').text)
     reports = root.find('report')
-    for report in reports:
+    for i, report in enumerate(reports):
+        x_tick.append(i * 1/freq * 1000)
         accx.append(get_float_from_report(report, 'x'))
         accy.append(get_float_from_report(report, 'y'))
         accz.append(get_float_from_report(report, 'z'))
-    
+    print(x_tick)
     # Create plots
     fig, ax = plt.subplots()
     set_plt_title_and_ylabel(plt, 'ACC graphic', 'g')
-    plt.xlabel("Time", fontsize = 8)
+    plt.xlabel("Time, ms", fontsize = 8)
 
     # Generate a list from 0 to report number
     x = [++i for i in range(len(reports))]
@@ -122,6 +146,8 @@ def show_acc_graph(path):
     ax.plot(x, accz, 'g-', label='z')
     
     # Create x_tick, grid and legend
+    x_tick[0] = get_acc_time(root)
+    plt.xticks(x, x_tick, rotation = 90)
     plt.grid(linestyle = 'dashed')
     ax.legend(loc='best')    
 
@@ -135,6 +161,7 @@ def show_acc_graph(path):
 
     plt.show()    
     
+
 def show_graph(path):
     if not os.path.isfile(path):
         return
@@ -147,7 +174,7 @@ def show_graph(path):
 def main():
     # fl = get_list_files('tph_report')
     fl = get_list_files('acc_report')
-    print(fl)
+    # print(fl)
     current_path = os.path.dirname(os.path.realpath(__file__))
     data_path = current_path + '\\data'
     dir_list = os.listdir(data_path)
