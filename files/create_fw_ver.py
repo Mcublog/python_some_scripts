@@ -33,12 +33,16 @@ def set_fw_ver_mercurial(param = ''):
     path_to_hg = os.getcwd()[:-len('MDK-ARM')] + '.hg'
     print('Info: Go to --> ' + path_to_hg)
     last_msg = ''
-    for file_name in os.listdir(path_to_hg):  # for each file in dir
-        if 'last-message.txt' in file_name:
-            f = open(path_to_hg + '\\' + file_name, 'r')
-            last_msg = f.readline()
-            f.close()
-            break
+    try:
+        for file_name in os.listdir(path_to_hg):  # for each file in dir
+            if 'last-message.txt' in file_name:
+                f = open(path_to_hg + '\\' + file_name, 'r')
+                last_msg = f.readline()
+                f.close()
+                break
+    except:    
+        print('Error: Rep not found: ' + path_to_hg)
+        raise SystemExit(0)                
 
     # If not found last commit msg
     if not last_msg:
